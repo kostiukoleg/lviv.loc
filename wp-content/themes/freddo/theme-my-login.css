@@ -17,10 +17,118 @@ header.menuMinor div.mainHeader div.hamburger-menu{
 }
 
 section#aboutus div.freddo_aboutus_color{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d2d2d+0,212121+29,000000+100 */
-background: #2d2d2d; /* Old browsers */
-background: -moz-linear-gradient(top, #2d2d2d 0%, #212121 29%, #000000 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #2d2d2d 0%,#212121 29%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #2d2d2d 0%,#212121 29%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,212121+15,000000+41,000000+100 */
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top, #4c4c4c 0%, #212121 15%, #000000 41%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4c4c4c 0%,#212121 15%,#000000 41%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4c4c4c 0%,#212121 15%,#000000 41%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 }
+
+div.freddoTitleText p.site-title {
+	text-align: center;
+}
+
+div.freddoTitleText p.site-title a {
+	font-size: 60pt;
+    font-weight: bold;
+    color: #fff;
+	-webkit-text-fill-color: #20201f; /* цвет текста для webkit */
+	-webkit-text-stroke: 3px #fff;
+}
+div.freddoTitleText p.site-description {
+	font-size: 20pt;
+}
+
+header.menuMinor div.freddoTitleText p.site-title a {
+	font-size: 30pt;
+	-webkit-text-stroke: 1px #fff;
+}
+
+.aboutus_columns_three.one h3.widget-title {
+	color: #fff;
+	-webkit-text-fill-color: #20201f; /* цвет текста для webkit */
+	-webkit-text-stroke: 1px #ea5d21;
+	font-size: 1.5em;
+}
+
+.aboutus_columns_three.one div.textwidget {
+	text-align: left;
+}
+
+div#panel-57-0-2-0 {
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-0-0-0 {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-1-0-0 {
+	position: absolute;
+    top: 150px;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-1-2-0 {
+	position: absolute;
+    top: 150px;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-3-0-0 {
+	position: absolute;
+    top: 300px;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-3-2-0 {
+	position: absolute;
+    top: 300px;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-4-0-0 {
+	position: absolute;
+    top: 450px;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-4-2-0 {
+	position: absolute;
+    top: 450px;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-4-1-0 {
+	margin: -45px 0 0 350px;
+	width: 350px;
+}
+
+section#aboutus {
+	padding-bottom: 0;
+}
+
+section#features {
+background: url("images/features-bg.png") no-repeat #ea5b1e 50% 0;
+}
+
+section#features h2.freddo_main_text {
+	margin-top: 55px;
+}
+
+section#features div.freddo_features_color {
+	background: url("images/our-advantages-arrow-bg.png") no-repeat 50% 0;
+} 
