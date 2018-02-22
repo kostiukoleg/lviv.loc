@@ -1,0 +1,26 @@
+.hamburger-box{
+	background-image: url(images/registration.png); 
+}
+div.hamburger-box div.hamburger-inner, div.hamburger-box div.hamburger-inner:after, div.hamburger-box div.hamburger-inner:before{
+	height: 0px;
+}
+div.hamburger-menu div.hamburger-box {
+	width: 35px;
+    height: 27px;
+}
+div.mainHeader div.hamburger-menu{
+	top: 25px;
+}
+
+header.menuMinor div.mainHeader div.hamburger-menu{
+	top: 16px;
+}
+
+section#aboutus div.freddo_aboutus_color{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2d2d2d+0,212121+29,000000+100 */
+background: #2d2d2d; /* Old browsers */
+background: -moz-linear-gradient(top, #2d2d2d 0%, #212121 29%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #2d2d2d 0%,#212121 29%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #2d2d2d 0%,#212121 29%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
