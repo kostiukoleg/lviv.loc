@@ -132,3 +132,171 @@ section#features h2.freddo_main_text {
 section#features div.freddo_features_color {
 	background: url("images/our-advantages-arrow-bg.png") no-repeat 50% 0;
 } 
+
+section#features div.featuresInner .strong-view.default .testimonial-image img {
+	background: none;
+	border: none;
+}
+
+section#features div.featuresInner .strong-view.default.slider-container.slider-adaptive:not(.slider-mode-horizontal) .wpmslider-viewport {
+	border: none;
+}
+
+section#features div.featuresInner .strong-view.default .testimonial-inner {
+	border: none;
+}
+
+section#features div.features_columns {
+	margin: 0;
+}
+
+section#features div.featuresInner .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
+	top: 0;
+}
+
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev,
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next
+{
+	background: url("images/arrow-comment.png") no-repeat 0px 4px;
+	width: 91px;
+    height: 75px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 71px;
+    font-size: 60px;
+}
+
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction a.wpmslider-next {
+	background: url("images/arrow-comment.png") no-repeat -97px 4px;
+}
+
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev:hover,
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next:hover
+{
+	color: #EC6D37;
+}
+
+section#features div.featuresInner .strong-view.controls-style-buttons .wpmslider-prev:before,
+section#features div.featuresInner .strong-view.controls-style-buttons .wpmslider-next:before
+{
+	vertical-align: middle;
+}
+
+section#features div.featuresInner .strong-view .wpmslider-controls-auto, .strong-view .wpmslider-controls-direction {
+	margin-left: 5px;
+}
+
+section#features div.testimonial-inner div.testimonial-content p#text {
+	width: 900px;
+	padding: 50px 55px 0 0;
+	background: url("images/coment-line.png") no-repeat scroll right center transparent !important;
+}
+
+section#features div.testimonial-inner div.testimonial-content img {
+	width: 100%;
+}
+
+section#features div.testimonial-inner div.testimonial-content div.testimonial-image {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    width: 180px;
+}
+
+section#features div.testimonial-inner h3.testimonial-heading {
+	background: url("images/quotes.png") no-repeat scroll left center transparent !important;
+	padding-left: 55px !important;
+	position: absolute;
+    bottom: 105px;
+    font-weight: bold;
+    color: #000;
+    font-size: 2em;
+}
+
+section#features div.testimonial-inner div.testimonial-client {
+    position: absolute;
+    bottom: -35px;
+    right: 0;
+}
+
+section#features div.testimonial.t-slide div.testimonial-inner {
+	padding-top: 120px;
+}
+
+section#features div.featuresInner .strong-view.default.nav-position-inside .testimonial-inner {
+	padding-bottom: 0;
+}
+
+section#skills .strong-view.default .testimonial-inner {
+	border: none;
+	padding-left: 120px;
+}
+
+section#skills .strong-view.default.slider-container.slider-adaptive:not(.slider-mode-horizontal) .wpmslider-viewport {
+	border: none;
+}
+
+section#skills div.featuresInner .strong-view.default .testimonial-image img {
+	background: none;
+	border: none;
+}
+
+section#skills .strong-view.default .testimonial-heading {
+	background: none;
+	padding-left: 0;
+}
+
+section#skills div.skills_columns {
+	margin-top: 0;
+}
+
+section#skills .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
+	top: 0;
+}
+
+section#skills div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev,
+section#skills div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next
+{
+	background: url("images/arrow-comment2.png") no-repeat 0px 4px;
+	width: 91px;
+    height: 75px;
+    //color: #fff;
+    font-weight: bold;
+    line-height: 71px;
+    font-size: 60px;
+}
+
+section#skills div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction a.wpmslider-next {
+	background: url("images/arrow-comment2.png") no-repeat -97px 4px;
+}
+
+section#skills div.skillsInner .strong-view.controls-style-buttons .wpmslider-prev:before,
+section#skills div.skillsInner .strong-view.controls-style-buttons .wpmslider-next:before
+{
+	vertical-align: middle;
+}
+
+div.skillsInner div.wpmslider-wrapper div.wpmslider-viewport {
+	height: 265px !important;
+    padding-top: 90px !important;
+}
+
+h3#question {
+	position: absolute;
+    top: 204px;
+    -webkit-text-fill-color: #20201f;
+    -webkit-text-stroke: 1px #ea5d21;
+    font-size: 1.5em;
+}
+
+h3#ansver {
+	position: absolute;
+    top: 249px;
+    -webkit-text-fill-color: #20201f;
+    -webkit-text-stroke: 1px #ea5d21;
+    font-size: 1.5em;
+}
+
+section#skills h2.freddo_main_text {
+	color: #ea5b1e;
+}

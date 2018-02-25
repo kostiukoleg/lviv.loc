@@ -4,6 +4,8 @@ $showCta = freddo_options('_onepage_section_cta', '');
 <?php if ($showCta == 1) : ?>
 	<?php
 		$ctaSectionID = freddo_options('_onepage_id_cta','cta');
+		$ctaTitle = freddo_options('_onepage_title_cta', __('Elements', 'freddo'));
+		$ctaSubTitle = freddo_options('_onepage_subtitle_cta', __('Amazing Features', 'freddo'));
 		$ctaIcon = freddo_options('_onepage_fontawesome_cta','fa fa-flash');
 		$ctaPhrase = freddo_options('_onepage_phrase_cta','');
 		$ctaDesc = freddo_options('_onepage_desc_cta','');
@@ -14,6 +16,12 @@ $showCta = freddo_options('_onepage_section_cta', '');
 <section class="freddo_onepage_section freddo_cta <?php echo $ctaDesc ? 'withDesc' : 'noDesc' ?>" id="<?php echo esc_attr($ctaSectionID); ?>">
 	<div class="freddo_cta_color"></div>
 	<div class="freddo_action_cta">
+		<?php if($ctaTitle || is_customize_preview()): ?>
+			<h2 class="freddo_main_text"><?php echo esc_html($ctaTitle); ?></h2>
+		<?php endif; ?>
+		<?php if($ctaSubTitle || is_customize_preview()): ?>
+			<p class="freddo_subtitle"><?php echo esc_html($ctaSubTitle); ?></p>
+		<?php endif; ?>
 		<div class="cta_columns">
 			<div class="ctaText">
 				<div class="ctaIcon"><i class="<?php echo esc_attr($ctaIcon); ?>" aria-hidden="true"></i></div>

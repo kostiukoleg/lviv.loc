@@ -4,6 +4,7 @@
 		$skillsSectionID = freddo_options('_onepage_id_skills', 'skills');
 		$skillsTitle = freddo_options('_onepage_title_skills', __('Our Skills', 'freddo'));
 		$skillsSubTitle = freddo_options('_onepage_subtitle_skills', __('What We Do', 'freddo'));
+		$skillsPageBox = 119;
 		$skillName = array();
 		$skillValue = array();
 		for( $number = 1; $number < FREDDO_VALUE_FOR_SKILLS; $number++ ){
@@ -21,21 +22,30 @@
 		<p class="freddo_subtitle"><?php echo esc_html($skillsSubTitle); ?></p>
 	<?php endif; ?>
 		<div class="skills_columns">
-			<?php for( $number = 1; $number < FREDDO_VALUE_FOR_SKILLS; $number++ ) : ?>
-				<?php if ($skillName["$number"]) : ?>
-					<div class="freddoSkill">
-						<div class="skillTop">
-							<div class="skillName"><?php echo esc_html($skillName["$number"]); ?></div>
-							<div class="skillNameUnder"><?php echo esc_html($skillName["$number"]); ?></div>
-							<div class="skillValue" data-delay="<?php echo intval($number * 150) ?>"><span><?php echo intval($skillValue["$number"]); ?></span><i><?php esc_html_e('%', 'freddo'); ?></i></div>
-						</div>
-						<div class="skillBottom">
-							<div class="skillBar"></div>
-							<div class="skillRealBar" data-number="<?php echo intval($skillValue["$number"]); ?>%" data-delay="<?php echo intval($number * 150) ?>"><div class="skillRealBarCyrcle"></div></div>
-						</div>
+			<div class="one skills_columns_three">
+				<div class="skillsInner">
+					<?php if($skillsPageBox) : ?>
+					<h3><?php echo get_the_title(intval($skillsPageBox)); ?></h3>
+					<?php 
+						$post_content = get_post(intval($skillsPageBox));
+						$content = $post_content->post_content;
+						$content = apply_filters( 'the_content', $content );
+						$content = str_replace( ']]>', ']]&gt;', $content );
+						echo $content;
+					?>
+					<?php endif; ?>
+					<?php if($aboutusButtonText || is_customize_preview()): ?>
+						<div class="freddoButton skills"><a href="<?php echo esc_url($skillsButtonLink); ?>"><?php echo esc_html($featuresButtonText); ?></a></div>
+					<?php endif; ?>
+				</div>
+			</div>
+			<?php if ('' != get_the_post_thumbnail($skillsPageBox)) : ?>
+				<div class="two skills_columns_three">
+					<div class="skillsInnerImage">
+						<?php echo get_the_post_thumbnail(intval($skillsPageBox), 'large'); ?>
 					</div>
-				<?php endif; ?>
-			<?php endfor; ?>
+				</div>
+			<?php endif; ?>
 		</div>
 	</div>
 </section>
