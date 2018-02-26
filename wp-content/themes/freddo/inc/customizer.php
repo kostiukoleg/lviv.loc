@@ -1237,6 +1237,39 @@ function freddo_custom_settings_register( $wp_customize ) {
 		'active_callback' => 'freddo_is_features_active',
 		'priority' => 7,
     ) );
+    /* Features text */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_head_features]', array(
+		'sanitize_callback' => 'sanitize_text_field',
+		'type'       => 'option',
+	));
+	$wp_customize->add_control(
+		new Freddo_Customize_Heading(
+		$wp_customize,
+		'freddo_theme_options[_onepage_head_features]',
+		array(
+			'settings'		=> 'freddo_theme_options[_onepage_head_features]',
+			'section'		=> 'cresta_freddo_onepage_section_features',
+			'label'			=> __( 'Features text', 'freddo' ),
+			'active_callback' => 'freddo_is_features_active',
+			'priority' => 8,
+		)
+		)
+	);
+	/* Features Dropdown pages */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_choosepage_features]', array(
+		'default'    => false,
+		'type'       => 'option',
+		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'absint',
+	) );
+	$wp_customize->add_control('freddo_theme_options[_onepage_choosepage_features]', array(
+		'label'      => __( 'Choose the page to display', 'freddo' ),
+		'description'	=> __( 'Title, content and featured image will be used in the box', 'freddo' ),
+		'section'    => 'cresta_freddo_onepage_section_features',
+		'settings'   => 'freddo_theme_options[_onepage_choosepage_features]',
+		'type'       => 'dropdown-pages',
+		'active_callback' => 'freddo_is_features_active',
+	) );
 	/* How many boxes to display */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_manybox_features]', array(
         'default'    => '3',
@@ -1250,7 +1283,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_manybox_features]',
         'type'       => 'select',
 		'active_callback' => 'freddo_is_features_active',
-		'priority' => 8,
+		'priority' => 10,
 		'choices' => array(
 			'1' => __( '1', 'freddo'),
 			'2' => __( '2', 'freddo'),
@@ -1271,7 +1304,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_lenght_features]',
         'type'       => 'number',
 		'active_callback' => 'freddo_is_features_active',
-		'priority' => 9,
+		'priority' => 11,
     ) );
 	for( $number = 1; $number < FREDDO_VALUE_FOR_FEATURES; $number++ ){
 		/* Box Title Description */
@@ -1445,7 +1478,7 @@ function freddo_custom_settings_register( $wp_customize ) {
 			'priority' => 5,
 		) )
 	);
-	/* Features title section */
+	/* Skills title section */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_title_skills]', array(
 		'default'    => __( 'Our Skills', 'freddo' ),
         'type'       => 'option',
@@ -1461,7 +1494,7 @@ function freddo_custom_settings_register( $wp_customize ) {
 		'active_callback' => 'freddo_is_skills_active',
 		'priority' => 6,
     ) );
-	/* Features subtitle section */
+	/* Skills subtitle section */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_subtitle_skills]', array(
 		'default'    => __( 'What We Do', 'freddo' ),
         'type'       => 'option',
@@ -1477,6 +1510,39 @@ function freddo_custom_settings_register( $wp_customize ) {
 		'active_callback' => 'freddo_is_skills_active',
 		'priority' => 7,
     ) );
+    /* Skills text */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_head_skills]', array(
+		'sanitize_callback' => 'sanitize_text_field',
+		'type'       => 'option',
+	));
+	$wp_customize->add_control(
+		new Freddo_Customize_Heading(
+		$wp_customize,
+		'freddo_theme_options[_onepage_head_skills]',
+		array(
+			'settings'		=> 'freddo_theme_options[_onepage_head_skills]',
+			'section'		=> 'cresta_freddo_onepage_section_skills',
+			'label'			=> __( 'Skills text', 'freddo' ),
+			'active_callback' => 'freddo_is_skills_active',
+			'priority' => 8,
+		)
+		)
+	);
+	/* Skills Dropdown pages */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_choosepage_skills]', array(
+		'default'    => false,
+		'type'       => 'option',
+		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'absint',
+	) );
+	$wp_customize->add_control('freddo_theme_options[_onepage_choosepage_skills]', array(
+		'label'      => __( 'Choose the page to display', 'freddo' ),
+		'description'	=> __( 'Title, content and featured image will be used in the box', 'freddo' ),
+		'section'    => 'cresta_freddo_onepage_section_skills',
+		'settings'   => 'freddo_theme_options[_onepage_choosepage_skills]',
+		'type'       => 'dropdown-pages',
+		'active_callback' => 'freddo_is_skills_active',
+	) );
 	for( $number = 1; $number < FREDDO_VALUE_FOR_SKILLS; $number++ ){
 		/* Box Title Description */
 		$wp_customize->add_setting('freddo_theme_options[_onepage_head_'.$number.'_skills]', array(
@@ -1648,6 +1714,157 @@ function freddo_custom_settings_register( $wp_customize ) {
 		'active_callback' => 'freddo_is_cta_active',
 		'priority' => 7,
     ) );
+    /* CTA text */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_head_cta]', array(
+		'sanitize_callback' => 'sanitize_text_field',
+		'type'       => 'option',
+	));
+	$wp_customize->add_control(
+		new Freddo_Customize_Heading(
+		$wp_customize,
+		'freddo_theme_options[_onepage_head_cta]',
+		array(
+			'settings'		=> 'freddo_theme_options[_onepage_head_cta]',
+			'section'		=> 'cresta_freddo_onepage_section_cta',
+			'label'			=> __( 'Call to Action text', 'freddo' ),
+			'active_callback' => 'freddo_is_cta_active',
+			'priority' => 8,
+		)
+		)
+	);
+	/* CTA Dropdown pages */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_choosepage_cta]', array(
+		'default'    => false,
+		'type'       => 'option',
+		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'absint',
+	) );
+	$wp_customize->add_control('freddo_theme_options[_onepage_choosepage_cta]', array(
+		'label'      => __( 'Choose the page to display', 'freddo' ),
+		'description'	=> __( 'Title, content and featured image will be used in the box', 'freddo' ),
+		'section'    => 'cresta_freddo_onepage_section_cta',
+		'settings'   => 'freddo_theme_options[_onepage_choosepage_cta]',
+		'type'       => 'dropdown-pages',
+		'active_callback' => 'freddo_is_cta_active',
+	) );
+	/* How many boxes to display */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_manybox_cta]', array(
+        'default'    => '3',
+        'type'       => 'option',
+        'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'freddo_sanitize_select',
+    ) );
+	$wp_customize->add_control('freddo_theme_options[_onepage_manybox_cta]', array(
+        'label'      => __( 'How many boxes to display', 'freddo' ),
+        'section'    => 'cresta_freddo_onepage_section_cta',
+        'settings'   => 'freddo_theme_options[_onepage_manybox_cta]',
+        'type'       => 'select',
+		'active_callback' => 'freddo_is_cta_active',
+		'priority' => 10,
+		'choices' => array(
+			'1' => __( '1', 'freddo'),
+			'2' => __( '2', 'freddo'),
+			'3' => __( '3', 'freddo'),
+			'4' => __( '4', 'freddo'),
+			'5' => __( '5', 'freddo'),
+			'6' => __( '6', 'freddo'),
+		),
+    ) );
+	/* Text lenght for boxes */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_lenght_cta]', array(
+        'default'    => '20',
+        'type'       => 'option',
+        'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'absint',
+    ) );
+	$wp_customize->add_control('freddo_theme_options[_onepage_lenght_cta]', array(
+        'label'      => __( 'Text lenght for boxes content (number of words)', 'freddo' ),
+        'section'    => 'cresta_freddo_onepage_section_cta',
+        'settings'   => 'freddo_theme_options[_onepage_lenght_cta]',
+        'type'       => 'number',
+		'active_callback' => 'freddo_is_cta_active',
+		'priority' => 11,
+    ) );
+	for( $number = 1; $number < FREDDO_VALUE_FOR_CTA; $number++ ){
+		/* Box Title Description */
+		$wp_customize->add_setting('freddo_theme_options[_onepage_head_'.$number.'_cta]', array(
+			'sanitize_callback' => 'sanitize_text_field',
+			'type'       => 'option',
+		));
+		$wp_customize->add_control(
+			new Freddo_Customize_Heading(
+			$wp_customize,
+			'freddo_theme_options[_onepage_head_'.$number.'_cta]',
+			array(
+				'settings'		=> 'freddo_theme_options[_onepage_head_'.$number.'_cta]',
+				'section'		=> 'cresta_freddo_onepage_section_cta',
+				'label'			=> __( 'Box number ', 'freddo' ).$number,
+				'active_callback' => 'freddo_is_cta_active',
+			))
+		);
+		/* FontAwesome Icon */
+		$wp_customize->add_setting('freddo_theme_options[_onepage_fontawesome_'.$number.'_cta]', array(
+			'default'			=> 'fa fa-bell',
+			'sanitize_callback' => 'sanitize_text_field',
+			'type'       => 'option',
+		));
+		$wp_customize->add_control(
+			new Freddo_Fontawesome_Icon(
+			$wp_customize,
+			'freddo_theme_options[_onepage_fontawesome_'.$number.'_cta]',
+			array(
+				'settings'		=> 'freddo_theme_options[_onepage_fontawesome_'.$number.'_cta]',
+				'section'		=> 'cresta_freddo_onepage_section_cta',
+				'label'			=> __( 'FontAwesome Icon', 'freddo' ),
+				'type'       => 'icon',
+				'active_callback' => 'freddo_is_cta_active',
+			))
+		);
+		/* Features Dropdown pages */
+		$wp_customize->add_setting('freddo_theme_options[_onepage_choosepage_'.$number.'_cta]', array(
+			'default'    => false,
+			'type'       => 'option',
+			'capability' => 'edit_theme_options',
+			'sanitize_callback' => 'absint',
+		) );
+		$wp_customize->add_control('freddo_theme_options[_onepage_choosepage_'.$number.'_cta]', array(
+			'label'      => __( 'Choose the page to display', 'freddo' ),
+			'description'	=> __( 'Title and content (unformatted) will be used in the box', 'freddo' ),
+			'section'    => 'cresta_freddo_onepage_section_cta',
+			'settings'   => 'freddo_theme_options[_onepage_choosepage_'.$number.'_cta]',
+			'type'       => 'dropdown-pages',
+			'active_callback' => 'freddo_is_cta_active',
+		) );
+		/* Features text button */
+		$wp_customize->add_setting('freddo_theme_options[_onepage_boxtextbutton_'.$number.'_cta]', array(
+			'default'    => __( 'More Information', 'freddo' ),
+			'type'       => 'option',
+			'capability' => 'edit_theme_options',
+			'sanitize_callback' => 'sanitize_text_field',
+			'transport' => 'postMessage'
+		) );
+		$wp_customize->add_control('freddo_theme_options[_onepage_boxtextbutton_'.$number.'_cta]', array(
+			'label'      => __( 'Text Button ', 'freddo' ).$number,
+			'section'    => 'cresta_freddo_onepage_section_cta',
+			'settings'   => 'freddo_theme_options[_onepage_boxtextbutton_'.$number.'_cta]',
+			'type'       => 'text',
+			'active_callback' => 'freddo_is_cta_active',
+		) );
+		/* Features link button */
+		$wp_customize->add_setting('freddo_theme_options[_onepage_boxlinkbutton_'.$number.'_cta]', array(
+			'default'    => '#',
+			'type'       => 'option',
+			'capability' => 'edit_theme_options',
+			'sanitize_callback' => 'esc_url_raw'
+		) );
+		$wp_customize->add_control('freddo_theme_options[_onepage_boxlinkbutton_'.$number.'_cta]', array(
+			'label'      => __( 'Link Button ', 'freddo' ).$number,
+			'section'    => 'cresta_freddo_onepage_section_cta',
+			'settings'   => 'freddo_theme_options[_onepage_boxlinkbutton_'.$number.'_cta]',
+			'type'       => 'url',
+			'active_callback' => 'freddo_is_cta_active',
+		) );
+	}
 	/* FontAwesome Icon */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_fontawesome_cta]', array(
 		'default'			=> 'fa fa-flash',
@@ -1664,7 +1881,7 @@ function freddo_custom_settings_register( $wp_customize ) {
 			'label'			=> __( 'FontAwesome Icon', 'freddo' ),
 			'type'       => 'icon',
 			'active_callback' => 'freddo_is_cta_active',
-			'priority' => 8,
+			'priority' => 11,
 		))
 	);
 	/* Call to action phrase */
@@ -1681,7 +1898,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_phrase_cta]',
 		'active_callback' => 'freddo_is_cta_active',
         'type'       => 'text',
-		'priority' => 9,
+		'priority' => 12,
     ) );
 	/* Call to action description */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_desc_cta]', array(
@@ -1697,7 +1914,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_desc_cta]',
 		'active_callback' => 'freddo_is_cta_active',
         'type'       => 'text',
-		'priority' => 10,
+		'priority' => 13,
     ) );
 	/* Call to action text button */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_textbutton_cta]', array(
@@ -1712,7 +1929,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_textbutton_cta]',
         'type'       => 'text',
 		'active_callback' => 'freddo_is_cta_active',
-		'priority' => 11,
+		'priority' => 14,
     ) );
 	/* Call to action link button */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_urlbutton_cta]', array(
@@ -1727,7 +1944,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_urlbutton_cta]',
         'type'       => 'url',
 		'active_callback' => 'freddo_is_cta_active',
-		'priority' => 12,
+		'priority' => 15,
     ) );
 	/* Open the link in */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_openurl_cta]', array(
@@ -1742,7 +1959,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_openurl_cta]',
         'type'       => 'select',
 		'active_callback' => 'freddo_is_cta_active',
-		'priority' => 13,
+		'priority' => 16,
 		'choices' => array(
 			'_self' => __( 'Same window', 'freddo'),
 			'_blank' => __( 'New window', 'freddo'),

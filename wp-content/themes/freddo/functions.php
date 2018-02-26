@@ -21,6 +21,7 @@ if ( ! function_exists( 'freddo_setup' ) ) :
 		 */
 		define( 'FREDDO_VALUE_FOR_SLIDER', '4' );
 		define( 'FREDDO_VALUE_FOR_FEATURES', '5' );
+		define( 'FREDDO_VALUE_FOR_CTA', '7' );
 		define( 'FREDDO_VALUE_FOR_SKILLS', '11' );
 		define( 'FREDDO_VALUE_FOR_SERVICES', '7' );
 		define( 'FREDDO_VALUE_FOR_TEAM', '7' );

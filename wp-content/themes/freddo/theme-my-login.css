@@ -300,3 +300,7 @@ h3#ansver {
 section#skills h2.freddo_main_text {
 	color: #ea5b1e;
 }
+
+section#cta .freddo_cta_color {
+	background-color: transparent;
+}

@@ -4,7 +4,7 @@
 		$skillsSectionID = freddo_options('_onepage_id_skills', 'skills');
 		$skillsTitle = freddo_options('_onepage_title_skills', __('Our Skills', 'freddo'));
 		$skillsSubTitle = freddo_options('_onepage_subtitle_skills', __('What We Do', 'freddo'));
-		$skillsPageBox = 119;
+		$skillsPageBox = freddo_options('_onepage_choosepage_skills');
 		$skillName = array();
 		$skillValue = array();
 		for( $number = 1; $number < FREDDO_VALUE_FOR_SKILLS; $number++ ){

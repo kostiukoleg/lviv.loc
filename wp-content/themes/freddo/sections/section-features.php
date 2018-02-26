@@ -4,7 +4,7 @@
 		$featuresSectionID = freddo_options('_onepage_id_features', 'features');
 		$featuresTitle = freddo_options('_onepage_title_features', __('Elements', 'freddo'));
 		$featuresSubTitle = freddo_options('_onepage_subtitle_features', __('Amazing Features', 'freddo'));
-		$featuresPageBox = 102;
+		$featuresPageBox = freddo_options('_onepage_choosepage_features');
 		$howManyBoxes = freddo_options('_onepage_manybox_features', '3');
 		$textLenght = freddo_options('_onepage_lenght_features', '20');
 		$customMore = freddo_options('_excerpt_more', '&hellip;');
@@ -19,7 +19,6 @@
 			<p class="freddo_subtitle"><?php echo esc_html($featuresSubTitle); ?></p>
 		<?php endif; ?>
 		<div class="features_columns">
-
 			<div class="one features_columns_three">
 				<div class="featuresInner">
 					<?php if($featuresPageBox) : ?>
