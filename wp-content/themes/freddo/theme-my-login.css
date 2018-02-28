@@ -146,9 +146,9 @@ section#features div.featuresInner .strong-view.default .testimonial-inner {
 	border: none;
 }
 
-section#features div.features_columns {
+/*section#features div.features_columns {
 	margin: 0;
-}
+}*/
 
 section#features div.featuresInner .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
 	top: 0;
