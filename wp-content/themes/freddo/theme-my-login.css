@@ -304,3 +304,69 @@ section#skills h2.freddo_main_text {
 section#cta .freddo_cta_color {
 	background-color: transparent;
 }
+
+section#cta h2.freddo_main_text, section#cta p.freddo_subtitle {
+	color: #000;
+}
+
+section#cta .cta_columns .ctaIcon i {
+	color: #000 !important;
+}
+
+section#cta div.four.cta_columns_single {
+	padding-bottom: 45px;
+	background: url("images/cta-line-bg.png") no-repeat 49% 101%;
+
+}
+
+section#cta div.four.cta_columns_single:last-child {
+	background: none;
+}
+
+section#cta div.four.cta_columns_single:nth-child(even) div.freddoButton.cta {
+	position: relative;
+	//top: -15px;
+    right: -400px;
+    width: 400px;
+    font-size: 15pt;
+    line-height: 25px;
+}
+
+section#cta div.four.cta_columns_single:nth-child(odd) div.freddoButton.cta {
+	position: relative;
+	//top: -15px;
+    left: -245px;
+    width: 400px;
+    font-size: 15pt;
+    line-height: 25px;
+}
+
+section#cta.freddo_cta .cta_columns .ctaIcon i {
+	background: url("images/cta-circle-bg.png") no-repeat center center #fff;
+	width: 168px;
+    height: 168px;
+    line-height: 165px;
+    font-size: 85px;
+}
+
+section#cta.freddo_cta .cta_columns div.ctaIcon {
+	position: relative;
+    left: 40%;
+    
+}
+
+section#cta .cta_columns .ctaIcon, 
+section#cta .cta_columns .ctaPhrase, 
+section#cta .cta_columns .ctaButton {
+	display: inline;
+}
+
+section#cta .cta_columns .ctaIcon {
+	margin: 0 auto;
+}
+
+a#toTop,
+section#cta div.freddoButton,
+ul.freddo_sectionmap li a span.box {
+	border: 1px solid white;
+}
