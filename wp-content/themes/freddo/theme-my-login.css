@@ -384,3 +384,62 @@ section#services div.panel-layout div.panel-grid-cell {
 	width: 45%;
 	float: left;
 }
+
+section#services div.panel-layout div#pgc-153-1-0.panel-grid-cell {
+	width: 100%;
+	background: url("images/service-line.png") no-repeat 270px 0px;
+	height: 410px;
+}
+
+section#services div#pgc-153-0-0 {
+	background: url("images/phone-icon-service.png") no-repeat 0px 30px;
+}
+
+section#services div#pgc-153-0-1 {
+	background: url("images/pazle-icon-service.png") no-repeat 0px 30px;
+	margin-left: 100px;
+}
+
+section#services div#panel-153-0-0-0,
+section#services div#panel-153-0-1-0 {
+	padding-left: 130px;
+}
+
+section#services div.panel-layout div.panel-grid-cell h3.widget-title {
+	color: #fff;
+    -webkit-text-fill-color: #000;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 15pt;
+}
+
+section#services div#pgc-153-1-0 h3.widget-title {
+	position: absolute;
+	left: 25px;
+    top: 585px;
+    width: 335px;
+    text-align: center;
+    font-size: 12pt;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: unset;
+}
+
+section#services div.two.services_columns_three {
+	position: absolute;
+	top: 345px;
+}
+
+section#services div#pgc-153-1-0 {
+	padding-left: 350px;
+}
+
+section#services form.wpcf7-form p {
+	display: inline-block;
+	width: 300px;
+}
+
+section#services form.wpcf7-form p span input[name="tel-842"] {
+	background: url("images/service-bg-input,png") no-repeat;
+	width: 414px;
+    height: 82px;
+}
