@@ -9,6 +9,9 @@
 		$servicesImage = freddo_options('_onepage_servimage_services');
 		$textLenght = freddo_options('_onepage_lenght_services', '30');
 		$customMore = freddo_options('_excerpt_more', '&hellip;');
+		$servicesPageBox = freddo_options('_onepage_choosepage_services');
+		$servicesButtonText = freddo_options('_onepage_textbutton_services', __('More Information', 'freddo'));
+		$servicesButtonLink = freddo_options('_onepage_linkbutton_services', '#');
 		$singleServiceBox = array();
 		$singleServiceFont = array();
 		for( $number = 1; $number < FREDDO_VALUE_FOR_SERVICES; $number++ ){
@@ -26,36 +29,30 @@
 			<p class="freddo_subtitle"><?php echo esc_html($servicesSubTitle); ?></p>
 		<?php endif; ?>
 		<div class="services_columns">
-			<div class="one services_columns_single">
-				<div class="singleServiceContent">
-				<?php for( $number = 1; $number < FREDDO_VALUE_FOR_SERVICES; $number++ ) : ?>
-					<?php if ($singleServiceBox["$number"]) : ?>
-						<div class="singleService">
-							<div class="serviceIcon"><i class="<?php echo esc_attr($singleServiceFont["$number"]); ?>" aria-hidden="true"></i></div>
-							<div class="serviceText">
-								<h3><?php echo get_the_title(intval($singleServiceBox["$number"])); ?></h3>
-								<?php
-								$post_contentt = get_post(intval($singleServiceBox["$number"]));
-								$content = $post_contentt->post_content;
-								?>
-								<p><?php echo wp_trim_words($content , intval($textLenght), esc_html($customMore) ); ?></p>
-							</div>
-						</div>
+			<div class="one services_columns_three">
+				<div class="servicesInner">
+					<?php if($servicesPageBox) : ?>
+					<h3><?php echo get_the_title(intval($servicesPageBox)); ?></h3>
+					<?php 
+						$post_content = get_post(intval($servicesPageBox));
+						$content = $post_content->post_content;
+						$content = apply_filters( 'the_content', $content );
+						$content = str_replace( ']]>', ']]&gt;', $content );
+						echo $content;
+					?>
 					<?php endif; ?>
-				<?php endfor; ?>
+					<!--<?php if($servicesButtonText || is_customize_preview()): ?>
+						<div class="freddoButton services"><a href="<?php echo esc_url($servicesButtonLink); ?>"><?php echo esc_html($servicesButtonText); ?></a></div>
+					<?php endif; ?>-->
 				</div>
 			</div>
-			<div class="two services_columns_single" style="background-image: url(<?php echo esc_url($servicesImage); ?>);">
-				<div class="serviceColumnSingleColor"></div>
-				<div class="serviceContent">
-					<?php if ($servicesPhrase || is_customize_preview()): ?>
-						<h3><?php echo esc_html($servicesPhrase); ?></h3>
-					<?php endif; ?>
-					<?php if ($servicesTextarea || is_customize_preview()): ?>
-						<p><?php echo wp_kses($servicesTextarea, freddo_allowed_html()); ?></p>
-					<?php endif; ?>
+			<?php if ('' != get_the_post_thumbnail($servicesPageBox)) : ?>
+				<div class="two services_columns_three">
+					<div class="servicesInnerImage">
+						<?php echo get_the_post_thumbnail(intval($servicesPageBox), 'large'); ?>
+					</div>
 				</div>
-			</div>
+			<?php endif; ?>
 		</div>
 	</div>
 </section>

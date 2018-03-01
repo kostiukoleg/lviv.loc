@@ -305,6 +305,10 @@ section#cta .freddo_cta_color {
 	background-color: transparent;
 }
 
+section#cta.freddo_cta {
+	padding-bottom: 0px;
+}
+
 section#cta h2.freddo_main_text, section#cta p.freddo_subtitle {
 	color: #000;
 }
