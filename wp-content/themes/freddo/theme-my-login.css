@@ -374,3 +374,13 @@ section#cta div.freddoButton,
 ul.freddo_sectionmap li a span.box {
 	border: 1px solid white;
 }
+
+section#services div.freddo_action_services div.services_columns {
+	margin: 0 auto;
+	max-width: 1190px;
+}
+
+section#services div.panel-layout div.panel-grid-cell {
+	width: 45%;
+	float: left;
+}
