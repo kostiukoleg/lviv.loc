@@ -30,9 +30,9 @@
 						echo $content;
 					?>
 					<?php endif; ?>
-					<?php if($aboutusButtonText || is_customize_preview()): ?>
+					<!--<?php if($aboutusButtonText || is_customize_preview()): ?>
 						<div class="freddoButton aboutus"><a href="<?php echo esc_url($aboutusButtonLink); ?>"><?php echo esc_html($aboutusButtonText); ?></a></div>
-					<?php endif; ?>
+					<?php endif; ?>-->
 				</div>
 			</div>
 			<?php if ('' != get_the_post_thumbnail($aboutusPageBox)) : ?>
