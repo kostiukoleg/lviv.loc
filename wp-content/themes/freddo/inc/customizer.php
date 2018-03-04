@@ -2399,6 +2399,39 @@ function freddo_custom_settings_register( $wp_customize ) {
 		'active_callback' => 'freddo_is_blog_active',
 		'priority' => 7,
     ) );
+     /* Blog text */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_head_blog]', array(
+		'sanitize_callback' => 'sanitize_text_field',
+		'type'       => 'option',
+	));
+	$wp_customize->add_control(
+		new Freddo_Customize_Heading(
+		$wp_customize,
+		'freddo_theme_options[_onepage_head_blog]',
+		array(
+			'settings'		=> 'freddo_theme_options[_onepage_head_blog]',
+			'section'		=> 'cresta_freddo_onepage_section_blog',
+			'label'			=> __( 'Blog text', 'freddo' ),
+			'active_callback' => 'freddo_is_blog_active',
+			'priority' => 8,
+		)
+		)
+	);
+	/* Blog Dropdown pages */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_choosepage_blog]', array(
+		'default'    => false,
+		'type'       => 'option',
+		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'absint',
+	) );
+	$wp_customize->add_control('freddo_theme_options[_onepage_choosepage_blog]', array(
+		'label'      => __( 'Choose the page to display', 'freddo' ),
+		'description'	=> __( 'Title, content and featured image will be used in the box', 'freddo' ),
+		'section'    => 'cresta_freddo_onepage_section_blog',
+		'settings'   => 'freddo_theme_options[_onepage_choosepage_blog]',
+		'type'       => 'dropdown-pages',
+		'active_callback' => 'freddo_is_blog_active',
+	) );
 	/* Number of posts to show */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_noposts_blog]', array(
 		'default'    => '3',
@@ -2412,7 +2445,7 @@ function freddo_custom_settings_register( $wp_customize ) {
 		'settings'   => 'freddo_theme_options[_onepage_noposts_blog]',
 		'active_callback' => 'freddo_is_blog_active',
 		'type'       => 'number',
-		'priority' => 8,
+		'priority' => 10,
 	) );
 	/* Text Blog Button */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_textbutton_blog]', array(
@@ -2427,7 +2460,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_textbutton_blog]',
         'type'       => 'text',
 		'active_callback' => 'freddo_is_blog_active',
-		'priority' => 9,
+		'priority' => 11,
     ) );
 	/* Link blog button */
 	$wp_customize->add_setting('freddo_theme_options[_onepage_linkbutton_blog]', array(
@@ -2442,7 +2475,7 @@ function freddo_custom_settings_register( $wp_customize ) {
         'settings'   => 'freddo_theme_options[_onepage_linkbutton_blog]',
         'type'       => 'url',
 		'active_callback' => 'freddo_is_blog_active',
-		'priority' => 10,
+		'priority' => 12,
     ) );
 	/**
 	* ################ SECTION TEAM

@@ -19,7 +19,7 @@ if ( ! function_exists( 'freddo_setup' ) ) :
 		/*
 		 * Define the number of items in some onepage sections (real value plus 1)
 		 */
-		define( 'FREDDO_VALUE_FOR_SLIDER', '4' );
+		define( 'FREDDO_VALUE_FOR_SLIDER', '5' );
 		define( 'FREDDO_VALUE_FOR_FEATURES', '5' );
 		define( 'FREDDO_VALUE_FOR_CTA', '7' );
 		define( 'FREDDO_VALUE_FOR_SKILLS', '11' );
@@ -271,7 +271,7 @@ if ( function_exists( 'is_woocommerce' ) ) :
 	endif;
 	if ( ! function_exists( 'freddo_wc_get_product_cat_class' ) ) :
 		function freddo_wc_get_product_cat_class($classes, $class, $category) {
-			$classes[] = 'three-columns';
+			$classes[] = 'four-columns';
 			return array_unique( array_filter( $classes ) );
 		}
 		add_filter( 'product_cat_class' , 'freddo_wc_get_product_cat_class', 10, 3 );
