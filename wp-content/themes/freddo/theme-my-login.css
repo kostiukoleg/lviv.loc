@@ -520,3 +520,8 @@ section#blog div.blogInner div.freddoButton.blog {
     padding-left: 6px;
     font-size: 11pt;
 }
+
+div#content div#primary.content-area {
+	width: 100%;
+	padding: 0;
+}
