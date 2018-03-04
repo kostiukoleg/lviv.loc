@@ -509,3 +509,14 @@ section#blog div.blog_columns_four div.blogInner h2 {
 section#blog div.blog_columns_four div.blogInner h2 span {
 	color: #fff;
 }
+
+section#blog div.blogInner div.freddoButton.blog {
+    background: url("images/blog-submit-button.png") no-repeat 0px 1px !important;
+    width: 300px;
+    height: 59px;
+    border: none;
+    border-radius: 0;
+        line-height: 35px;
+    padding-left: 6px;
+    font-size: 11pt;
+}

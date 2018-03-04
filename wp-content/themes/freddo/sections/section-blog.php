@@ -34,7 +34,7 @@ $showBlog = freddo_options('_onepage_section_blog', '');
 					?>
 					<?php endif; ?>
 					<?php if($blogTextButton || is_customize_preview()): ?>
-						<div class="freddoButton aboutus"><a href="<?php echo esc_url($blogLinkButton); ?>"><?php echo esc_html($blogTextButton); ?></a></div>
+						<center><div class="freddoButton blog"><a href="<?php echo esc_url($blogLinkButton); ?>"><?php echo esc_html($blogTextButton); ?></a></div></center>
 					<?php endif; ?>
 				</div>
 			</div>
