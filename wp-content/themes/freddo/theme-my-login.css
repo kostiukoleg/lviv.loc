@@ -448,11 +448,6 @@ section#services div#pgc-153-1-0 {
 	padding-left: 350px;
 }
 
-/*section#services form.wpcf7-form p {
-	display: inline-block;
-	width: 100%;
-}*/
-
 section#services form.wpcf7-form p span input[name="tel-842"] {
 	background: url("images/service-bg-input.png") no-repeat !important;
 	width: 300px;
@@ -610,4 +605,29 @@ section#team .strong-view.default.slider-container.slider-adaptive:not(.slider-m
 
 section#team .team_columns {
 	margin-top: 0;
+}
+
+
+
+section#contact div.contact_columns div.freddoContactIcon i.fa.fa-envelope:before {
+	content: none;
+}
+
+section#contact div.contact_columns {
+	background-color: #000;
+	max-width: 950px;
+	padding: 5em 0;
+}
+
+section#contact h2.freddo_main_text {
+	position: absolute;
+    top: 15px;
+    left: 45%;
+    z-index: 2;
+}
+
+section#contact div.contact_columns div.freddoContactForm {
+	width: 100%;
+	position: absolute;
+    bottom: 0;
 }
