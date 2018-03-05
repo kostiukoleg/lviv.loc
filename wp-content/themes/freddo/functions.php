@@ -24,7 +24,7 @@ if ( ! function_exists( 'freddo_setup' ) ) :
 		define( 'FREDDO_VALUE_FOR_CTA', '7' );
 		define( 'FREDDO_VALUE_FOR_SKILLS', '11' );
 		define( 'FREDDO_VALUE_FOR_SERVICES', '7' );
-		define( 'FREDDO_VALUE_FOR_TEAM', '7' );
+		define( 'FREDDO_VALUE_FOR_TEAM', '2' );
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.

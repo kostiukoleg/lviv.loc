@@ -2616,6 +2616,39 @@ function freddo_custom_settings_register( $wp_customize ) {
 		'active_callback' => 'freddo_is_team_active',
 		'priority' => 7,
     ) );
+    /* Team us text */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_head_team]', array(
+		'sanitize_callback' => 'sanitize_text_field',
+		'type'       => 'option',
+	));
+	$wp_customize->add_control(
+		new Freddo_Customize_Heading(
+		$wp_customize,
+		'freddo_theme_options[_onepage_head_team]',
+		array(
+			'settings'		=> 'freddo_theme_options[_onepage_head_team]',
+			'section'		=> 'cresta_freddo_onepage_section_team',
+			'label'			=> __( 'Team us text', 'freddo' ),
+			'active_callback' => 'freddo_is_team_active',
+			'priority' => 8,
+		)
+		)
+	);
+	/* Team Dropdown pages */
+	$wp_customize->add_setting('freddo_theme_options[_onepage_choosepage_team]', array(
+		'default'    => false,
+		'type'       => 'option',
+		'capability' => 'edit_theme_options',
+		'sanitize_callback' => 'absint',
+	) );
+	$wp_customize->add_control('freddo_theme_options[_onepage_choosepage_team]', array(
+		'label'      => __( 'Choose the page to display', 'freddo' ),
+		'description'	=> __( 'Title, content and featured image will be used in the box', 'freddo' ),
+		'section'    => 'cresta_freddo_onepage_section_team',
+		'settings'   => 'freddo_theme_options[_onepage_choosepage_team]',
+		'type'       => 'dropdown-pages',
+		'active_callback' => 'freddo_is_team_active',
+	) );
 	for( $number = 1; $number < FREDDO_VALUE_FOR_TEAM; $number++ ){
 		/* Box Title Description */
 		$wp_customize->add_setting('freddo_theme_options[_onepage_head_'.$number.'_team]', array(

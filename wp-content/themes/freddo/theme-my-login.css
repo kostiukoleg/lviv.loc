@@ -125,6 +125,10 @@ section#aboutus {
 	padding-bottom: 0;
 }
 
+section#aboutus div.freddo_action_aboutus {
+	max-width: 1316px;
+}
+
 section#features {
 background: url("images/features-bg.png") no-repeat #ea5b1e 50% 0;
 }
@@ -371,6 +375,10 @@ section#cta .cta_columns .ctaButton {
 	display: inline;
 }
 
+section#cta div.cta_columns div.freddoButton.cta {
+	border-radius: 10px;
+}
+
 section#cta .cta_columns .ctaIcon {
 	margin: 0 auto;
 }
@@ -384,6 +392,7 @@ ul.freddo_sectionmap li a span.box {
 section#services div.freddo_action_services div.services_columns {
 	margin: 0 auto;
 	max-width: 1190px;
+	position: relative;	
 }
 
 section#services div.panel-layout div.panel-grid-cell {
@@ -420,8 +429,8 @@ section#services div.panel-layout div.panel-grid-cell h3.widget-title {
 
 section#services div#pgc-153-1-0 h3.widget-title {
 	position: absolute;
-	left: 25px;
-    top: 585px;
+	left: -20px;
+    top: 460px;
     width: 335px;
     text-align: center;
     font-size: 12pt;
@@ -432,7 +441,7 @@ section#services div#pgc-153-1-0 h3.widget-title {
 
 section#services div.two.services_columns_three {
 	position: absolute;
-	top: 345px;
+	top: 220px;
 }
 
 section#services div#pgc-153-1-0 {
@@ -524,4 +533,81 @@ section#blog div.blogInner div.freddoButton.blog {
 div#content div#primary.content-area {
 	width: 100%;
 	padding: 0;
+}
+
+section#team div.testimonial-content p img {
+	float: left;
+	margin-right: 13px;
+}
+
+section#team div.testimonial-content p img:last-child {
+	margin: 0;
+}
+
+section#team div.testimonial-content p:nth-child(2) {
+	padding-bottom: 400px;
+}
+
+section#team div.testimonial-content p:nth-child(3) {
+	clear: both;
+	width: 500px;
+	float: left;
+	font-size: 12pt;
+}
+
+section#team div.testimonial-content p:nth-child(4) {
+	float: right;
+}
+
+section#team div.wpmslider-controls.wpmslider-has-controls-direction {
+	position: absolute;
+	top: 0;
+}
+section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev, section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next {
+	background: url(images/arrow-comment3.png) no-repeat 0px 0px;
+    width: 91px;
+    height: 75px;
+    font-weight: bold;
+    line-height: 71px;
+    font-size: 60px;
+}
+section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction a.wpmslider-next {
+	background: url(images/arrow-comment3.png) no-repeat -97px 0px;
+}
+
+section#team div.teamInner div.wpmslider-wrapper div.wpmslider-viewport {
+	padding-top: 77px;
+}
+
+section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction {
+	height: 86px;
+}
+
+section#team .strong-view.controls-style-buttons .wpmslider-next, section#team .strong-view.controls-style-buttons .wpmslider-prev {
+	color: #000;
+}
+
+section#team .strong-view.controls-style-buttons .wpmslider-next:hover, section#team .strong-view.controls-style-buttons .wpmslider-prev:hover {
+	color: #999;
+}
+
+section#team div.testimonial-inner h3.testimonial-heading {
+	position: absolute;
+	top: 615px;
+	background: transparent;
+	padding: 0;
+	font-size: 24pt;
+    width: 545px;
+}
+
+section#team div.testimonial-inner h3.testimonial-heading span {
+	color: #eb642a;
+}
+section#team .strong-view.default .testimonial-inner,
+section#team .strong-view.default.slider-container.slider-adaptive:not(.slider-mode-horizontal) .wpmslider-viewport {
+	border: none;
+}
+
+section#team .team_columns {
+	margin-top: 0;
 }
