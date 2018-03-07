@@ -624,7 +624,7 @@ section#contact div.contact_columns {
 	background-color: #000;
 	max-width: 950px;
 	padding: 5em 0;
-	height: 430px;
+	height: 490px;
 	border-radius: 10px;
 }
 
@@ -691,6 +691,7 @@ section#contact form.wpcf7-form span.wpcf7-form-control-wrap input {
 	border-radius: 0;
 	margin-right: 15px;
 	font-size: 1em;
+	color: #000;
 }
 
 section#contact form.wpcf7-form input[type="submit"] {
@@ -705,6 +706,14 @@ section#contact form.wpcf7-form input[type="submit"] {
 
 section#contact form.wpcf7-form p {
 	text-align: center;
+}
+
+section#contact span.wpcf7-not-valid-tip {
+	position: absolute;
+	width: 300px;
+	left: 0;
+    z-index: 555;
+    top: 11px;
 }
 
 footer#colophon {
