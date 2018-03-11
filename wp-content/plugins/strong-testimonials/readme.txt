@@ -3,7 +3,7 @@ Contributors: cdillon27
 Tags: testimonials, testimonial slider, testimonial form, reviews, star ratings
 Requires at least: 3.7
 Tested up to: 4.9.4
-Stable tag: 2.30
+Stable tag: 2.30.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,11 +19,11 @@ A flexible testimonials plugin that works right out of the box for beginners wit
 
 If you are a small business with up to several hundred testimonials or reviews, maybe using categories for different products or services, that needs flexible display options and a customizable form for accepting new testimonials, this plugin will work in just a few steps.
 
-> *This plugin only provides basic style options for background color and font color.*
+> *This plugin only provides basic style options for background color and font color. Everything else will be inherited from your theme.*
 >
-> Some templates have light & dark versions and other options. Everything else will be inherited from your theme. If you want to customize things like fonts, margins and borders, you will need custom CSS.
+> Some templates have light & dark versions and other options. If you want to customize things like fonts, margins and borders, you will need custom CSS.
 >
-> I will help with major conflicts and minor tweaks. Otherwise, consider learning enough CSS to be dangerous ;) or hiring a developer for a couple hours.
+> I will help with theme conflicts and a few tweaks. Otherwise, consider learning enough CSS to be dangerous or hiring a developer for a couple hours.
 
 ### Primary Features
 
@@ -60,8 +60,9 @@ Send custom notification emails to multiple admins.
 
 Submit the form via Ajax to use with plugins like [Popup Maker](https://wordpress.org/plugins/popup-maker/).
 
-**Free Add-on:** Add a country selector to your form with the
-[Strong Testimonials Country Selector](https://wordpress.org/plugins/strong-testimonials-country-selector/) plugin.
+#### Free Add-on
+
+Use the [Country Selector](https://wordpress.org/plugins/strong-testimonials-country-selector/) plugin to add a country selector to your form. [See the demo](https://strongdemos.com/strong-testimonials/form-examples/with-country-selector/).
 
 ### Displaying Testimonials
 
@@ -190,6 +191,11 @@ If you prefer not to post your URL publicly, start a private support ticket at [
 
 == Changelog ==
 
+= 2.30.1 - Mar 6, 2018 =
+* Fix minor bug in PHP7 compatibility.
+* Improve real-time validation in fields editor.
+* Minor CSS fixes.
+
 = 2.30.0 - Feb 10, 2018 =
 * Add option for font color in view editor.
 * Add option for a custom CSS class on the image link for lightboxes.
@@ -224,5 +230,5 @@ See changelog.txt for previous versions.
 
 == Upgrade Notice ==
 
-= 2.30 =
-Better template options.
+= 2.30.2 =
+Better template options. Fix PHP7 compatibility. Fix WordPress backwards-compatibility.
