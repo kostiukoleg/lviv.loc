@@ -512,7 +512,7 @@ section#blog mark.count {
 
 section#blog div.blog_columns_four div.blogInner h2 {
 	color: #000;
-	font-size: 2em;
+	font-size: 19pt;
 }
 
 section#blog div.blog_columns_four div.blogInner h2 span {
@@ -718,4 +718,8 @@ section#contact span.wpcf7-not-valid-tip {
 
 footer#colophon {
 	display: none;
+}
+
+div.entry-content>div>ul.products>li>a>img {
+	max-width: 223px;
 }
