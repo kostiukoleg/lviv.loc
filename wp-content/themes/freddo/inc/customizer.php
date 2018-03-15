@@ -1768,6 +1768,8 @@ function freddo_custom_settings_register( $wp_customize ) {
 			'4' => __( '4', 'freddo'),
 			'5' => __( '5', 'freddo'),
 			'6' => __( '6', 'freddo'),
+			'7' => __( '7', 'freddo'),
+			'8' => __( '8', 'freddo'),
 		),
     ) );
 	/* Text lenght for boxes */
