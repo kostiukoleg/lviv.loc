@@ -544,8 +544,13 @@ section#team div.testimonial-content p img:last-child {
 	margin: 0;
 }
 
-section#team div.testimonial-content p:nth-child(2) {
-	padding-bottom: 400px;
+section#team div.testimonial-content p.sertifitace {
+	height: 380px;
+}
+
+section#team div.testimonial-content p:nth-child(4) {
+	width: 500px;
+	margin-top: 0;
 }
 
 section#team div.testimonial-content p:nth-child(3) {
@@ -556,7 +561,12 @@ section#team div.testimonial-content p:nth-child(3) {
 }
 
 section#team div.testimonial-content p:nth-child(4) {
+	float: left;
+}
+
+section#team div.testimonial-content iframe {
 	float: right;
+	margin-right: 50px;
 }
 
 section#team div.wpmslider-controls.wpmslider-has-controls-direction {
@@ -595,7 +605,7 @@ section#team .strong-view.controls-style-buttons .wpmslider-next:hover, section#
 
 section#team div.testimonial-inner h3.testimonial-heading {
 	position: absolute;
-	top: 615px;
+	top: 1005px;
 	background: transparent;
 	padding: 0;
 	font-size: 24pt;
@@ -722,4 +732,106 @@ footer#colophon {
 
 div.entry-content>div>ul.products>li>a>img {
 	max-width: 223px;
+}
+
+div#ser-air-bag {
+	clear: both;
+	padding-top: 10px;
+}
+
+div#ser-air-bag img {
+	padding-top: 33px;
+	padding-left: 44px;
+}
+
+div#ser-air-bag span {
+	width: 550px;
+	display: inline-block;
+	float: left;
+}
+
+div#ser-air-bag span:nth-child(2) {
+	padding-left: 50px;
+}
+div#ser-air-bag {
+	height: 410px;
+	margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cartwoo-button {
+    float: right;
+    position: relative;
+    top: 28px;
+    display: inline-block;
+    overflow: visible;
+    margin: 0;
+    margin-left: 1.5em;
+    cursor: pointer;
+    -o-transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+    -moz-transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+    -webkit-transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.cartwoo-button a.woo-cart {
+    display: block;
+    position: relative;
+    padding-bottom: 9px;
+}
+
+.cartwoo-button .cart-handle {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f5f5f5;
+    position: relative;
+    top: -4px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.cartwoo-button .cart-body {
+    display: block;
+    height: 21px;
+    width: 27px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    right: 6px;
+    border-radius: 4px;
+}
+
+.cartwoo-button .cart-hole1, .cart-hole2 {
+    top: 4px;
+    width: 2px;
+    height: 2px;
+    background-color: #121212;
+    border-radius: 30px;
+}
+
+.cartwoo-button .cart-items {
+    color: #121212;
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cartwoo-button .cart-hole1 {
+    position: absolute;
+    left: 20px;
+}
+
+.cartwoo-button .cart-hole2 {
+    position: absolute;
+    right: 20px;
+}
+
+header.menuMinor div.cartwoo-button {
+	top: 20px;
 }

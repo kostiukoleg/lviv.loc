@@ -72,6 +72,19 @@
 				<div class="search-line"></div>
 			</div>
 			<?php endif; ?>
+			
+			<div class="cartwoo-button">
+				<a class="woo-cart" href="<?php echo wc_get_cart_url(); ?>">
+					<div class="cart-handle">
+						<div class="cart-body">
+						  <div class="cart-hole1"></div>
+						  <div class="cart-hole2"></div>
+							<span class="cart-items"><span class="shopping-count"><?php echo WC()->cart->get_cart_contents_count(); ?></span></span>
+						</div>
+					</div>
+				</a>
+			</div>
+			
 			<div class="freddoHeader">
 				<div class="freddoSubHeader">
 					<nav id="site-navigation" class="main-navigation">
