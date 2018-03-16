@@ -382,6 +382,15 @@ section#cta .cta_columns .ctaButton {
 
 section#cta div.cta_columns div.freddoButton.cta {
 	border-radius: 10px;
+	background-color: transparent;
+	border: none;
+}
+
+section#cta div.cta_columns div.freddoButton.cta a {
+	margin: 0;
+	text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.85);
+	padding-left: 5px;
+	text-align: center;
 }
 
 section#cta .cta_columns .ctaIcon {
