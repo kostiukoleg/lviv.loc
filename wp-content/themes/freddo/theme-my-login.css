@@ -1,0 +1,846 @@
+div#page div#content.site-content {
+	padding-top: calc(3em + 120px);
+}
+
+div.mainHeader div.freddoHeader {
+	float: none;
+	margin-left: 35%;
+}
+
+.hamburger-box{
+	background-image: url(images/registration.png); 
+}
+div.hamburger-box div.hamburger-inner, div.hamburger-box div.hamburger-inner:after, div.hamburger-box div.hamburger-inner:before{
+	height: 0px;
+}
+div.hamburger-menu div.hamburger-box {
+	width: 35px;
+    height: 27px;
+}
+div.mainHeader div.hamburger-menu{
+	top: 25px;
+}
+
+header.menuMinor div.mainHeader div.hamburger-menu{
+	top: 16px;
+}
+
+section#aboutus div.freddo_aboutus_color{
+//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,212121+15,000000+41,000000+100 */
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top, #4c4c4c 0%, #212121 15%, #000000 41%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #4c4c4c 0%,#212121 15%,#000000 41%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #4c4c4c 0%,#212121 15%,#000000 41%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+div.freddoTitleText p.site-title {
+	text-align: center;
+}
+
+div.freddoTitleText p.site-title a {
+	font-size: 60pt;
+    font-weight: bold;
+    color: #fff;
+	-webkit-text-fill-color: #20201f; /* цвет текста для webkit */
+	-webkit-text-stroke: 3px #fff;
+}
+div.freddoTitleText p.site-description {
+	font-size: 20pt;
+}
+
+header.menuMinor div.freddoTitleText p.site-title a {
+	font-size: 30pt;
+	-webkit-text-stroke: 1px #fff;
+}
+
+.aboutus_columns_three.one h3.widget-title {
+	color: #fff;
+	-webkit-text-fill-color: #20201f; /* цвет текста для webkit */
+	-webkit-text-stroke: 1px #ea5d21;
+	font-size: 1.5em;
+}
+
+.aboutus_columns_three.one div.textwidget {
+	text-align: left;
+}
+
+div#panel-57-0-2-0 {
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-0-0-0 {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-1-0-0 {
+	position: absolute;
+    top: 150px;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-1-2-0 {
+	position: absolute;
+    top: 150px;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-3-0-0 {
+	position: absolute;
+    top: 300px;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-3-2-0 {
+	position: absolute;
+    top: 300px;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-4-0-0 {
+	position: absolute;
+    top: 450px;
+    left: 0;
+    width: 350px;
+}
+
+div#panel-57-4-2-0 {
+	position: absolute;
+    top: 450px;
+    right: 0;
+    width: 350px;
+}
+
+div#panel-57-4-1-0 {
+	margin: -45px 0 0 350px;
+	width: 350px;
+}
+
+section#aboutus {
+	padding-bottom: 0;
+}
+
+section#aboutus div.freddo_action_aboutus {
+	max-width: 1316px;
+}
+
+section#features {
+background: url("images/features-bg.png") no-repeat #ea5b1e 50% 0;
+}
+
+section#features h2.freddo_main_text {
+	margin-top: 55px;
+}
+
+section#features div.freddo_features_color {
+	background: url("images/our-advantages-arrow-bg.png") no-repeat 50% 0;
+} 
+
+section#features div.featuresInner .strong-view.default .testimonial-image img {
+	background: none;
+	border: none;
+}
+
+section#features div.featuresInner .strong-view.default.slider-container.slider-adaptive:not(.slider-mode-horizontal) .wpmslider-viewport {
+	border: none;
+}
+
+section#features div.featuresInner .strong-view.default .testimonial-inner {
+	border: none;
+}
+
+section#features div.featuresInner .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
+	top: 0;
+}
+
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev,
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next
+{
+	background: url("images/arrow-comment.png") no-repeat 0px 4px;
+	width: 91px;
+    height: 75px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 71px;
+    font-size: 60px;
+}
+
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction a.wpmslider-next {
+	background: url("images/arrow-comment.png") no-repeat -97px 4px;
+}
+
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev:hover,
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next:hover
+{
+	color: #EC6D37;
+}
+
+section#features div.featuresInner .strong-view.controls-style-buttons .wpmslider-prev:before,
+section#features div.featuresInner .strong-view.controls-style-buttons .wpmslider-next:before
+{
+	vertical-align: middle;
+}
+
+section#features div.featuresInner .strong-view .wpmslider-controls-auto, .strong-view .wpmslider-controls-direction {
+	margin-left: 5px;
+}
+
+section#features div.testimonial-inner div.testimonial-content p.text {
+	padding: 50px 280px 0 0;
+	background: url("images/coment-line.png") no-repeat scroll 920px center transparent !important;
+}
+
+section#features div.testimonial-inner div.testimonial-content img {
+	width: 100%;
+}
+
+section#features div.testimonial-inner div.testimonial-content div.testimonial-image {
+    position: absolute;
+    bottom: 55px;
+    right: 30px;
+    width: 180px;
+}
+
+section#features div.testimonial-inner h3.testimonial-heading {
+	background: url("images/quotes.png") no-repeat scroll left center transparent !important;
+	padding-left: 55px !important;
+	position: absolute;
+    top: 575px;
+    font-weight: bold;
+    color: #000;
+    font-size: 2em;
+}
+
+section#features div.testimonial-inner div.testimonial-client {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+section#features div.featuresInner div.wpmslider-wrapper div.wpmslider-viewport {
+	height: 840px !important;
+	overflow: hidden;
+}
+
+section#features div.testimonial.t-slide div.testimonial-inner {
+	padding-top: 115px;
+}
+
+section#features div.featuresInner .strong-view.default.nav-position-inside .testimonial-inner {
+	padding-bottom: 0;
+}
+
+section#skills .strong-view.default .testimonial-inner {
+	border: none;
+	padding-left: 120px;
+}
+
+
+
+section#skills .strong-view.default.slider-container.slider-adaptive:not(.slider-mode-horizontal) .wpmslider-viewport {
+	border: none;
+}
+
+section#skills div.featuresInner .strong-view.default .testimonial-image img {
+	background: none;
+	border: none;
+}
+
+section#skills .strong-view.default .testimonial-heading {
+	background: none;
+	padding-left: 0;
+}
+
+section#skills div.skills_columns, section#features div.features_columns {
+	margin-top: 0;
+}
+
+section#skills .strong-view.nav-position-inside:not(.controls-type-sides) .wpmslider-controls {
+	top: 0;
+}
+
+section#skills div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev,
+section#skills div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next
+{
+	background: url("images/arrow-comment2.png") no-repeat 0px 4px;
+	width: 91px;
+    height: 75px;
+    //color: #fff;
+    font-weight: bold;
+    line-height: 71px;
+    font-size: 60px;
+}
+
+section#skills div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction a.wpmslider-next {
+	background: url("images/arrow-comment2.png") no-repeat -97px 4px;
+}
+
+section#skills div.skillsInner .strong-view.controls-style-buttons .wpmslider-prev:before,
+section#skills div.skillsInner .strong-view.controls-style-buttons .wpmslider-next:before
+{
+	vertical-align: middle;
+}
+
+div.skillsInner div.wpmslider-wrapper div.wpmslider-viewport {
+	height: 265px !important;
+    padding-top: 90px !important;
+}
+
+h3#question {
+	position: absolute;
+    top: 204px;
+    -webkit-text-fill-color: #20201f;
+    -webkit-text-stroke: 1px #ea5d21;
+    font-size: 1.5em;
+}
+
+h3#ansver {
+	position: absolute;
+    top: 249px;
+    -webkit-text-fill-color: #20201f;
+    -webkit-text-stroke: 1px #ea5d21;
+    font-size: 1.5em;
+}
+
+section#skills h2.freddo_main_text {
+	color: #ea5b1e;
+}
+
+section#cta .freddo_cta_color {
+	background-color: transparent;
+}
+
+section#cta.freddo_cta {
+	padding-bottom: 0px;
+}
+
+section#cta h2.freddo_main_text, section#cta p.freddo_subtitle {
+	color: #000;
+}
+
+section#cta .cta_columns .ctaIcon i {
+	color: #000 !important;
+}
+
+section#cta div.four.cta_columns_single {
+	padding-bottom: 45px;
+	background: url("images/cta-line-bg.png") no-repeat 49% 101%;
+
+}
+
+section#cta div.four.cta_columns_single:last-child {
+	background: none;
+}
+
+section#cta div.four.cta_columns_single:nth-child(even) div.freddoButton.cta {
+	position: relative;
+	//top: -15px;
+    right: -400px;
+    width: 400px;
+    font-size: 15pt;
+    line-height: 25px;
+}
+
+section#cta div.four.cta_columns_single:nth-child(odd) div.freddoButton.cta {
+	position: relative;
+	//top: -15px;
+    left: -245px;
+    width: 400px;
+    font-size: 15pt;
+    line-height: 25px;
+}
+
+section#cta.freddo_cta .cta_columns .ctaIcon i {
+	background: url("images/cta-circle-bg.png") no-repeat center center #fff;
+	width: 168px;
+    height: 168px;
+    line-height: 165px;
+    font-size: 85px;
+}
+
+section#cta.freddo_cta .cta_columns div.ctaIcon {
+	position: relative;
+    left: 40%;
+    
+}
+
+section#cta .cta_columns .ctaIcon, 
+section#cta .cta_columns .ctaPhrase, 
+section#cta .cta_columns .ctaButton {
+	display: inline;
+}
+
+section#cta div.cta_columns div.freddoButton.cta {
+	border-radius: 10px;
+	background-color: transparent;
+	border: none;
+}
+
+section#cta div.cta_columns div.freddoButton.cta a {
+	margin: 0;
+	text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.85);
+	padding-left: 5px;
+	text-align: center;
+}
+
+section#cta .cta_columns .ctaIcon {
+	margin: 0 auto;
+}
+
+a#toTop,
+section#cta div.freddoButton,
+ul.freddo_sectionmap li a span.box {
+	border: 1px solid white;
+}
+
+section#services div.freddo_action_services div.services_columns {
+	margin: 0 auto;
+	max-width: 1190px;
+	position: relative;	
+}
+
+section#services div.panel-layout div.panel-grid-cell {
+	width: 45%;
+	float: left;
+}
+
+section#services div.panel-layout div#pgc-153-1-0.panel-grid-cell {
+	width: 100%;
+	background: url("images/service-line.png") no-repeat 270px 0px;
+	height: 410px;
+}
+
+section#services div#pgc-153-0-0 {
+	background: url("images/phone-icon-service.png") no-repeat 0px 30px;
+}
+
+section#services div#pgc-153-0-1 {
+	background: url("images/pazle-icon-service.png") no-repeat 0px 30px;
+	margin-left: 100px;
+}
+
+section#services div#panel-153-0-0-0,
+section#services div#panel-153-0-1-0 {
+	padding-left: 130px;
+}
+
+section#services div.panel-layout div.panel-grid-cell h3.widget-title {
+	color: #fff;
+    -webkit-text-fill-color: #000;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 15pt;
+}
+
+section#services div#pgc-153-1-0 h3.widget-title {
+	position: absolute;
+	left: -20px;
+    top: 460px;
+    width: 335px;
+    text-align: center;
+    font-size: 12pt;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: unset;
+}
+
+section#services div.two.services_columns_three {
+	position: absolute;
+	top: 220px;
+}
+
+section#services div#pgc-153-1-0 {
+	padding-left: 350px;
+}
+
+section#services form.wpcf7-form p span input[name="tel-842"] {
+	background: url("images/service-bg-input.png") no-repeat !important;
+	width: 300px;
+    height: 59px;
+    border: none;
+    border-radius: 0;
+    font-size: 2em;
+    float: left;
+
+}
+
+section#services form.wpcf7-form p input[type="submit"] {
+	background: url("images/service-submit-button.png") no-repeat 0px 1px !important;
+	width: 300px;
+    height: 59px;
+    border: none;
+    border-radius: 0;
+    margin-left: 15px;3
+
+}
+
+section#blog .freddo_blog_color {
+	background-color: transparent;
+}
+
+section#blog div.freddo_action_blog p.freddo_subtitle {
+	color: #fff;
+}
+
+section#blog div.blogInner h3 {
+	display: none;
+}
+
+section#blog div.blog_columns {
+	margin-top: 0;
+}
+
+section#blog h2.woocommerce-loop-category__title {
+	color: #000;	
+	font-size: 1.5em;
+	margin-left: -40px;
+	padding: 0;
+}
+
+section#blog .woocommerce ul.products > li {
+	border: none;
+	width: 23%;
+}
+
+section#blog h2.woocommerce-loop-category__title:after {
+	content: none;
+}
+
+section#blog mark.count {
+	background: transparent;
+}
+
+section#blog div.blog_columns_four div.blogInner h2 {
+	color: #000;
+	font-size: 19pt;
+}
+
+section#blog div.blog_columns_four div.blogInner h2 span {
+	color: #fff;
+}
+
+section#blog div.blogInner div.freddoButton.blog {
+    background: url("images/blog-submit-button.png") no-repeat 0px 1px !important;
+    width: 300px;
+    height: 59px;
+    border: none;
+    border-radius: 0;
+        line-height: 35px;
+    padding-left: 6px;
+    font-size: 11pt;
+}
+
+div#content div#primary.content-area {
+	width: 100%;
+	padding: 0;
+}
+
+section#team div.testimonial-content p img {
+	float: left;
+	margin-right: 13px;
+}
+
+section#team div.testimonial-content p img:last-child {
+	margin: 0;
+}
+
+section#team div.testimonial-content p.sertifitace {
+	height: 380px;
+}
+
+section#team div.testimonial-content p:nth-child(4) {
+	width: 500px;
+	margin-top: 0;
+}
+
+section#team div.testimonial-content p:nth-child(3) {
+	clear: both;
+	width: 500px;
+	float: left;
+	font-size: 12pt;
+}
+
+section#team div.testimonial-content p:nth-child(4) {
+	float: left;
+}
+
+section#team div.testimonial-content iframe {
+	float: right;
+	margin-right: 50px;
+}
+
+section#team div.wpmslider-controls.wpmslider-has-controls-direction {
+	position: absolute;
+	top: 0;
+}
+section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-prev, section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction .wpmslider-next {
+	background: url(images/arrow-comment3.png) no-repeat 0px 0px;
+    width: 91px;
+    height: 75px;
+    font-weight: bold;
+    line-height: 71px;
+    font-size: 60px;
+}
+section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction a.wpmslider-next {
+	background: url(images/arrow-comment3.png) no-repeat -97px 0px;
+}
+
+section#team div.teamInner div.wpmslider-wrapper div.wpmslider-viewport {
+	padding-top: 77px;
+}
+
+section#features div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction,
+section#skills div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction,
+section#team div.wpmslider-wrapper div.wpmslider-controls.wpmslider-has-controls-direction {
+	height: 86px;
+}
+
+section#team .strong-view.controls-style-buttons .wpmslider-next, section#team .strong-view.controls-style-buttons .wpmslider-prev {
+	color: #000;
+}
+
+section#team .strong-view.controls-style-buttons .wpmslider-next:hover, section#team .strong-view.controls-style-buttons .wpmslider-prev:hover {
+	color: #999;
+}
+
+section#team div.testimonial-inner h3.testimonial-heading {
+	position: absolute;
+	top: 1005px;
+	background: transparent;
+	padding: 0;
+	font-size: 24pt;
+    width: 545px;
+}
+
+section#team div.testimonial-inner h3.testimonial-heading span {
+	color: #eb642a;
+}
+section#team .strong-view.default .testimonial-inner,
+section#team .strong-view.default.slider-container.slider-adaptive:not(.slider-mode-horizontal) .wpmslider-viewport {
+	border: none;
+}
+
+section#team .team_columns {
+	margin-top: 0;
+}
+
+
+
+section#contact div.contact_columns div.freddoContactIcon i.fa.fa-envelope:before {
+	content: none;
+}
+
+section#contact div.contact_columns {
+	background-color: #000;
+	max-width: 950px;
+	padding: 5em 0;
+	height: 490px;
+	border-radius: 10px;
+}
+
+section#contact h2.freddo_main_text {
+	position: absolute;
+    top: 25px;
+    left: 45%;
+    z-index: 2;
+}
+
+section#contact div.contact_columns div.freddoContactForm {
+	width: 100%;
+	position: absolute;
+    bottom: 0;
+}
+
+section#contact div.freddoContactField div.freddoCompanyName,
+section#contact div.freddoContactField div.freddoCompanyAddress1 {
+	display: table-row;
+	text-align: center;
+}
+
+
+section#contact div.freddoContactField div.freddoCompanyName {
+	color: #e16028;
+}
+
+section#contact div.freddoContactField div.freddoCompanyAddress1 div.freddoCompanyAddress1Icon {
+	margin-left: 280px;
+}
+
+section#contact div.freddoContactField div.freddoCompanyPhone, 
+section#contact div.freddoContactField div.freddoCompanyEmail {
+	display: inline-block;
+	padding-left: 5px;	
+}
+
+section#contact div.freddoContactField div.freddoCompanyPhone {
+	padding-right: 50px;
+}
+
+section#contact div.contact_columns div.freddoContactField {
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+section#contact div.freddoContactField i {
+	font-size: 35px;
+	color: #e16028;
+}
+
+section#contact div.freddoCompanyAddress1Icon,
+section#contact div.freddoCompanyPhoneIcon,
+section#contact div.freddoCompanyEmailIcon {
+	background-color: transparent;
+}
+
+section#contact form.wpcf7-form span.wpcf7-form-control-wrap input {
+	background: url("images/service-bg-input.png");
+	border: none;
+	width: 300px;
+	height: 59px;
+	border-radius: 0;
+	margin-right: 15px;
+	font-size: 1em;
+	color: #000;
+}
+
+section#contact form.wpcf7-form input[type="submit"] {
+	background: url("images/contact-submit-btn.png");
+	border: none;
+	width: 609px;
+	height: 59px;
+	border-radius: 0;
+	font-size: 1em;
+	margin-top: 15px;
+}
+
+section#contact form.wpcf7-form p {
+	text-align: center;
+}
+
+section#contact span.wpcf7-not-valid-tip {
+	position: absolute;
+	width: 300px;
+	left: 0;
+    z-index: 555;
+    top: 11px;
+}
+
+footer#colophon {
+	display: none;
+}
+
+div.entry-content>div>ul.products>li>a>img {
+	max-width: 223px;
+}
+
+div#ser-air-bag {
+	clear: both;
+	padding-top: 10px;
+}
+
+div#ser-air-bag img {
+	padding-top: 33px;
+	padding-left: 44px;
+}
+
+div#ser-air-bag span {
+	width: 550px;
+	display: inline-block;
+	float: left;
+}
+
+div#ser-air-bag span:nth-child(2) {
+	padding-left: 50px;
+}
+div#ser-air-bag {
+	height: 410px;
+	margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cartwoo-button {
+    float: right;
+    position: relative;
+    top: 28px;
+    display: inline-block;
+    overflow: visible;
+    margin: 0;
+    margin-left: 1.5em;
+    cursor: pointer;
+    -o-transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+    -moz-transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+    -webkit-transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+    transition: top .3s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.cartwoo-button a.woo-cart {
+    display: block;
+    position: relative;
+    padding-bottom: 9px;
+}
+
+.cartwoo-button .cart-handle {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f5f5f5;
+    position: relative;
+    top: -4px;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.cartwoo-button .cart-body {
+    display: block;
+    height: 21px;
+    width: 27px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    right: 6px;
+    border-radius: 4px;
+}
+
+.cartwoo-button .cart-hole1, .cart-hole2 {
+    top: 4px;
+    width: 2px;
+    height: 2px;
+    background-color: #121212;
+    border-radius: 30px;
+}
+
+.cartwoo-button .cart-items {
+    color: #121212;
+    position: relative;
+    top: -2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cartwoo-button .cart-hole1 {
+    position: absolute;
+    left: 20px;
+}
+
+.cartwoo-button .cart-hole2 {
+    position: absolute;
+    right: 20px;
+}
+
+header.menuMinor div.cartwoo-button {
+	top: 20px;
+}
