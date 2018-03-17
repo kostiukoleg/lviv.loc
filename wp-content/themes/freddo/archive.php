@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 

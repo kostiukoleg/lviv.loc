@@ -1,0 +1,75 @@
+#mycat {
+    width: 100%;
+}
+
+#mycat tr td.dtsty {
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+    width: 150px;
+    display: block;
+    border: 1px #97BE2B;
+    border-style: dashed none none none;
+}
+
+#mycat tr td {
+    border: 1px #DADADA dashed;
+    text-align: center;
+    padding: 0px 0px;
+    border: 1px #97BE2B;
+    border-style: dashed none none none;
+}
+#mycat p, #mycat li, #mycat address, #mycat dd, #mycat blockquote, #mycat td, #mycat th, #mycat .textwidget {
+    font-size: 14px;
+    line-height: 1.8em;
+    font-family: 'Abel',Verdana, Geneva, sans-serif;
+    font-weight: normal;
+}
+#mycat tr td.dtsty a {
+    font-size: 16px;
+}
+#mycat tr td .cattit {
+    font-size: 26px;
+}
+#mycat .btn-choose {
+    /* border: 1px dashed #97BE2B; */
+    padding: 0;
+    width: 100px;
+    margin-top: 10px;
+    display: block;
+    font-size: 12px!important;
+    text-align: center;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+#mycat a {
+    color: #333;
+    outline: none;
+    border: none;
+    font-weight: normal;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+#mycat tr td {
+    border: 1px #DADADA dashed;
+    text-align: center;
+    padding: 0px 0px;
+    border: 1px #97BE2B;
+    border-style: dashed none none none;
+}
+#mycat tr td img {
+    max-height: 100px !important;
+    width: auto !important;
+}
+.pin-article .wp-post-image {
+    z-index: 999;
+}
+.wp-post-image {
+    -webkit-transition: -webkit-transform 0.3s ease;
+    -moz-transition: -moz-transform 0.8s ease;
+    -o-transition: -o-transform 0.8s ease;
+    transition: transform 0.8s ease;
+    width: auto;
+    height: auto;
+}

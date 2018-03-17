@@ -7,7 +7,7 @@
 
 get_header();
 ?>
-
+<?php woocommerce_breadcrumb(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<?php woocommerce_content(); ?>
