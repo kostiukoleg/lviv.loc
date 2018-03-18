@@ -7,7 +7,7 @@
     padding: 10px 0px 0px 0px;
     width: 150px;
     display: block;
-    border: 1px #97BE2B;
+    border: 1px #f36022;
     border-style: dashed none none none;
 }
 
@@ -15,7 +15,7 @@
     border: 1px #DADADA dashed;
     text-align: center;
     padding: 0px 0px;
-    border: 1px #97BE2B;
+    border: 1px #f36022;
     border-style: dashed none none none;
 }
 #mycat p, #mycat li, #mycat address, #mycat dd, #mycat blockquote, #mycat td, #mycat th, #mycat .textwidget {
@@ -31,7 +31,7 @@
     font-size: 26px;
 }
 #mycat .btn-choose {
-    /* border: 1px dashed #97BE2B; */
+    //border: 1px dashed #f36022;
     padding: 0;
     width: 100px;
     margin-top: 10px;
@@ -55,7 +55,7 @@
     border: 1px #DADADA dashed;
     text-align: center;
     padding: 0px 0px;
-    border: 1px #97BE2B;
+    border: 1px #f36022;
     border-style: dashed none none none;
 }
 #mycat tr td img {
