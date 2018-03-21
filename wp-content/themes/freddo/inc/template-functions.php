@@ -30,3 +30,4 @@ function freddo_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'freddo_pingback_header' );
+

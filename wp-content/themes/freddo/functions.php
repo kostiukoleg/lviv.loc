@@ -498,3 +498,11 @@ function dimox_breadcrumbs() {
 
   }
 }
+
+add_filter( 'shortcode_atts_wpcf7', 'my_shortcode_atts_wpcf7', 10, 3 );
+function my_shortcode_atts_wpcf7( $out, $pairs, $atts ){
+	if( isset($atts['ariaRequired']) )
+		$out['ariaRequired'] = $atts['ariaRequired'];
+
+	return $out;
+}
