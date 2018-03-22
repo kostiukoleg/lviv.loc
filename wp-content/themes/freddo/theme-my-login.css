@@ -844,3 +844,32 @@ div#ser-air-bag {
 header.menuMinor div.cartwoo-button {
 	top: 20px;
 }
+
+div#wpcf7-f4-o1 span.wpcf7-form-control-wrap.multifile-923 input[type="file"],
+div#wpcf7-f241-o1 span.wpcf7-form-control-wrap.multifile-56 input[type="file"] {	
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+div#wpcf7-f4-o1 label,
+div#wpcf7-f241-o1 label {
+	cursor: pointer;
+	display: block;
+	background: url("images/UploadPhotosIcon.png") no-repeat 35% center;
+	line-height: 59px;
+	margin-top: 10px;
+}
+
+div#wpcf7-f4-o1 label {
+    margin-left: 80px;
+    padding-left: 315px;
+}
+
+section#services div#wpcf7-f4-o1 form.wpcf7-form p input.wpcf7-form-control.wpcf7-submit {
+	display: inline-block;
+	margin: 20px 0 0 135px;  
+}
