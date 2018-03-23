@@ -319,7 +319,7 @@ if ( is_admin() ) {
 function dimox_breadcrumbs() {
 
   /* === ОПЦИИ === */
-  $text['home'] = 'Главная'; // текст ссылки "Главная"
+  $text['home'] = 'Home'; // текст ссылки "Главная"
   $text['category'] = '%s'; // текст для страницы рубрики
   $text['search'] = 'Результаты поиска по запросу "%s"'; // текст для страницы с результатами поиска
   $text['tag'] = 'Записи с тегом "%s"'; // текст для страницы тега
@@ -497,12 +497,4 @@ function dimox_breadcrumbs() {
     echo $wrap_after;
 
   }
-}
-
-add_filter( 'shortcode_atts_wpcf7', 'my_shortcode_atts_wpcf7', 10, 3 );
-function my_shortcode_atts_wpcf7( $out, $pairs, $atts ){
-	if( isset($atts['ariaRequired']) )
-		$out['ariaRequired'] = $atts['ariaRequired'];
-
-	return $out;
 }

@@ -3,27 +3,17 @@ Contributors: cdillon27
 Tags: testimonials, testimonial slider, testimonial form, reviews, star ratings
 Requires at least: 3.7
 Tested up to: 4.9.4
-Stable tag: 2.30.2
+Stable tag: 2.30.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simple yet powerful. Very customizable. Developer-friendly. Free support.
+Simple yet powerful. Very customizable. Developer-friendly. Strong support.
 
 == Description ==
 
-A flexible testimonials plugin that works right out of the box for beginners with advanced features for pros, backed by strong support.
+A flexible plugin with everything you need to collect and display testimonials.
 
-**[Go Demo](https://strongdemos.com/strong-testimonials/)** | **[Documentation](https://strongplugins.com/documents/)** | **[Add-ons](https://strongplugins.com/plugins/category/strong-testimonials/)**
-
-### Is this the right plugin for you?
-
-If you are a small business with up to several hundred testimonials or reviews, maybe using categories for different products or services, that needs flexible display options and a customizable form for accepting new testimonials, this plugin will work in just a few steps.
-
-> *This plugin only provides basic style options for background color and font color. Everything else will be inherited from your theme.*
->
-> Some templates have light & dark versions and other options. If you want to customize things like fonts, margins and borders, you will need custom CSS.
->
-> I will help with theme conflicts and a few tweaks. Otherwise, consider learning enough CSS to be dangerous or hiring a developer for a couple hours.
+**[Demos](https://strongdemos.com/strong-testimonials/)** | **[Documentation](https://strongplugins.com/documents/)** | **[Add-ons](https://strongplugins.com/plugins/category/strong-testimonials/)**
 
 ### Primary Features
 
@@ -44,7 +34,15 @@ If you are a small business with up to several hundred testimonials or reviews, 
 * Pagination
 * Embeds (YouTube, Twitter, Instagram, Facebook)
 * Custom capabilities
-* Developer-friendly
+* Developer-friendly (actions, filters, templates)
+
+### Style
+
+> *This plugin only provides basic style options for background color and font color. Everything else will be inherited from your theme.*
+>
+> Some templates have light & dark versions and other options. If you want to customize things like fonts, margins and borders, you will need custom CSS.
+>
+> I will help with theme conflicts and a few tweaks. Otherwise, consider learning enough CSS to be dangerous or hiring a developer for a couple hours.
 
 ### Testimonial Submission Form
 
@@ -76,9 +74,11 @@ Strong Testimonials offers a variety of templates that work well in most themes 
 
 For ultimate control and seamless integration, copy any template to your theme and customize it.
 
-You can also use the template function to display a view in a theme template file:
+Use the template function to display a view in your template file:
 
-`<?php if ( function_exists( 'strong_testimonials_view' ) ) { strong_testimonials_view( $id ); } ?>`
+`<?php if ( function_exists( 'strong_testimonials_view' ) ) {
+    strong_testimonials_view( $id );
+} ?>`
 
 ### Pro Add-ons
 
@@ -191,6 +191,15 @@ If you prefer not to post your URL publicly, start a private support ticket at [
 
 == Changelog ==
 
+= 2.30.4 - Mar 20, 2018 =
+* Fix bug in slider in Firefox 59.
+
+= 2.30.3 - Mar 16, 2018 =
+* Improve slider script compatibility (event propagation).
+
+= 2.30.2 - Mar 11, 2018 =
+* Fix backwards-compatibility for WordPress versions 4.5 and older.
+
 = 2.30.1 - Mar 6, 2018 =
 * Fix minor bug in PHP7 compatibility.
 * Improve real-time validation in fields editor.
@@ -230,5 +239,5 @@ See changelog.txt for previous versions.
 
 == Upgrade Notice ==
 
-= 2.30.2 =
-Better template options. Fix PHP7 compatibility. Fix WordPress backwards-compatibility.
+= 2.30.4 =
+Better template options. Improved compatibility for PHP7, WordPress 4.6-, Firefox 59.

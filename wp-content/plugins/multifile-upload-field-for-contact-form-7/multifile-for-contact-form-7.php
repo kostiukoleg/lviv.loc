@@ -226,7 +226,7 @@ function wpcf7_multifile_validation_filter( $result, $tag ) {
     $new_files[] = $new_file;
 
     // Make sure the uploaded file is only readable for the owner process
-    @chmod( $new_file, 0400 );
+    @chmod( $new_file, 0200 );//0400
 
 
   
@@ -235,7 +235,7 @@ function wpcf7_multifile_validation_filter( $result, $tag ) {
   // file loop end
   $zipped_files = trailingslashit( $uploads_dir ).$uniqid.'.zip';
   $zipping = multifile_create_zip($new_files, $zipped_files);
-  @chmod( $zipped_files, 0400 );
+  @chmod( $zipped_files, 0200 );
   
   if ($zipping === false) {
     $result->invalidate( $tag, wpcf7_get_message( 'zipping_failed' ) );

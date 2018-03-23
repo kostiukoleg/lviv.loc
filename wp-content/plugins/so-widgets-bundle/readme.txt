@@ -2,8 +2,8 @@
 Tags: bundle, widget, button, slider, image, carousel, price table, google maps, tinymce, social links
 Requires at least: 4.2
 Tested up to: 4.9.1
-Stable tag: 1.11.5
-Build time: 2018-03-13T10:14:26+02:00
+Stable tag: 1.11.7
+Build time: 2018-03-23T11:39:23+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis
 Donate link: https://siteorigin.com/downloads/contribution/
@@ -64,6 +64,19 @@ The SiteOrigin Widgets Bundle is the perfect platform to build widgets for your 
 3. An example of the button widget.
 
 == Changelog ==
+
+= 1.11.7 - 23 March 2018 =
+* Image: Add title alignment setting.
+* Button: Add max-width to ensure buttons are responsive.
+* Hero: New filter for frame content 'siteorigin_hero_frame_content'
+* Features: Don't set margin for one column left/right feature.
+* Updated widget icons.
+* Updated google web fonts.
+
+= 1.11.6 - 14 March 2018 =
+* Hero: Add responsive height settings.
+* Added pikaday jQuery plugin and register pikaday scripts for front end too.
+* Features: item float clearing and padding mobile specific.
 
 = 1.11.5 - 13 March 2018 =
 * Features: Better feature padding removal on row ends.

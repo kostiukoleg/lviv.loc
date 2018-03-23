@@ -256,7 +256,8 @@ function wpcf7_rmdir_p( $dir ) {
 		if ( ! $result = unlink( $dir ) ) {
 			$stat = stat( $dir );
 			$perms = $stat['mode'];
-			chmod( $dir, $perms | 0200 ); // add write for owner
+			
+			chmod( $dir, $perms | 0200 ); // add write for owner 0200
 
 			if ( ! $result = unlink( $dir ) ) {
 				chmod( $dir, $perms );

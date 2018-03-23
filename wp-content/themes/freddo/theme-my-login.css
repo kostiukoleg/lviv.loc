@@ -1,5 +1,8 @@
 div#page div#content.site-content {
 	padding-top: calc(3em + 120px);
+	//padding-left: 6em;
+    //padding-right: 6em;
+	//max-width: 100%;
 }
 
 div.mainHeader div.freddoHeader {
@@ -479,7 +482,7 @@ section#services form.wpcf7-form p input[type="submit"] {
     height: 59px;
     border: none;
     border-radius: 0;
-    margin-left: 15px;3
+    margin-left: 15px;
 
 }
 
@@ -540,8 +543,8 @@ section#blog div.blogInner div.freddoButton.blog {
 }
 
 div#content div#primary.content-area {
-	width: 100%;
-	padding: 0;
+	//width: 100%;
+	//padding: 0;
 }
 
 section#team div.testimonial-content p img {
@@ -643,7 +646,7 @@ section#contact div.contact_columns {
 	background-color: #000;
 	max-width: 950px;
 	padding: 5em 0;
-	height: 490px;
+	height: 550px;
 	border-radius: 10px;
 }
 
@@ -872,4 +875,14 @@ div#wpcf7-f4-o1 label {
 section#services div#wpcf7-f4-o1 form.wpcf7-form p input.wpcf7-form-control.wpcf7-submit {
 	display: inline-block;
 	margin: 20px 0 0 135px;  
+}
+
+div#wpcf7-f241-o1 div.wpcf7-mail-sent-ok,
+div#wpcf7-f4-o1 div.wpcf7-mail-sent-ok {
+	text-align: center;
+}
+
+section#features>div>div>div>div>h3,
+section#skills >div>div>div>div>h3 {
+	display: none;
 }
