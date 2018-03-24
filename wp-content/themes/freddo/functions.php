@@ -498,3 +498,35 @@ function dimox_breadcrumbs() {
 
   }
 }
+
+function exclude_product_cat_children ($wp_query) {
+	if ( isset ( $wp_query->query_vars['product_cat'] ) && $wp_query->is_main_query() ) {
+		$wp_query->set('tax_query', array(
+			array(
+				'taxonomy' => 'product_cat',
+				'field' => 'slug',
+				'terms' => $wp_query->query_vars['product_cat'],
+				'include_children' => false
+
+				)
+			)
+		);
+	}
+}
+add_filter('pre_get_posts', 'exclude_product_cat_children');
+
+function wpa89819_wc_single_product(){
+
+    $product_cats = wp_get_post_terms( get_the_ID(), 'product_cat' );
+
+    if ( $product_cats && ! is_wp_error ( $product_cats ) ){
+
+        $single_cat = array_shift( $product_cats ); 
+
+        ?>
+
+        <h2 itemprop="name" class="product_category_title"><span><?php echo $single_cat->name; ?></span></h2>
+
+<?php }
+}
+add_action( 'woocommerce_single_product_summary', 'wpa89819_wc_single_product', 2 );

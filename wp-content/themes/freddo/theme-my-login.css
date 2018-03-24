@@ -886,3 +886,11 @@ section#features>div>div>div>div>h3,
 section#skills >div>div>div>div>h3 {
 	display: none;
 }
+
+body.page-template-template-full-width div#page div#content.site-content {
+    padding-left: 3em;
+}
+
+table#mycat + ul.products {
+	display: none;
+}

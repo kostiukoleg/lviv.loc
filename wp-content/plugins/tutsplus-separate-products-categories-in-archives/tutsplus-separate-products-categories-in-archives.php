@@ -46,6 +46,7 @@
 	}
 }
 add_action( 'woocommerce_before_shop_loop', 'tutsplus_product_subcategories', 50 );
+ 
 
 function tutsplus_product_cats_css() {
  

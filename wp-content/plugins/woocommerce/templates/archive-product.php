@@ -44,7 +44,7 @@ do_action( 'woocommerce_before_main_content' );
 	 * @hooked woocommerce_taxonomy_archive_description - 10
 	 * @hooked woocommerce_product_archive_description - 10
 	 */
-	do_action( 'woocommerce_archive_description' );
+	//do_action( 'woocommerce_archive_description' );
 	?>
 </header>
 <?php
@@ -78,7 +78,7 @@ if ( have_posts() ) {
 	}
 
 	woocommerce_product_loop_end();
-
+	do_action( 'woocommerce_archive_description' );
 	/**
 	 * Hook: woocommerce_after_shop_loop.
 	 *
