@@ -894,3 +894,50 @@ body.page-template-template-full-width div#page div#content.site-content {
 table#mycat + ul.products {
 	display: none;
 }
+
+aside#secondary ul.products.columns-4 li {
+	border: none;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+
+aside#secondary ul.products.columns-4 li a img {
+	display: none;
+}
+
+aside#secondary .woocommerce ul.products > li h2:after {
+	content: ",";
+	border: none;
+	position: inherit;
+}
+
+aside#secondary .woocommerce ul.products > li h2 mark {
+	display: none;
+}
+
+aside#secondary .woocommerce ul.products > li h2 {
+	font-size: 1em;
+}
+
+aside#secondary div.textwidget.custom-html-widget {
+	background-color: #f0f0f0;
+    border-radius: 0 0 10px 10px;
+    padding-left: 5px;
+	margin-top: -20px;
+}
+
+aside#secondary section#custom_html-2>div.widget-title {
+	color: #fff;
+    background-color: #ccc;
+    border-radius: 10px 10px 0 0;
+	text-align: center;
+    padding-top: 10px;
+}
+
+aside#secondary div#wpcf7-f241-o1 input {
+	border: none;
+}
+
+aside#secondary div#wpcf7-f241-o1 input[type="submit"] {
+	margin: 10px 0;
+}

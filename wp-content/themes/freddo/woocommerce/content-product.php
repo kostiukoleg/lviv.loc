@@ -26,6 +26,7 @@ if ( ! $product || ! $product->is_visible() ) {
 }
 $classes[] = 'three-columns';
 ?>
+
 <li <?php post_class( $classes ); ?>>
 	<div class="wooImage">
 

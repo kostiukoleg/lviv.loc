@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-02-22 17:48:06+0000\n"
+"PO-Revision-Date: 2018-03-22 15:56:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -142,7 +142,7 @@ msgstr "https://codex.wordpress.org/%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B0%D
 #. translators: %s: Codex URL
 #: wp-admin/options-general.php:85
 msgid "Enter the address here if you <a href=\"%s\">want your site home page to be different from your WordPress installation directory</a>."
-msgstr "Если вы хотите, чтобы адрес сайта <a href=\"%s\">отличался от директории установки WordPress</a>, введите адрес здесь"
+msgstr "Если вы хотите, чтобы адрес сайта <a href=\"%s\">отличался от директории установки WordPress</a>, введите адрес здесь."
 
 #: wp-admin/about.php:263
 msgid "https://wordpress.org/plugins/gutenberg/"
@@ -284,6 +284,10 @@ msgstr "Значительные улучшения интерфейса нас�
 msgid "Thank you for updating to the latest version! WordPress %s will smooth your design workflow and keep you safe from coding errors."
 msgstr "Спасибо за обновление до последней версии! WordPress %s сгладит работу над оформлением и оградит вас от ошибок при редактировании кода."
 
+#: wp-admin/includes/dashboard.php:1668
+msgid "https://make.wordpress.org/test/handbook/call-for-testing/gutenberg-testing/"
+msgstr "https://make.wordpress.org/test/handbook/call-for-testing/gutenberg-testing/"
+
 #. translators: Attachment information. %s: Date the attachment was uploaded
 #: wp-admin/includes/meta-boxes.php:345
 msgid "Uploaded on: %s"
@@ -312,6 +316,50 @@ msgstr "Скачивание пакета установки из %s&#8230;"
 #: wp-admin/includes/template.php:2075
 msgid "Likely direct inclusion of %1$s in order to use %2$s. This is very wrong. Hook the %2$s call into the %3$s action instead."
 msgstr "Возможно произведено прямое включение %1$s для использования %2$s. Это крайне неправильно. Прицепите вызов %2$s к действию %3$s."
+
+#: wp-admin/index.php:117
+msgid "Dismiss the Try Gutenberg panel"
+msgstr "Скрыть панель предложений попробовать Gutenberg"
+
+#: wp-admin/includes/dashboard.php:1667
+msgid "Help <a href=\"%1$s\">with testing</a>, or contribute on the <a href=\"%2$s\">GitHub repository</a>."
+msgstr "Помогите <a href=\"%1$s\">протестировать</a> или внесите вклад через <a href=\"%2$s\">репозиторий GitHub</a>."
+
+#: wp-admin/includes/class-wp-screen.php:1050
+msgid "New Editor"
+msgstr "Новый редактор"
+
+#: wp-admin/includes/dashboard.php:1633
+msgid "Install Today"
+msgstr "Установить сейчас"
+
+#: wp-admin/includes/dashboard.php:1637
+msgid "Activate Today"
+msgstr "Активировать сейчас"
+
+#: wp-admin/includes/dashboard.php:1641
+msgid "Try Today"
+msgstr "Попробовать сейчас"
+
+#: wp-admin/includes/dashboard.php:1649
+msgid "Gutenberg animated preview"
+msgstr "Анимированый предварительный просмотр Gutenberg"
+
+#: wp-admin/includes/dashboard.php:1651
+msgid "Try the new editing experience"
+msgstr "Попробуйте новый опыт редактирования"
+
+#: wp-admin/includes/dashboard.php:1653
+msgid "WordPress is working on a better way to control your content. How about giving it a try early?"
+msgstr "WordPress работает над улучшением пути контроля содержимого вашего сайта. Как насчет того, чтобы заранее попробовать это?"
+
+#: wp-admin/includes/dashboard.php:1659
+msgid "Want to get involved?"
+msgstr "Хотите принять участие?"
+
+#: wp-admin/includes/dashboard.php:1662
+msgid "Learn more about the project <a href=\"%s\">codenamed Gutenberg</a>."
+msgstr "Узнайте больше о проекте <a href=\"%s\">с кодовым именем Gutenberg</a>."
 
 #: wp-admin/includes/template.php:1742 wp-admin/includes/template.php:1747
 msgid "Customization Draft"
@@ -380,11 +428,11 @@ msgstr "Press This недоступен. Обратитесь к админис�
 msgid "I understand"
 msgstr "Я понимаю"
 
-#: wp-admin/plugins.php:33 wp-admin/plugins.php:157
+#: wp-admin/plugins.php:33 wp-admin/plugins.php:159
 msgid "Sorry, you are not allowed to activate this plugin."
 msgstr "Извините, вам не разрешено активировать этот плагин."
 
-#: wp-admin/plugins.php:179
+#: wp-admin/plugins.php:181
 msgid "Sorry, you are not allowed to deactivate this plugin."
 msgstr "Извините, вам не разрешено отключить этот плагин. "
 
@@ -555,7 +603,7 @@ msgstr "Нет описания"
 msgid "View posts by %s"
 msgstr "Просмотр записей автора %s"
 
-#: wp-admin/includes/class-wp-users-list-table.php:492
+#: wp-admin/includes/class-wp-users-list-table.php:496
 msgctxt "name"
 msgid "Unknown"
 msgstr "Неизвестно"
@@ -755,13 +803,13 @@ msgctxt "Active plugin installations"
 msgid "Less Than 10"
 msgstr "Менее 10"
 
-#: wp-admin/includes/ajax-actions.php:2084
+#: wp-admin/includes/ajax-actions.php:2097
 msgid "Sorry, you are not allowed to attach files to this post."
 msgstr "Извините, Вам не разрешено делать вложения файлов к этой записи."
 
 #: wp-admin/freedoms.php:47 wp-admin/includes/plugin-install.php:239
 #: wp-admin/includes/plugin-install.php:604 wp-admin/plugin-install.php:82
-#: wp-admin/plugins.php:418
+#: wp-admin/plugins.php:420
 msgid "https://wordpress.org/plugins/"
 msgstr "https://ru.wordpress.org/plugins/"
 
@@ -796,7 +844,7 @@ msgstr "Оригинальный размер"
 #: wp-admin/options-media.php:35 wp-admin/options-permalink.php:46
 #: wp-admin/options-reading.php:39 wp-admin/options-writing.php:46
 #: wp-admin/plugin-editor.php:137 wp-admin/plugin-install.php:99
-#: wp-admin/plugins.php:436 wp-admin/revision.php:121
+#: wp-admin/plugins.php:438 wp-admin/revision.php:121
 #: wp-admin/theme-editor.php:49 wp-admin/theme-install.php:121
 #: wp-admin/themes.php:119 wp-admin/tools.php:24 wp-admin/update-core.php:586
 #: wp-admin/upload.php:67 wp-admin/upload.php:213 wp-admin/user-edit.php:62
@@ -895,7 +943,7 @@ msgctxt "plugin"
 msgid "%s was successfully deleted."
 msgstr "%s успешно удалён."
 
-#: wp-admin/plugins.php:414
+#: wp-admin/plugins.php:416
 msgid "The search for installed plugins will search for terms in their name, description, or author."
 msgstr "Поиск по установленным плагинам ищет ключевые слова в их названии, описании и имени автора."
 
@@ -925,7 +973,7 @@ msgstr "Извините, вам не разрешено удалять поль
 msgid "Sorry, you are not allowed to update this site."
 msgstr "Извините, вам не разрешено обновлять этот сайт."
 
-#: wp-admin/includes/ajax-actions.php:3499 wp-admin/update.php:172
+#: wp-admin/includes/ajax-actions.php:3512 wp-admin/update.php:172
 #: wp-admin/update.php:192
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "Извините, вам не разрешено обновлять темы на этом сайте."
@@ -946,11 +994,11 @@ msgstr "Извините, вам не разрешено редактирова�
 msgid "<strong>ERROR</strong>: \"Table Prefix\" is invalid."
 msgstr "<strong>ОШИБКА</strong>: Некорректный префикс таблиц."
 
-#: wp-admin/plugins.php:75
+#: wp-admin/plugins.php:77
 msgid "Sorry, you are not allowed to activate plugins for this site."
 msgstr "Извините, вам не разрешено активировать плагины на этом сайте."
 
-#: wp-admin/plugins.php:205
+#: wp-admin/plugins.php:207
 msgid "Sorry, you are not allowed to deactivate plugins for this site."
 msgstr "Извините, вам не разрешено деактивировать плагины на этом сайте."
 
@@ -1130,22 +1178,22 @@ msgstr "Шаблон подвала объекта"
 msgid "Info"
 msgstr "Информация"
 
-#: wp-admin/includes/ajax-actions.php:3659 wp-admin/plugin-install.php:18
+#: wp-admin/includes/ajax-actions.php:3672 wp-admin/plugin-install.php:18
 #: wp-admin/update.php:96 wp-admin/update.php:144
 msgid "Sorry, you are not allowed to install plugins on this site."
 msgstr "Извините, вам не разрешено устанавливать плагины на этот сайт."
 
-#: wp-admin/includes/ajax-actions.php:3764 wp-admin/update.php:24
+#: wp-admin/includes/ajax-actions.php:3777 wp-admin/update.php:24
 #: wp-admin/update.php:50 wp-admin/update.php:71
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "Извините, вам не разрешено обновлять плагины на этом сайте."
 
-#: wp-admin/includes/ajax-actions.php:3867 wp-admin/plugins.php:249
+#: wp-admin/includes/ajax-actions.php:3880 wp-admin/plugins.php:251
 msgid "Sorry, you are not allowed to delete plugins for this site."
 msgstr "Извините, вам не разрешено удалять плагины на этом сайте."
 
-#: wp-admin/includes/ajax-actions.php:3935
-#: wp-admin/includes/ajax-actions.php:3978 wp-admin/plugins.php:13
+#: wp-admin/includes/ajax-actions.php:3948
+#: wp-admin/includes/ajax-actions.php:3991 wp-admin/plugins.php:13
 msgid "Sorry, you are not allowed to manage plugins for this site."
 msgstr "Извините, вам не разрешено управлять плагинами на этом сайте."
 
@@ -1154,7 +1202,7 @@ msgstr "Извините, вам не разрешено управлять пл
 msgid "Sorry, you are not allowed to edit the links for this site."
 msgstr "Извините, вам не разрешено редактировать ссылки на этом сайте."
 
-#: wp-admin/includes/ajax-actions.php:3905
+#: wp-admin/includes/ajax-actions.php:3918
 msgid "Plugin could not be deleted."
 msgstr "Не удалось удалить плагин."
 
@@ -1163,9 +1211,9 @@ msgctxt "plugin"
 msgid "Active"
 msgstr "Активен"
 
-#: wp-admin/includes/ajax-actions.php:3649
-#: wp-admin/includes/ajax-actions.php:3750
-#: wp-admin/includes/ajax-actions.php:3855
+#: wp-admin/includes/ajax-actions.php:3662
+#: wp-admin/includes/ajax-actions.php:3763
+#: wp-admin/includes/ajax-actions.php:3868
 msgid "No plugin specified."
 msgstr "Не указан плагин."
 
@@ -1173,26 +1221,26 @@ msgstr "Не указан плагин."
 msgid "(Private post)"
 msgstr "(Личная запись)"
 
-#: wp-admin/includes/ajax-actions.php:3389 wp-admin/theme-install.php:16
+#: wp-admin/includes/ajax-actions.php:3402 wp-admin/theme-install.php:16
 #: wp-admin/update.php:218 wp-admin/update.php:247
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr "Извините, вам не разрешено устанавливать темы на этот сайт."
 
-#: wp-admin/includes/ajax-actions.php:3590
+#: wp-admin/includes/ajax-actions.php:3603
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "Извините, вам не разрешено удалять темы на этом сайте."
 
-#: wp-admin/includes/ajax-actions.php:3626
+#: wp-admin/includes/ajax-actions.php:3639
 msgid "Theme could not be deleted."
 msgstr "Не удалось удалить тему."
 
-#: wp-admin/includes/ajax-actions.php:3559
+#: wp-admin/includes/ajax-actions.php:3572
 msgid "Update failed."
 msgstr "Обновление не удалось."
 
-#: wp-admin/includes/ajax-actions.php:3377
-#: wp-admin/includes/ajax-actions.php:3486
-#: wp-admin/includes/ajax-actions.php:3579
+#: wp-admin/includes/ajax-actions.php:3390
+#: wp-admin/includes/ajax-actions.php:3499
+#: wp-admin/includes/ajax-actions.php:3592
 msgid "No theme specified."
 msgstr "Не указана тема."
 
@@ -1389,12 +1437,12 @@ msgid "Sorry, you are not allowed to delete that user."
 msgstr "Извините, вам не разрешено удалить этого пользователя."
 
 #. translators: 1: plugin name, 2: plugin author
-#: wp-admin/plugins.php:332
+#: wp-admin/plugins.php:334
 msgid "%1$s by %2$s (will also <strong>delete its data</strong>)"
 msgstr "%1$s автора %2$s (плагин также <strong>удалит свои данные</strong>)"
 
 #. translators: 1: plugin name, 2: plugin author
-#: wp-admin/plugins.php:336
+#: wp-admin/plugins.php:338
 msgctxt "plugin"
 msgid "%1$s by %2$s"
 msgstr "%1$s автора %2$s"
@@ -1409,7 +1457,7 @@ msgstr "Ожидается подтверждение смены адреса e-
 msgid "Universal time (%1$s) is %2$s."
 msgstr "Всемирное координированное время (%1$s): %2$s."
 
-#: wp-admin/index.php:117
+#: wp-admin/index.php:143
 msgid "Dismiss the welcome panel"
 msgstr "Скрыть панель приветствия"
 
@@ -1782,7 +1830,7 @@ msgid "We&#8217;re going to use this information to create a %s file."
 msgstr "Мы используем эту информацию, чтобы создать файл %s."
 
 #. translators: %s: wp-content/uploads
-#: wp-admin/options-media.php:112
+#: wp-admin/options-media.php:114
 msgid "Default is %s"
 msgstr "По умолчанию: %s"
 
@@ -1930,23 +1978,23 @@ msgstr "Список тем"
 msgid "Install Parent Theme"
 msgstr "Установить родительскую тему"
 
-#: wp-admin/plugins.php:499
+#: wp-admin/plugins.php:501
 msgid "The selected plugin has been <strong>deleted</strong>."
 msgstr "Выбранный плагин был <strong>удалён</strong>."
 
-#: wp-admin/plugins.php:516
+#: wp-admin/plugins.php:518
 msgid "All selected plugins are up to date."
 msgstr "Выбранные плагины не требуют обновления."
 
-#: wp-admin/plugin-install.php:103 wp-admin/plugins.php:440
+#: wp-admin/plugin-install.php:103 wp-admin/plugins.php:442
 msgid "Filter plugins list"
 msgstr "Фильтровать список плагинов"
 
-#: wp-admin/plugin-install.php:104 wp-admin/plugins.php:441
+#: wp-admin/plugin-install.php:104 wp-admin/plugins.php:443
 msgid "Plugins list navigation"
 msgstr "Навигация по списку плагинов"
 
-#: wp-admin/plugin-install.php:105 wp-admin/plugins.php:442
+#: wp-admin/plugin-install.php:105 wp-admin/plugins.php:444
 msgid "Plugins list"
 msgstr "Список плагинов"
 
@@ -2071,7 +2119,7 @@ msgstr "%1$s %2$s"
 msgid "View all drafts"
 msgstr "Посмотреть все черновики"
 
-#: wp-admin/includes/class-wp-users-list-table.php:566
+#: wp-admin/includes/class-wp-users-list-table.php:570
 msgctxt "no user roles"
 msgid "None"
 msgstr "Нет"
@@ -2085,11 +2133,11 @@ msgstr "Нет роли"
 msgid "An error occurred while updating %1$s: %2$s"
 msgstr "При обновлении %1$s произошла ошибка: %2$s"
 
-#: wp-admin/includes/class-wp-screen.php:1214
+#: wp-admin/includes/class-wp-screen.php:1235
 msgid "View Mode"
 msgstr "Режим просмотра"
 
-#: wp-admin/includes/class-wp-screen.php:1105
+#: wp-admin/includes/class-wp-screen.php:1126
 msgid "%s column"
 msgid_plural "%s columns"
 msgstr[0] "%s столбец"
@@ -2112,7 +2160,7 @@ msgstr "Список элементов"
 msgid "Items list navigation"
 msgstr "Навигация по списку элементов"
 
-#: wp-admin/includes/class-wp-screen.php:1165
+#: wp-admin/includes/class-wp-screen.php:1186
 msgid "Pagination"
 msgstr "Постраничная навигация"
 
@@ -2383,7 +2431,7 @@ msgstr[0] "%s комментарий"
 msgstr[1] "%s комментария"
 msgstr[2] "%s комментариев"
 
-#: wp-admin/includes/ajax-actions.php:3237
+#: wp-admin/includes/ajax-actions.php:3250
 msgid "Image could not be processed."
 msgstr "Не удалось обработать изображение."
 
@@ -2411,7 +2459,7 @@ msgstr[0] "Ваша тема поддерживает %s меню. Выбери�
 msgstr[1] "Ваша тема поддерживает %s меню. Выберите, какое меню выводить в каждой области."
 msgstr[2] "Ваша тема поддерживает %s меню. Выберите, какое меню выводить в каждой области."
 
-#: wp-admin/includes/class-wp-users-list-table.php:505
+#: wp-admin/includes/class-wp-users-list-table.php:509
 msgid "%s post by this author"
 msgid_plural "%s posts by this author"
 msgstr[0] "%s запись этого автора"
@@ -2657,7 +2705,7 @@ msgstr "<a href=\"https://codex.wordpress.org/Editing_Files\">Документа
 msgid "<a href=\"https://codex.wordpress.org/Template_Tags\">Documentation on Template Tags</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Template_Tags\">Документация по тегам шаблонов</a>"
 
-#: wp-admin/plugins.php:435
+#: wp-admin/plugins.php:437
 msgid "<a href=\"https://codex.wordpress.org/Managing_Plugins#Plugin_Management\">Documentation on Managing Plugins</a>"
 msgstr "<a href=\"https://codex.wordpress.org/Managing_Plugins#Plugin_Management\">Документация по управлению плагинами</a>"
 
@@ -2799,11 +2847,11 @@ msgstr[2] "%s пользователей удалены."
 msgid "You have specified these users for deletion:"
 msgstr "Вы указали следующих пользователей для удаления:"
 
-#: wp-admin/plugins.php:324
+#: wp-admin/plugins.php:326
 msgid "You are about to remove the following plugins:"
 msgstr "Вы собираетесь удалить следующие плагины:"
 
-#: wp-admin/plugins.php:322
+#: wp-admin/plugins.php:324
 msgid "These plugins may be active on other sites in the network."
 msgstr "Эти плагины могут быть активными на других сайтах сети."
 
@@ -2815,7 +2863,7 @@ msgstr "1 запись не обновлена, кто-то её редакти�
 msgid "1 page not updated, somebody is editing it."
 msgstr "1 страница не обновлена, кто-то её редактирует."
 
-#: wp-admin/plugins.php:320
+#: wp-admin/plugins.php:322
 msgid "Delete Plugins"
 msgstr "Удалить плагины"
 
@@ -2895,7 +2943,7 @@ msgstr "Чтобы добавить ссылку, <strong>раскройте б�
 msgid "New translations are available."
 msgstr "Доступны новые переводы."
 
-#: wp-admin/includes/class-wp-screen.php:1125
+#: wp-admin/includes/class-wp-screen.php:1146
 msgid "Number of items per page:"
 msgstr "Количество элементов на странице:"
 
@@ -2909,7 +2957,7 @@ msgstr "Страница записей"
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
-#: wp-admin/includes/misc.php:1161
+#: wp-admin/includes/misc.php:1163
 msgid ""
 "Howdy ###USERNAME###,\n"
 "\n"
@@ -2991,12 +3039,12 @@ msgstr ""
 "\n"
 "Спасибо! -- Команда WordPress"
 
-#: wp-admin/includes/ajax-actions.php:3429
-#: wp-admin/includes/ajax-actions.php:3548
-#: wp-admin/includes/ajax-actions.php:3608
-#: wp-admin/includes/ajax-actions.php:3703
-#: wp-admin/includes/ajax-actions.php:3824
-#: wp-admin/includes/ajax-actions.php:3889
+#: wp-admin/includes/ajax-actions.php:3442
+#: wp-admin/includes/ajax-actions.php:3561
+#: wp-admin/includes/ajax-actions.php:3621
+#: wp-admin/includes/ajax-actions.php:3716
+#: wp-admin/includes/ajax-actions.php:3837
+#: wp-admin/includes/ajax-actions.php:3902
 msgid "Unable to connect to the filesystem. Please confirm your credentials."
 msgstr "Не удалось подключиться к файловой системе. Перепроверьте координаты."
 
@@ -3125,20 +3173,20 @@ msgstr "<strong>Редактор записи</strong> &#8212; введите т
 msgid "You can insert media files by clicking the icons above the post editor and following the directions. You can align or edit images using the inline formatting toolbar available in Visual mode."
 msgstr "Можно загружать медиафайлы, нажимая на иконки над редактором и следуя указаниям. Можно выравнивать или редактировать изображения с помощью всплывающей панели, доступной в визуальном режиме."
 
-#: wp-admin/includes/ajax-actions.php:3095
+#: wp-admin/includes/ajax-actions.php:3108
 msgid "This preview is unavailable in the editor."
 msgstr "Предпросмотр в редакторе недоступен."
 
-#: wp-admin/includes/ajax-actions.php:3201
+#: wp-admin/includes/ajax-actions.php:3214
 msgid "Could not log out user sessions. Please try again."
 msgstr "Не удалось выйти из сессий пользователя. Пожалуйста, попробуйте ещё раз."
 
-#: wp-admin/includes/ajax-actions.php:3209
+#: wp-admin/includes/ajax-actions.php:3222
 msgid "You are now logged out everywhere else."
 msgstr "Вы вышли из других сессий."
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:3213
+#: wp-admin/includes/ajax-actions.php:3226
 msgid "%s has been logged out."
 msgstr "Сессии пользователя %s завершены."
 
@@ -3157,7 +3205,7 @@ msgctxt "link name"
 msgid "Name"
 msgstr "Название"
 
-#: wp-admin/includes/class-wp-screen.php:1029
+#: wp-admin/includes/class-wp-screen.php:1032
 msgctxt "Welcome panel"
 msgid "Welcome"
 msgstr "Добро пожаловать"
@@ -3307,7 +3355,7 @@ msgstr "Установить %s сейчас"
 msgid "Update %s now"
 msgstr "Обновить %s сейчас"
 
-#: wp-admin/includes/ajax-actions.php:3066
+#: wp-admin/includes/ajax-actions.php:3079
 msgid "%s failed to embed."
 msgstr "Не удалось вставить %s."
 
@@ -3495,7 +3543,7 @@ msgstr "Управление меню"
 msgid "Edit visibility"
 msgstr "Изменить видимость"
 
-#: wp-admin/includes/ajax-actions.php:1833
+#: wp-admin/includes/ajax-actions.php:1846
 msgid "Type"
 msgstr "Тип"
 
@@ -4640,7 +4688,7 @@ msgid "Uploaded to"
 msgstr "Загружен для"
 
 #: wp-admin/custom-background.php:451 wp-admin/custom-header.php:842
-#: wp-admin/includes/ajax-actions.php:2104
+#: wp-admin/includes/ajax-actions.php:2117
 msgid "The uploaded file is not a valid image. Please try again."
 msgstr "Загруженный файл не является изображением. Пожалуйста, попробуйте ещё раз."
 
@@ -5311,7 +5359,7 @@ msgstr "Файл слишком велик. Размер файлов долже
 msgid "You have used your space quota. Please delete files before uploading."
 msgstr "Вы использовали всё пространство. Удалите старые файлы, прежде чем загружать новые."
 
-#: wp-admin/includes/misc.php:1208
+#: wp-admin/includes/misc.php:1210
 msgid "[%s] New Admin Email Address"
 msgstr "[%s] Новый адрес администратора"
 
@@ -5507,7 +5555,7 @@ msgstr "Можно экспортировать содержимое вашег�
 msgid "New users will receive an email letting them know they&#8217;ve been added as a user for your site. This email will also contain their password. Check the box if you don&#8217;t want the user to receive a welcome email."
 msgstr "Новые пользователи получают письмо с уведомлением, что их добавили на этот сайт. В этом письме также содержится их пароль. Поставьте галочку, если вы не хотите отправлять пользователю приветственное письмо."
 
-#: wp-admin/plugins.php:469
+#: wp-admin/plugins.php:471
 msgid "The plugin generated %d characters of <strong>unexpected output</strong> during activation. If you notice &#8220;headers already sent&#8221; messages, problems with syndication feeds or other issues, try deactivating or removing this plugin."
 msgstr "Плагин произвёл при активации %d символов <strong>неожиданного вывода</strong>. Если вы заметите ошибку &laquo;headers already sent&raquo;, проблемы с RSS-лентами или другие неполадки, попробуйте деактивировать или удалить этот плагин."
 
@@ -5644,7 +5692,7 @@ msgstr "Добро пожаловать в WordPress %1$s. <a href=\"%2$s\">Уз
 msgid "Return to Updates"
 msgstr "Вернуться на страницу &laquo;Обновления&raquo;"
 
-#: wp-admin/plugins.php:423
+#: wp-admin/plugins.php:425
 msgid "Troubleshooting"
 msgstr "Решение проблем"
 
@@ -6068,7 +6116,7 @@ msgstr "ОШИБКА: пожалуйста, введите комментари�
 #: wp-admin/options-general.php:39 wp-admin/options-media.php:28
 #: wp-admin/options-permalink.php:20 wp-admin/options-reading.php:22
 #: wp-admin/options-writing.php:20 wp-admin/plugin-editor.php:118
-#: wp-admin/plugin-install.php:80 wp-admin/plugins.php:411
+#: wp-admin/plugin-install.php:80 wp-admin/plugins.php:413
 #: wp-admin/revision.php:115 wp-admin/theme-editor.php:25
 #: wp-admin/theme-install.php:104 wp-admin/themes.php:82
 #: wp-admin/update-core.php:566 wp-admin/upload.php:48 wp-admin/upload.php:191
@@ -6095,8 +6143,8 @@ msgstr "<strong>Перетаскивание</strong> &#8212; чтобы пер�
 
 #. translators: %s: Plugin version
 #: wp-admin/about.php:24 wp-admin/credits.php:25 wp-admin/freedoms.php:24
-#: wp-admin/includes/ajax-actions.php:3774
-#: wp-admin/includes/ajax-actions.php:3817
+#: wp-admin/includes/ajax-actions.php:3787
+#: wp-admin/includes/ajax-actions.php:3830
 #: wp-admin/includes/class-wp-plugins-list-table.php:767
 #: wp-admin/includes/update.php:193 wp-admin/includes/update.php:218
 #: wp-admin/privacy.php:24
@@ -6115,7 +6163,7 @@ msgstr "Версия %s"
 #: wp-admin/options-media.php:33 wp-admin/options-permalink.php:43
 #: wp-admin/options-reading.php:37 wp-admin/options-writing.php:44
 #: wp-admin/plugin-editor.php:134 wp-admin/plugin-install.php:97
-#: wp-admin/plugins.php:434 wp-admin/revision.php:119
+#: wp-admin/plugins.php:436 wp-admin/revision.php:119
 #: wp-admin/theme-editor.php:44 wp-admin/theme-install.php:119
 #: wp-admin/themes.php:117 wp-admin/tools.php:22 wp-admin/update-core.php:584
 #: wp-admin/upload.php:65 wp-admin/upload.php:211 wp-admin/user-edit.php:60
@@ -6123,7 +6171,7 @@ msgstr "Версия %s"
 msgid "For more information:"
 msgstr "Дополнительная информация:"
 
-#: wp-admin/comment.php:149 wp-admin/plugins.php:316 wp-admin/plugins.php:322
+#: wp-admin/comment.php:149 wp-admin/plugins.php:318 wp-admin/plugins.php:324
 #: wp-admin/theme-editor.php:279
 msgid "Caution:"
 msgstr "Внимание:"
@@ -6391,7 +6439,7 @@ msgid "You can find additional themes for your site by using the Theme Browser/I
 msgstr "На этом экране вы можете найти дополнительные темы для вашего сайта с помощью скрипта просмотра/установки тем, который отобразит темы из <a href=\"%s\">каталога WordPress</a>. Эти темы создаются третьими лицами, распространяются бесплатно и совместимы с лицензией WordPress."
 
 #. translators: %s: WordPress Plugin Directory URL
-#: wp-admin/plugins.php:417
+#: wp-admin/plugins.php:419
 msgid "If you would like to see more plugins to choose from, click on the &#8220;Add New&#8221; button and you will be able to browse or search for additional plugins from the <a href=\"%s\">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
 msgstr "Если вы хотели бы расширить выбор плагинов, нажмите на кнопку &#8220;Добавить новый&#8221;, и вы сможете посмотреть или найти дополнительные плагины в <a href=\"%s\">каталоге WordPress</a>. Плагины в каталоге WordPress создаются третьими лицами и совместимы с лицензией WordPress. Да, и они бесплатны!"
 
@@ -6538,7 +6586,7 @@ msgstr "Загруженные изображения"
 msgid "<strong>Random:</strong> Show a different image on each page."
 msgstr "<strong>Случайно:</strong> Показывать разные изображения на каждой странице."
 
-#: wp-admin/includes/class-wp-screen.php:1099 wp-admin/includes/theme.php:265
+#: wp-admin/includes/class-wp-screen.php:1120 wp-admin/includes/theme.php:265
 #: wp-admin/includes/theme.php:295 wp-admin/index.php:61
 msgid "Layout"
 msgstr "Разметка"
@@ -6560,11 +6608,11 @@ msgstr "%1$s из %2$s"
 msgid "%s Page Template"
 msgstr "Шаблон страницы &laquo;%s&raquo;"
 
-#: wp-admin/includes/ajax-actions.php:3876 wp-admin/plugins.php:467
+#: wp-admin/includes/ajax-actions.php:3889 wp-admin/plugins.php:469
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "Нельзя удалить плагин, пока он активен на основном сайте."
 
-#: wp-admin/plugins.php:316
+#: wp-admin/plugins.php:318
 msgid "This plugin may be active on other sites in the network."
 msgstr "Этот плагин может быть активным на других сайтах сети."
 
@@ -6704,8 +6752,8 @@ msgstr "Процесс обновления может занять некото
 msgid "Update package not available."
 msgstr "Архив обновления недоступен."
 
-#: wp-admin/includes/ajax-actions.php:3808
-#: wp-admin/includes/ajax-actions.php:3835
+#: wp-admin/includes/ajax-actions.php:3821
+#: wp-admin/includes/ajax-actions.php:3848
 #: wp-admin/includes/class-plugin-upgrader.php:54
 msgid "Plugin update failed."
 msgstr "Обновление плагина не удалось."
@@ -7153,7 +7201,7 @@ msgstr "Можно настраивать отображение этого эк
 msgid "Choose a plugin to edit from the dropdown menu and click the Select button. Click once on any file name to load it in the editor, and make your changes. Don&#8217;t forget to save your changes (Update File) when you&#8217;re finished."
 msgstr "Выберите плагин для редактирования в выпадающем меню и нажмите кнопку &laquo;Выбрать&raquo;. Нажмите на имя любого файла, чтобы загрузить его в редактор, затем начинайте редактировать. Когда закончите, не забудьте сохранить изменения (&laquo;Обновить файл&raquo;)."
 
-#: wp-admin/plugins.php:425
+#: wp-admin/plugins.php:427
 msgid "Most of the time, plugins play nicely with the core of WordPress and with other plugins. Sometimes, though, a plugin&#8217;s code will get in the way of another plugin, causing compatibility issues. If your site starts doing strange things, this may be the problem. Try deactivating all your plugins and re-activating them in various combinations until you isolate which one(s) caused the issue."
 msgstr "В большинстве случаев плагины корректно работают с ядром WordPress и другими плагинами. Впрочем, иногда код одного плагина может стать помехой для другого, вызывая проблемы совместимости. Если на вашем сайте происходят странные вещи, причина может быть в этом. Попробуйте деактивировать все плагины и повторно активировать их в различных комбинациях, чтобы определить, какой из них стал причиной проблемы."
 
@@ -7317,7 +7365,7 @@ msgstr "Можно детализировать список, отобразив
 msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
 msgstr "При наведении курсора на строку в списке записей появятся ссылки, позволяющие управлять записью. Вы можете выполнить следующие действия:"
 
-#: wp-admin/plugins.php:557
+#: wp-admin/plugins.php:559
 msgid "Search Installed Plugins"
 msgstr "Поиск установленных плагинов"
 
@@ -7710,7 +7758,7 @@ msgstr "Пользователь уже существует. Пароль ун�
 msgid "The password you chose during installation."
 msgstr "Пароль, выбранный вами при установке."
 
-#: wp-admin/plugins.php:138 wp-admin/update-core.php:241
+#: wp-admin/plugins.php:140 wp-admin/update-core.php:241
 #: wp-admin/update-core.php:338 wp-admin/update-core.php:695
 #: wp-admin/update-core.php:699
 msgid "Update Plugins"
@@ -7753,7 +7801,7 @@ msgstr "В этом часовом поясе в настоящий момент
 msgid "This timezone does not observe daylight saving time."
 msgstr "В этом часовом поясе не используется летнее время."
 
-#: wp-admin/plugins.php:343
+#: wp-admin/plugins.php:345
 msgid "Are you sure you wish to delete these files and data?"
 msgstr "Вы уверены, что хотите удалить эти файлы и данные?"
 
@@ -7765,11 +7813,11 @@ msgstr "Неактивен:"
 msgid "Go to Dashboard"
 msgstr "Перейти на страницу &laquo;Консоль&raquo;"
 
-#: wp-admin/plugins.php:318
+#: wp-admin/plugins.php:320
 msgid "You are about to remove the following plugin:"
 msgstr "Вы собираетесь удалить следующий плагин:"
 
-#: wp-admin/plugins.php:314
+#: wp-admin/plugins.php:316
 msgid "Delete Plugin"
 msgstr "Удалить плагин"
 
@@ -7787,7 +7835,7 @@ msgstr[0] "Необходимые <span class=\"count\">(%s)</span>"
 msgstr[1] "Необходимые <span class=\"count\">(%s)</span>"
 msgstr[2] "Необходимые <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:356
+#: wp-admin/plugins.php:358
 msgid "Yes, delete these files and data"
 msgstr "Да, удалить эти файлы и данные"
 
@@ -8098,7 +8146,7 @@ msgid "Appearance"
 msgstr "Внешний вид"
 
 #. translators: add new plugin
-#: wp-admin/menu.php:212 wp-admin/plugins.php:526
+#: wp-admin/menu.php:212 wp-admin/plugins.php:528
 msgctxt "plugin"
 msgid "Add New"
 msgstr "Добавить новый"
@@ -8318,51 +8366,51 @@ msgstr "Настройки медиафайлов"
 msgid "Image sizes"
 msgstr "Размеры изображений"
 
-#: wp-admin/options-media.php:53
+#: wp-admin/options-media.php:53 wp-admin/options-media.php:54
 msgid "Thumbnail size"
 msgstr "Размер миниатюры"
 
-#: wp-admin/options-media.php:60
+#: wp-admin/options-media.php:62
 msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
 msgstr "Обрезать миниатюру точно по размерам (обычно сохраняются пропорции миниатюр)"
 
-#: wp-admin/options-media.php:65 wp-admin/options-media.php:66
+#: wp-admin/options-media.php:67 wp-admin/options-media.php:68
 msgid "Medium size"
 msgstr "Средний размер"
 
-#: wp-admin/options-media.php:67 wp-admin/options-media.php:78
+#: wp-admin/options-media.php:69 wp-admin/options-media.php:80
 msgid "Max Width"
 msgstr "Макс. ширина"
 
-#: wp-admin/options-media.php:70 wp-admin/options-media.php:81
+#: wp-admin/options-media.php:72 wp-admin/options-media.php:83
 msgid "Max Height"
 msgstr "Макс. высота"
 
-#: wp-admin/options-media.php:76 wp-admin/options-media.php:77
+#: wp-admin/options-media.php:78 wp-admin/options-media.php:79
 msgid "Large size"
 msgstr "Крупный размер"
 
-#: wp-admin/options-media.php:94
+#: wp-admin/options-media.php:96
 msgid "Embeds"
 msgstr "Объекты"
 
-#: wp-admin/options-media.php:101
+#: wp-admin/options-media.php:103
 msgid "Uploading Files"
 msgstr "Загрузка файлов"
 
-#: wp-admin/options-media.php:108
+#: wp-admin/options-media.php:110
 msgid "Store uploads in this folder"
 msgstr "Сохранять файлы в этой папке"
 
-#: wp-admin/options-media.php:118
+#: wp-admin/options-media.php:120
 msgid "Full URL path to files"
 msgstr "Полный URL-путь к файлам"
 
-#: wp-admin/options-media.php:120
+#: wp-admin/options-media.php:122
 msgid "Configuring this is optional. By default, it should be blank."
 msgstr "Этот параметр необязателен и по умолчанию пуст."
 
-#: wp-admin/options-media.php:131
+#: wp-admin/options-media.php:133
 msgid "Organize my uploads into month- and year-based folders"
 msgstr "Помещать загруженные мной файлы в папки по месяцу и году"
 
@@ -8499,7 +8547,7 @@ msgstr "Нет такого файла! Перепроверьте имя и п�
 msgid "Files of this type are not editable."
 msgstr "Файлы этого типа нельзя редактировать."
 
-#: wp-admin/includes/ajax-actions.php:4016 wp-admin/plugin-editor.php:177
+#: wp-admin/includes/ajax-actions.php:4029 wp-admin/plugin-editor.php:177
 #: wp-admin/theme-editor.php:180
 msgid "File edited successfully."
 msgstr "Файл успешно изменён."
@@ -8530,35 +8578,35 @@ msgctxt "Plugin Installer"
 msgid "Popular"
 msgstr "Популярные"
 
-#: wp-admin/plugins.php:345
+#: wp-admin/plugins.php:347
 msgid "Are you sure you wish to delete these files?"
 msgstr "Вы уверены, что хотите удалить эти файлы?"
 
-#: wp-admin/plugins.php:413
+#: wp-admin/plugins.php:415
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
 msgstr "Плагины расширяют и дополняют функциональность WordPress. После установки плагина можно активировать или деактивировать его здесь."
 
-#: wp-admin/plugins.php:471
+#: wp-admin/plugins.php:473
 msgid "Plugin could not be activated because it triggered a <strong>fatal error</strong>."
 msgstr "Плагин не был активирован, потому что он вызвал <strong>фатальную ошибку</strong>."
 
-#: wp-admin/plugins.php:501
+#: wp-admin/plugins.php:503
 msgid "The selected plugins have been <strong>deleted</strong>."
 msgstr "Выбранные плагины были <strong>удалены</strong>."
 
-#: wp-admin/plugins.php:508
+#: wp-admin/plugins.php:510
 msgid "Plugin <strong>activated</strong>."
 msgstr "Плагин <strong>активирован</strong>."
 
-#: wp-admin/plugins.php:510
+#: wp-admin/plugins.php:512
 msgid "Selected plugins <strong>activated</strong>."
 msgstr "Выбранные плагины <strong>активированы</strong>."
 
-#: wp-admin/plugins.php:512
+#: wp-admin/plugins.php:514
 msgid "Plugin <strong>deactivated</strong>."
 msgstr "Плагин <strong>деактивирован</strong>."
 
-#: wp-admin/plugins.php:514
+#: wp-admin/plugins.php:516
 msgid "Selected plugins <strong>deactivated</strong>."
 msgstr "Выбранные плагины <strong>деактивированы</strong>."
 
@@ -8906,7 +8954,7 @@ msgstr "Общие"
 msgid "posts"
 msgstr "записей"
 
-#: wp-admin/plugins.php:493
+#: wp-admin/plugins.php:495
 msgid "Plugin could not be deleted due to an error: %s"
 msgstr "Не удалось удалить плагин из-за ошибки: %s"
 
@@ -9038,11 +9086,11 @@ msgstr[0] "%s ссылка удалена."
 msgstr[1] "%s ссылки удалены."
 msgstr[2] "%s ссылок удалены."
 
-#: wp-admin/plugins.php:356
+#: wp-admin/plugins.php:358
 msgid "Yes, delete these files"
 msgstr "Да, удалить эти файлы"
 
-#: wp-admin/plugins.php:362
+#: wp-admin/plugins.php:364
 msgid "No, return me to the plugin list"
 msgstr "Нет, вернуться к списку плагинов"
 
@@ -9051,12 +9099,12 @@ msgid "For each article in a feed, show"
 msgstr "Для каждой статьи в RSS-ленте отображать"
 
 #. translators: 1: plugin file 2: error message
-#: wp-admin/plugins.php:456
+#: wp-admin/plugins.php:458
 msgid "The plugin %1$s has been <strong>deactivated</strong> due to an error: %2$s"
 msgstr "Плагин %1$s был <strong>деактивирован</strong> из-за ошибки: %2$s"
 
 #. translators: WP_PLUGIN_DIR constant value
-#: wp-admin/plugins.php:428
+#: wp-admin/plugins.php:430
 msgid "If something goes wrong with a plugin and you can&#8217;t use WordPress, delete or rename that file in the %s directory and it will be automatically deactivated."
 msgstr "Если с плагином что-то пойдёт не так, и вы не сможете использовать WordPress &#8212; удалите или переименуйте файл в директории %s, и плагин будет автоматически деактивирован."
 
@@ -9264,12 +9312,12 @@ msgstr "Обсуждение"
 
 #. translators: 1: Name of most recent post author, 2: Post edited date, 3:
 #. Post edited time
-#: wp-admin/edit-form-advanced.php:654 wp-admin/includes/ajax-actions.php:2340
+#: wp-admin/edit-form-advanced.php:654 wp-admin/includes/ajax-actions.php:2353
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Последнее изменение: %1$s; %2$s в %3$s"
 
 #. translators: 1: Post edited date, 2: Post edited time
-#: wp-admin/edit-form-advanced.php:657 wp-admin/includes/ajax-actions.php:2342
+#: wp-admin/edit-form-advanced.php:657 wp-admin/includes/ajax-actions.php:2355
 msgid "Last edited on %1$s at %2$s"
 msgstr "Последнее изменение: %1$s в %2$s"
 
@@ -10607,7 +10655,7 @@ msgid "Items deleted."
 msgstr "Элементы удалены."
 
 #: wp-admin/includes/class-wp-list-table.php:152
-#: wp-admin/includes/class-wp-screen.php:1221
+#: wp-admin/includes/class-wp-screen.php:1242
 msgid "Excerpt View"
 msgstr "В развёрнутом виде"
 
@@ -10949,16 +10997,16 @@ msgstr "Пожалуйста, укажите значение произволь
 msgid "g:i:s a"
 msgstr "H:i:s"
 
-#: wp-admin/includes/ajax-actions.php:1680
+#: wp-admin/includes/ajax-actions.php:1693
 msgid "Someone"
 msgstr "Кто-то"
 
-#: wp-admin/edit-form-comment.php:76 wp-admin/includes/ajax-actions.php:1833
+#: wp-admin/edit-form-comment.php:76 wp-admin/includes/ajax-actions.php:1846
 #: wp-admin/includes/class-wp-posts-list-table.php:1638
 msgid "Status"
 msgstr "Статус"
 
-#: wp-admin/includes/ajax-actions.php:1845
+#: wp-admin/includes/ajax-actions.php:1858
 #: wp-admin/includes/class-wp-posts-list-table.php:997
 #: wp-admin/includes/class-wp-posts-list-table.php:1645
 #: wp-admin/includes/meta-boxes.php:94 wp-admin/includes/meta-boxes.php:118
@@ -11004,8 +11052,8 @@ msgstr "Комментария %d не существует"
 msgid "Draft saved at %s."
 msgstr "Черновик сохранён в %s."
 
-#: wp-admin/includes/ajax-actions.php:1787
-#: wp-admin/includes/ajax-actions.php:1792
+#: wp-admin/includes/ajax-actions.php:1800
+#: wp-admin/includes/ajax-actions.php:1805
 #: wp-admin/includes/edit-tag-messages.php:18
 msgid "Item not updated."
 msgstr "Элемент не обновлён."
@@ -11020,11 +11068,11 @@ msgstr "&larr;"
 msgid "&raquo;"
 msgstr "&rarr;"
 
-#: wp-admin/includes/ajax-actions.php:1681
+#: wp-admin/includes/ajax-actions.php:1694
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "Сохранение отключено: эту страницу сейчас редактирует %s."
 
-#: wp-admin/includes/ajax-actions.php:1681
+#: wp-admin/includes/ajax-actions.php:1694
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "Сохранение отключено: эту запись сейчас редактирует %s."
 
