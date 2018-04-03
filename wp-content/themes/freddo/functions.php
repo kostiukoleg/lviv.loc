@@ -515,18 +515,43 @@ function exclude_product_cat_children ($wp_query) {
 }
 add_filter('pre_get_posts', 'exclude_product_cat_children');
 
-function wpa89819_wc_single_product(){
+function wpa89819_wc_single_product( $args = array() ){
 
-    $product_cats = wp_get_post_terms( get_the_ID(), 'product_cat' );
-
-    if ( $product_cats && ! is_wp_error ( $product_cats ) ){
-
-        $single_cat = array_shift( $product_cats ); 
-
-        ?>
-
-        <h2 itemprop="name" class="product_category_title"><span><?php echo $single_cat->name; ?></span></h2>
-
-<?php }
+	$parentid = get_queried_object_id();
+	
+	if( $term = get_term_by( 'id', $parentid, 'product_cat' ) ){
+	    if ($term->parent != 0){
+	    	$thumbnail_id = get_woocommerce_term_meta( $parentid, 'thumbnail_id' );
+			$image = wp_get_attachment_url( $thumbnail_id );
+			
+			echo '<table id="mycat">'; ?>
+			<tr>
+				<td>
+					<img width="96" height="78" src="<?php echo $image; ?>" class="attachment-post-thumbnail size-post-thumbnail">
+				</td>
+				<td>
+					<img width="96" height="78" src="<?php echo Categories_Multiple_Images::get_image(get_queried_object()->term_id,1,'full'); ?>" class="attachment-post-thumbnail size-post-thumbnail">
+		        </td>
+				<td>
+					<img width="96" height="78" src="<?php echo Categories_Multiple_Images::get_image(get_queried_object()->term_id,2,'full'); ?>" class="attachment-post-thumbnail size-post-thumbnail">
+		        </td>																	 
+			</tr>
+			    
+			<?php echo '</table>';
+	    }
+	} 	
 }
-add_action( 'woocommerce_single_product_summary', 'wpa89819_wc_single_product', 2 );
+add_action( 'woocommerce_before_shop_loop', 'wpa89819_wc_single_product', 2 );
+
+add_action('woocommerce_after_shop_loop_item_title', 'wpa89819_wc_shop_sku'); 
+function wpa89819_wc_shop_sku(){
+	global $product;
+	echo '<span itemprop="productID" class="sku">Артикул: ' . $product->sku . '</span>';
+}
+
+function add_sku_in_cart( $title, $values, $cart_item_key ) {
+ $sku = $values['data']->get_sku();
+ return $sku ? $title . sprintf(" (%s)", $sku) : $title;
+}
+add_filter( 'woocommerce_cart_item_name', 'add_sku_in_cart', 20, 3);
+?>
