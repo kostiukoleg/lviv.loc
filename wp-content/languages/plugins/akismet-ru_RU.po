@@ -11,7 +11,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: Plugins - Akismet Anti-Spam - Stable (latest release)\n"
 
-#: class.akismet.php:210
+#: class.akismet.php:211
 msgid "Comment discarded."
 msgstr "Комментарий отброшен."
 
@@ -67,7 +67,7 @@ msgstr "На этой странице вы можете обновить нас
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key."
 msgstr "Используемый миллионами, Akismet, вполне возможно, лучший способ в мире <strong>защитить свой блог от спама</strong>. Ваш сайт полностью настроен и защищен, даже когда вы спите. Для начала: активируйте плагин Akismet, а затем перейдите на страницу настроек Akismet, чтобы настроить ваш ключ API."
 
-#. #-#-#-#-#  akismet-code.pot (Akismet Anti-Spam 4.0.2)  #-#-#-#-#
+#. #-#-#-#-#  akismet-code.pot (Akismet Anti-Spam 4.0.3)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: class.akismet-admin.php:95 class.akismet-admin.php:98
 msgid "Akismet Anti-Spam"
@@ -171,7 +171,7 @@ msgstr "Нет комментариев для проверки. Akismet буд�
 msgid "Checking for Spam"
 msgstr "Проверка на спам"
 
-#: class.akismet.php:452
+#: class.akismet.php:492
 msgid "Comment not found."
 msgstr "Комментарий не найден."
 
@@ -652,11 +652,11 @@ msgstr "Akismet пометил этот комментарий как спам �
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "Akismet одобрил этот комментарий при повторной проверке."
 
-#: class.akismet.php:1208
+#: class.akismet.php:1248
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Пожалуйста, <a href=\"%1$s\">обновите WordPress</a> до текущей версии, либо <a href=\"%2$s\">вернитесь к использованию Akismet версии 2.4</a>."
 
-#: class.akismet.php:1208
+#: class.akismet.php:1248
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s требует WordPress %s или выше."
 

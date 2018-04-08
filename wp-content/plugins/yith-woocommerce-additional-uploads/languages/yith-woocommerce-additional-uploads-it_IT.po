@@ -1,0 +1,1026 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Uploads\n"
+"POT-Creation-Date: 2017-08-11 17:33+0200\n"
+"PO-Revision-Date: 2017-08-11 17:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../init.php:23
+msgid ""
+"YITH WooCommerce Uploads is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Uploads è abilitato ma non in funzione. Devi aver "
+"installato WooCommerce perché possa funzionare correttamente."
+
+#: ../init.php:31
+msgid ""
+"You can't activate the free version of YITH WooCommerce Uploads while you "
+"are using the premium one."
+msgstr ""
+"Non è possibile attivare la versione free di YITH WooCommerce Uploads se "
+"stai già utilizzando la premium."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:212
+msgid "Upload file"
+msgstr "Carica file"
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:244
+#, php-format
+msgid ""
+"You have already sent a file for the current order, it is not possible to "
+"add the new file %s."
+msgstr ""
+"Hai già inviato un file con questo ordine, non è possibile aggiungere un "
+"altro file %s."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:252
+#, php-format
+msgid "The name of the file %s has not been accepted."
+msgstr "Il nome del file %s non è stato accettato."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:259
+#, php-format
+msgid "The following error happened during the upload of %s: %s"
+msgstr "Si è verificato il seguente errore durante il caricamento di %s: %s"
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:282
+#, php-format
+msgid "The format of the file %s is not valid. The allowed extensions are: %s."
+msgstr ""
+"Il formato del file %s non è valido. Le estensioni consentite sono: %s."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:292
+#, php-format
+msgid "The file %s has not been accepted, the maximum dimension is %s MB."
+msgstr ""
+"Il file %s non è stato accettato, le dimensioni massime consentite sono %s "
+"MB."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:316
+#: ../lib/class.yith-woocommerce-additional-uploads.php:513
+#, php-format
+msgid ""
+"The file %s has been included in the current order. Your order is now being "
+"processed."
+msgstr ""
+"Il file %s è stato incluso nell’ordine. Il tuo ordine sarà adesso eleborato."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:369
+msgid "The customer has sent a file."
+msgstr "Il cliente ha inviato un file."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:370
+msgid "Download"
+msgstr "Scarica"
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:373
+msgid "There are no files attached to the order."
+msgstr "Non sono presenti file in allegato all’ordine."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:494
+msgid "An error occurred, the file has not been accepted."
+msgstr "Si è verificato un errore, il file non è stato accettato."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:522
+msgid "You can customize your order sending a file."
+msgstr "Puoi personalizzare il tuo ordine inviando un file."
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:524
+#, php-format
+msgid "Choose one of the following formats: %s."
+msgstr ""
+
+#: ../lib/class.yith-woocommerce-additional-uploads.php:533
+msgid "Select file"
+msgstr "Seleziona file"
+
+#: ../lib/class.ywau-plugin-fw-loader.php:125
+msgid "General"
+msgstr "Generali"
+
+#: ../lib/class.ywau-plugin-fw-loader.php:128
+#: ../lib/class.ywau-plugin-fw-loader.php:188
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: ../lib/class.ywau-plugin-fw-loader.php:184
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../lib/class.ywau-plugin-fw-loader.php:217
+msgid "Plugin Documentation"
+msgstr "Documentazione plugin"
+
+#: ../lib/class.ywau-plugin-fw-loader.php:230
+msgid ""
+"YITH WooCommerce Uploads is available in an outstanding PREMIUM version with "
+"many new options, discover it now."
+msgstr ""
+"Un’eccezionale versione PREMIUM di YITH WooCommerce Uploads è disponibile "
+"con molte nuove opzioni. Scoprila adesso."
+
+#: ../lib/class.ywau-plugin-fw-loader.php:231
+msgid "Premium version"
+msgstr "Versione premium"
+
+#: ../lib/class.ywau-plugin-fw-loader.php:238
+msgid "YITH WooCommerce Uploads"
+msgstr "YITH WooCommerce Uploads"
+
+#: ../lib/class.ywau-plugin-fw-loader.php:239
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce Uploads options.<br> From "
+"this menu you can access all settings of YITH plugins activated."
+msgstr ""
+"Puoi trovare il pannello opzioni di YITH WooCommerce Uploads nella tab YIT "
+"Plugins.<br> Da questo menu, potrai accedere a tutte le impostazioni dei "
+"plugin YITH finora attivati."
+
+#: ../plugin-options/general-options.php:20
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: ../plugin-options/general-options.php:25
+msgid "Maximum size of the file"
+msgstr "Dimensione massima consentita per il file"
+
+#: ../plugin-options/general-options.php:27
+msgid ""
+"Maximum size in MB of the file that customers can send. Set to 0 to have no "
+"limits for the file size."
+msgstr ""
+"Dimensione massima in MB del file che il cliente invia. Imposta 0 per non "
+"porre limiti alla dimensione dei file."
+
+#: ../plugin-options/general-options.php:37
+msgid "Allowed extensions"
+msgstr "Estensioni consentite"
+
+#: ../plugin-options/general-options.php:39
+msgid ""
+"Set the file formats allowed, writing the extensions divided by comma (e.g., "
+"jpg,png,gif)."
+msgstr ""
+"Imposta i formati consentiti scrivendone l’estensione e separandoli con "
+"virgole (es. jpg,png,gif)."
+
+#: ../plugin-options/general-options.php:44
+msgid "Order status"
+msgstr "Stato ordine"
+
+#: ../plugin-options/general-options.php:45
+msgid "Completed"
+msgstr "Completato"
+
+#: ../plugin-options/general-options.php:51
+msgid "On Hold"
+msgstr "In sospeso"
+
+#: ../plugin-options/general-options.php:58
+msgid "Pending payment"
+msgstr "In attesa di pagamento"
+
+#: ../plugin-options/general-options.php:65
+msgid "Processing"
+msgstr "In elaborazione"
+
+#: ../plugin-options/general-options.php:72
+msgid "Allow cart attachment"
+msgstr "Abilita allegato al carrello"
+
+#: ../plugin-options/general-options.php:73
+msgid "Use this option to allow users to attach a file even from the cart"
+msgstr ""
+"Utilizza questa opzione per permettere agli utenti di allegare un file anche "
+"dal carrello"
+
+#: ../templates/admin/premium.php:261 ../templates/admin/premium.php:454
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Uploads%2$s to "
+"benefit from all features!"
+msgstr ""
+"Aggiorna alla %1$sversione premium%2$s di %1$sYITH WooCommerce Uploads%2$s "
+"per usufruire di tutte le sue funzionalità!"
+
+#: ../templates/admin/premium.php:264 ../templates/admin/premium.php:457
+msgid "UPGRADE"
+msgstr "AGGIORNA"
+
+#: ../templates/admin/premium.php:265 ../templates/admin/premium.php:458
+msgid "to the premium version"
+msgstr "alla versione premium"
+
+#: ../templates/admin/premium.php:271
+msgid "Premium Features"
+msgstr "Funzionalità premium"
+
+#: ../templates/admin/premium.php:274 ../templates/admin/premium.php:279
+msgid "Accept or reject"
+msgstr "Accetta o rifiuta"
+
+#: ../templates/admin/premium.php:282
+#, php-format
+msgid ""
+"Interact with your shop users that have attached a file to products. Verify "
+"the quality of the sent images or, the quality of every file you have "
+"received, and %1$saccept%2$s or %1$sreject%2$s them. With the second case, "
+"users will be free to upload a new file."
+msgstr ""
+"Interagisci con gli utenti del tuo shop che hanno allegato dei file ai "
+"prodotti. Valuta la qualità delle immagini che ti hanno inviato o, più in "
+"generale, del materiale messo a tua disposizione e decidi se %1$saccettarlo"
+"%2$s o %1$srifiutarlo%2$s. In questo caso l’utente avrà la possibilità di "
+"caricare un nuovo file."
+
+#: ../templates/admin/premium.php:292 ../templates/admin/premium.php:299
+msgid "Upload by the product"
+msgstr "Caricamento su prodotto"
+
+#: ../templates/admin/premium.php:295
+#, php-format
+msgid ""
+" A more organized and intuitive upload. With the premium version of the "
+"plugin, %1$susers can attach a file directly by the product%2$s, in order to "
+"let you work freely without any doubts about its correlated item. "
+msgstr ""
+" Un caricamento più organizzato e intuitivo. Con la versione premium del "
+"plugin, %1$sl’utente viene messo nelle condizioni di allegare il file "
+"direttamente sul prodotto %2$s, così che tu possa lavorare sul file inserito "
+"senza alcun dubbio riguardo al prodotto a cui è associato. "
+
+#: ../templates/admin/premium.php:306 ../templates/admin/premium.php:311
+msgid "Attachment customization"
+msgstr "Personalizzazione allegati"
+
+#: ../templates/admin/premium.php:314
+#, php-format
+msgid ""
+"Shop products are often different, and you could have the need to request to "
+"your users multiple files for order processing. The premium version of the "
+"plugin helps you perfectly, configuring %1$sgeneral%2$s or %1$sad hoc%2$s "
+"settings for each product of the shop. "
+msgstr ""
+"I prodotti dello shop sono spesso differenti tra loro e per molti di questi "
+"potresti avere la necessità di richiedere ai tuoi utenti di allegare più "
+"file come supporto al processo di lavorazione dell’ordine. La versione "
+"premium del plugin ti permette di soddisfare questa esigenza in pieno, "
+"configurando delle impostazioni %1$sgenerali%2$s o %1$sad hoc%2$s per ogni "
+"singolo prodotto dello shop. "
+
+#: ../templates/admin/premium.php:317
+msgid ""
+"And if you want to avoid some products to benefit from this feature, you "
+"will just have to click just once to deactivate the plugin's features."
+msgstr ""
+"E se per alcuni prodotti non avessi la necessità di far caricare file, in un "
+"solo clic potrai disabilitare la funzionalità del plugin."
+
+#: ../templates/admin/premium.php:327 ../templates/admin/premium.php:334
+msgid "File removal"
+msgstr "Rimozione del file"
+
+#: ../templates/admin/premium.php:330
+#, php-format
+msgid ""
+"Very often some of your users may want to change one of the attached files, "
+"maybe because they just want something different. Be prepared: purchase the "
+"premium version of the plugin and set the %1$sorder status%2$s in which you "
+"want to allow users to %1$sremove%2$s attached files. "
+msgstr ""
+"Spesso e volentieri qualcuno dei tuoi utenti potrà voler tornare indietro e "
+"modificare uno dei file che aveva allegato precedentemente perché non più "
+"convinto della scelta fatta. Non farti cogliere impreparato: acquista la "
+"versione premium del plugin e imposta gli %1$sstati dell’ordine%2$s in cui "
+"rendere possibile la %1$srimozione%2$s degli allegati già presenti. "
+
+#: ../templates/admin/premium.php:341 ../templates/admin/premium.php:346
+msgid "Attached notes"
+msgstr "Note in allegato"
+
+#: ../templates/admin/premium.php:349
+#, php-format
+msgid ""
+"Activate notes for each uploaded file to give your users the freedom to add "
+"details for their attachments. In this way, you will have more "
+"%1$sinformation%2$s for your work, and the quality will just get better."
+msgstr ""
+"Attiva le note per ogni upload per dare ai tuoi utenti la possibilità di "
+"aggiungere dettagli all’allegato che hanno caricato. In questo modo "
+"aumenteranno le %1$sinformazioni%2$s a tua disposizione e la qualità del "
+"lavoro non potrà che diventare sempre migliore."
+
+#: ../templates/admin/premium.php:359 ../templates/admin/premium.php:366
+msgid "Saving path"
+msgstr "Percorso di salvataggio"
+
+#: ../templates/admin/premium.php:362
+#, php-format
+msgid ""
+"Customize the saving path according to your needs. Decide whether to sort "
+"your files by %1$sID%2$s or by %1$sorder number%2$s. Two solutions that will "
+"let you find easily and quickly the file you are looking for."
+msgstr ""
+"Personalizza il percorso di salvataggio come meglio preferisci. \n"
+"Decidi se distribuire i tuoi file sulla base dell’%1$sID dell’ordine%2$s o "
+"del %1$snumero di ordine%2$s. Due soluzioni che ti permetteranno di accedere "
+"al file che cerchi in maniera facile e veloce."
+
+#: ../templates/admin/premium.php:373 ../templates/admin/premium.php:378
+msgid "Email notification"
+msgstr "Notifica email"
+
+#: ../templates/admin/premium.php:381
+#, php-format
+msgid ""
+"Don't forgo the integrated email notification system of the premium version "
+"of the plugin. %1$sInform your users about the status of their attachments"
+"%2$s, telling them if they have been accepted or rejected, perhaps for "
+"inappropriateness of content or low quality. Keep always in touch with them "
+"for a top-level service!"
+msgstr ""
+"Non fare a meno del sistema di notifica email integrato nella versione "
+"premium del plugin. %1$sInforma gli utenti circa lo stato degli allegati che "
+"ti hanno fornito%2$s, comunicando se questi sono stati accettati o "
+"rifiutati, magari per inadeguatezza di contenuto o scarsa qualità. Resta "
+"sempre in contatto per un servizio al top!"
+
+#: ../templates/admin/premium.php:391 ../templates/admin/premium.php:398
+msgid "User interaction"
+msgstr "Interazione utente"
+
+#: ../templates/admin/premium.php:394
+#, php-format
+msgid ""
+"Take advantage of the comfortable email system that can easily and "
+"%1$squickly send messages%2$s about orders to your shop users. Write your "
+"messages and send them from the WooCommerce order detail page. Interact with "
+"your users to appear as the best vendor possible."
+msgstr ""
+"Sfrutta tutta la comodità di un servizio di email %1$sfacile e veloce per "
+"inoltrare comunicazioni%2$s relative all’ordine a tutti gli utenti dello "
+"shop. Inserisci il testo del tuo messaggio e spediscilo direttamente dalla "
+"pagina dettaglio ordini di WooCommerce. \n"
+"Interagisci con i tuoi utenti per apparire ai loro occhi come il venditore "
+"perfetto."
+
+#: ../templates/admin/premium.php:405 ../templates/admin/premium.php:410
+msgid "Upload pages"
+msgstr ""
+
+#: ../templates/admin/premium.php:413
+#, php-format
+msgid ""
+"It is up to you choosing when you want your users to upload necessary files, "
+"so you can choose where showing the upload button in your shop: in %1$scart"
+"%2$s page, in %1$scheckout%2$s page or in %1$s\"Thank you\"%2$s page, so "
+"that your users will always be offered the best purchase conditions."
+msgstr ""
+
+#: ../templates/admin/premium.php:423
+msgid " Single product"
+msgstr ""
+
+#: ../templates/admin/premium.php:426
+#, php-format
+msgid ""
+"Every product in your shop is different from the others for features and "
+"usage, so this means that not for all products you have to ask your "
+"customers for an attachment. This is the reason why the plugin gives you "
+"also the opportunity to disable file upload for the specified product or to "
+"%1$sset upload rules%2$s for it or for its %1$svariations%2$s."
+msgstr ""
+
+#: ../templates/admin/premium.php:430
+msgid "Single product"
+msgstr ""
+
+#: ../templates/admin/premium.php:437
+msgid "Split products"
+msgstr ""
+
+#: ../templates/admin/premium.php:442
+msgid "Products split in cart"
+msgstr ""
+
+#: ../templates/admin/premium.php:445
+#, php-format
+msgid ""
+"Who know how many times your customers wished to purchase more than one copy "
+"of the same product, but customise each of them with different images! Now, "
+"you can do that!%3$sThanks to the %1$s\"splitting\"%2$s option, you will be "
+"able to split copies of the same product in more lines and attach different "
+"files to each of them. If until now you could do that only by placing "
+"different orders, now you can do all with in one order only!"
+msgstr ""
+
+#~ msgid ""
+#~ "In YIT Plugins tab you can find YITH WooCommerce Additional Uploads "
+#~ "options.<br> From this menu you can access all settings of YITH plugins "
+#~ "activated."
+#~ msgstr ""
+#~ "Nella scheda YIT Plugins puoi trovare tutte le opzioni di YITH "
+#~ "WooCommerce Uploads.<br> Da questo menu potrai accedere a tutte le "
+#~ "impostazioni dei plugin YITH installati."
+
+#~ msgid ""
+#~ "YITH WooCommerce Additional Uploads is available in an outstanding "
+#~ "PREMIUM version with many new options, discover it now."
+#~ msgstr ""
+#~ "È disponibile un'eccezionale versione PREMIUM di YITH WooCommerce Upload "
+#~ "con molte nuove opzioni, scoprila subito."
+
+#~ msgid ""
+#~ "YITH WooCommerce Additional Uploads is enabled but not effective. It "
+#~ "requires WooCommerce in order to work."
+#~ msgstr ""
+#~ "YITH WooCommerce Uploads è abilitato ma non in funzione. Devi aver "
+#~ "installato WooCommerce perché questo possa funzionare correttamente."
+
+#~ msgid "Send a message to customer"
+#~ msgstr "Invia un messaggio al cliente"
+
+#~ msgid "Insert here the message you want to send to the customer"
+#~ msgstr "Inserisci qui il messaggio da inviare al cliente"
+
+#~ msgid "Send"
+#~ msgstr "Invia"
+
+#~ msgid "Rule label:"
+#~ msgstr "Etichetta regola:"
+
+#~ msgid "User notes: "
+#~ msgstr "Note utente: "
+
+#~ msgid "There are no user notes"
+#~ msgstr "Non sono presenti note degli utenti"
+
+#~ msgid "Accept"
+#~ msgstr "Accetta"
+
+#~ msgid "Reject"
+#~ msgstr "Rifiuta"
+
+#~ msgid "File will be <b>accepted</b>: please remember to save the order."
+#~ msgstr "Il file sarà <b>accettato</b>: ricorda di salvare l’ordine."
+
+#~ msgid "File will be <b>rejected</b>: please remember to save the order."
+#~ msgstr "Il file sarà <b>rifiutato</b>: ricorda di salvare l’ordine."
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "The file has been accepted on %s."
+#~ msgstr "Il file è stato accettato in data %s."
+
+#~ msgid "The file has been rejected on %s."
+#~ msgstr "Il file è stato rifiutato in data %s."
+
+#~ msgid " You have sent the following notification: %s."
+#~ msgstr " Hai inviato la seguente notifica: %s."
+
+#~ msgid "There are no associated files."
+#~ msgstr "Non sono presenti file associati."
+
+#~ msgid "Remove file"
+#~ msgstr "Rimuovi file"
+
+#~ msgid "Disable the upload"
+#~ msgstr "Disabilita caricamento file"
+
+#~ msgid "Allowed extension: %s."
+#~ msgstr "Estensione file consentita: %s."
+
+#~ msgid "Max allowed size: %s MB."
+#~ msgstr "Dimensioni massime consentite: %s MB."
+
+#~ msgid "The file you sent has been verified and accepted"
+#~ msgstr "Il file che hai inviato è stato verificato e accettato"
+
+#~ msgid "The file you sent has been rejected."
+#~ msgstr "Il file che hai inviato è stato rifiutato."
+
+#~ msgid "Notes:"
+#~ msgstr "Note:"
+
+#~ msgid "Submit"
+#~ msgstr "Invia"
+
+#~ msgid "Upload %s/%s file"
+#~ msgid_plural "Upload %s/%s files"
+#~ msgstr[0] "Carica %s/%s file"
+#~ msgstr[1] "Carica %s/%s file"
+
+#~ msgid "Modify %s file"
+#~ msgid_plural "Modify %s files"
+#~ msgstr[0] "Modifica %s file"
+#~ msgstr[1] "Modifica %s file"
+
+#~ msgid "The following error occurred during the upload of %s: %s"
+#~ msgstr "Si è verificato questo errore durante il caricamento di %s: %s"
+
+#~ msgid "The format of the %s file is not accepted."
+#~ msgstr "Il formato del file %s non è accettato."
+
+#~ msgid "The %s file has not been accepted, the maximum dimension is %s MB."
+#~ msgstr ""
+#~ "Il file %s non è stato accettato, le dimensioni massime consentite sono "
+#~ "%s MB."
+
+#~ msgid ""
+#~ "The %s file has been included in the current order. Your order is now "
+#~ "being processed."
+#~ msgstr ""
+#~ "Il file %s è stato incluso nella cartella corrente. Adesso il tuo ordine "
+#~ "verrà elaborato."
+
+#~ msgid "Upload"
+#~ msgstr "Carica"
+
+#~ msgid "This order contains file waiting for approval."
+#~ msgstr "Questo ordine contiene un file in attesa di approvazione."
+
+#~ msgid "All requested files have been received and accepted."
+#~ msgstr "Tutti i file richiesti sono stati ricevuti ed approvati."
+
+#~ msgid ""
+#~ "You have already sent a file for the current order, it is not possible to "
+#~ "add the new %s file."
+#~ msgstr ""
+#~ "Hai già inviato un file con il presente ordine, non è possibile "
+#~ "aggiungere un altro file %s."
+
+#~ msgid ""
+#~ "The format of the %s file is not valid. The allowed extensions are: %s."
+#~ msgstr ""
+#~ "Il formato del file %s non è valido. Le estensioni consentite sono: %s."
+
+#~ msgid "The file could not be deleted"
+#~ msgstr "Non è stato possibile cancellare il file"
+
+#~ msgid "The message has been sent to the email address of the customer."
+#~ msgstr "Il messaggio è stato inviato all’indirizzo email del cliente."
+
+#~ msgid "An error occurred, the message has not been sent."
+#~ msgstr "Si è verificato un errore, il messaggio non è stato inviato."
+
+#~ msgid ""
+#~ "In YIT Plugins tab, you can find the YITH WooCommerce Uploads options."
+#~ "<br> From this menu, you can access all settings of the activated YITH "
+#~ "plugins."
+#~ msgstr ""
+#~ "Puoi trovare il pannello opzioni di YITH WooCommerce Uploads nella tab "
+#~ "YIT Plugins.<br> Da questo menu, potrai accedere a tutte le impostazioni "
+#~ "dei plugin YITH finora attivati."
+
+#~ msgid "Send a message to the customer regarding the order"
+#~ msgstr "Invia al cliente un messaggio relativo al suo ordine"
+
+#~ msgid "You order has been updated"
+#~ msgstr "Il tuo ordine è stato aggiornato"
+
+#~ msgid ""
+#~ "[{site_title}] Your order ({order_number}) - {order_date} has been updated"
+#~ msgstr ""
+#~ "[{site_title}] Il tuo ordine ({order_number}) - {order_date} è stato "
+#~ "aggiornato"
+
+#~ msgid "Enable/Disable"
+#~ msgstr "Abilita/Disabilita"
+
+#~ msgid "Enable this email notification"
+#~ msgstr "Abilita notifiche a questa email"
+
+#~ msgid "Subject"
+#~ msgstr "Oggetto"
+
+#~ msgid "Defaults to <code>%s</code>"
+#~ msgstr "Di default <code>%s</code>"
+
+#~ msgid "Email Heading"
+#~ msgstr "Intestazione email"
+
+#~ msgid "Email type"
+#~ msgstr "Tipo di email"
+
+#~ msgid "Choose which format of email to send."
+#~ msgstr "Scegli il formato per l’email da inviare"
+
+#~ msgid ""
+#~ "When a file uploaded by customers is accepted or rejected, they will "
+#~ "receive an email"
+#~ msgstr ""
+#~ "Il cliente riceverà un’email quando un file da lui caricato viene "
+#~ "accettato o rifiutato"
+
+#~ msgid "Your {site_title} order from {order_date} has been updated"
+#~ msgstr "Il tuo ordine {site_title} del {order_date} è stato aggiornato"
+
+#~ msgid "Be notified when the customer delete a file from the order"
+#~ msgstr "Notificami quando il cliente cancella un file dal suo ordine"
+
+#~ msgid "[{site_title}] - Order {order_number}, customer deleted a file"
+#~ msgstr ""
+#~ "[{site_title}] - Ordine {order_number}, il cliente ha rimosso un file"
+
+#~ msgid "Recipient(s)"
+#~ msgstr "Destinatari"
+
+#~ msgid ""
+#~ "Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+#~ "code>."
+#~ msgstr ""
+#~ "Inserisci i destinatari (separati da virgole) di questa email. Di default "
+#~ "a <code>%s</code>."
+
+#~ msgid "Be notified when the customer upload a file for the order"
+#~ msgstr "Notificami quando il cliente carica un file per il suo ordine"
+
+#~ msgid "A file has been uploaded by the customer"
+#~ msgstr "Il cliente ha caricato un file"
+
+#~ msgid "[{site_title}] - Order {order_number}, a new file has been uploaded"
+#~ msgstr ""
+#~ "[{site_title}] - Ordine {order_number}, è stato caricato un nuovo file"
+
+#~ msgid "Thumbnail width"
+#~ msgstr "Larghezza thumbnail"
+
+#~ msgid "Set the width of the thumbnails in pixel."
+#~ msgstr "Imposta la larghezza delle thumbnail in pixel."
+
+#~ msgid "Thumbnail height"
+#~ msgstr "Altezza thumbnail"
+
+#~ msgid "Set the height of the thumbnails in pixel."
+#~ msgstr "Imposta l’altezza delle thumbnail in pixel."
+
+#~ msgid "Thumbnail quality"
+#~ msgstr "Qualità thumbnail"
+
+#~ msgid "Set the quality (in %) of the thumbnails."
+#~ msgstr "Imposta la qualità (in %) per le thumbnail."
+
+#~ msgid "Allow on cart"
+#~ msgstr "Abilita nel carrello"
+
+#~ msgid "Allow on thank you page"
+#~ msgstr "Abilita nella pagina di conferma acquisto"
+
+#~ msgid ""
+#~ "Use this option to allow users to attach a file from the thankyou page"
+#~ msgstr ""
+#~ "Abilitando questa opzione permetti agli utenti di allegare un file anche "
+#~ "dalla pagina di conferma acquisto"
+
+#~ msgid "Allow the file upload when the order status is:"
+#~ msgstr "Consenti il caricamento del file quando lo stato dell’ordine è:"
+
+#~ msgid "Allow the file deleting when the order status is:"
+#~ msgstr "Consenti la rimozione del file quando lo stato dell’ordine è:"
+
+#~ msgid "Upload folder"
+#~ msgstr "Cartella caricamenti"
+
+#~ msgid ""
+#~ "Set a folder in which saving the files that are uploaded by users. The "
+#~ "folder will be create in wp-content/uploads/yith-additional-uploads."
+#~ msgstr ""
+#~ "Seleziona una cartella in cui salvare i file caricati dagli utenti. La "
+#~ "cartella sarà creata in wp-content/uploads/yith-additional-uploads."
+
+#~ msgid "Storing mode"
+#~ msgstr "Modalità di salvataggio"
+
+#~ msgid ""
+#~ "Choose whether to use the ID or the order number as name of the folder "
+#~ "where you want to store the files linked to a specific order."
+#~ msgstr ""
+#~ "Scegli se utilizzare l’ID or il numero dell’ordine come nome della "
+#~ "cartella in cui verranno salvati i file relativi ad un ordine specifico."
+
+#~ msgid "Order ID"
+#~ msgstr "ID ordine"
+
+#~ msgid "Order number"
+#~ msgstr "Numero ordine"
+
+#~ msgid "Upload rules"
+#~ msgstr "Regole di caricamento"
+
+#~ msgid "Label:"
+#~ msgstr "Etichetta:"
+
+#~ msgid "Allowed extensions:"
+#~ msgstr "Estensioni file consentite:"
+
+#~ msgid ""
+#~ "Add the allowed file formats, writing the extensions divided by comma (e."
+#~ "g., jpg, png, gif)."
+#~ msgstr ""
+#~ "Aggiungi formati consentiti scrivendone l’estensione e separandoli con "
+#~ "virgole (e.g., jpg, png, gif)."
+
+#~ msgid "Max size:"
+#~ msgstr "Dimensione massima:"
+
+#~ msgid "Maximum allowed size in MB"
+#~ msgstr "Dimensione massima consentita in MB"
+
+#~ msgid "Allow notes:"
+#~ msgstr "Abilita note:"
+
+#~ msgid "Delete"
+#~ msgstr "Elimina"
+
+#~ msgid "Add new rule"
+#~ msgstr "Aggiungi nuova regola"
+
+#~ msgid "You have received an order from %s."
+#~ msgstr "Hai ricevuto un ordine da %s."
+
+#~ msgid "Order number: %s"
+#~ msgstr "Numero ordine: %s"
+
+#~ msgid "jS F Y"
+#~ msgstr "jS F Y"
+
+#~ msgid "View order: %s"
+#~ msgstr "Visualizza ordine: %s"
+
+#~ msgid "Order #%s"
+#~ msgstr "Ordine #%s"
+
+#~ msgid "Product"
+#~ msgstr "Prodotto"
+
+#~ msgid "Quantity"
+#~ msgstr "Quantità"
+
+#~ msgid "Price"
+#~ msgstr "Prezzo"
+
+#~ msgid "Regarding the current order, we would like to inform you that:"
+#~ msgstr "Relativamente al presente ordine, vorremmo informarla che:"
+
+#~ msgid "The %s file has been accepted"
+#~ msgstr "Il file %s è stato accettato"
+
+#~ msgid "The %s file has been rejected."
+#~ msgstr "Il file %s è stato rifiutato."
+
+#~ msgid "This is the reason why: %s"
+#~ msgstr "Questo il motivo: %s"
+
+#~ msgid "The file you sent is waiting for verification."
+#~ msgstr "Il file inviato è in attesa di verifica."
+
+#~ msgid ""
+#~ "This file you sent was not compliant with the required specifications. "
+#~ "(Max size: %s MB, allowed extensions: %s"
+#~ msgstr ""
+#~ "Il file inviato non è conforme alle specifiche richieste (Dimensione "
+#~ "massima: %s MB, estensioni consentite: %s"
+
+#~ msgid "The customer %s deleted a file from the order."
+#~ msgstr "Il cliente %s ha rimosso un file dall’ordine."
+
+#~ msgid "The customer %s has uploaded a file to the order."
+#~ msgstr "Il cliente %s ha allegato un file all’ordine."
+
+#~ msgid "This review is closed for replies"
+#~ msgstr "This review is closed to replies"
+
+#~ msgid "This review is closed for comments"
+#~ msgstr "This review is closed to comments"
+
+#~ msgid "Product id is in invalid format"
+#~ msgstr "Product id is an invalid format"
+
+#~ msgid "Voting/Reviews settings"
+#~ msgstr "Voting/Review settings"
+
+#~ msgid ""
+#~ "In the YIT Plugins tab you can find the YITH WooCommerce Advanced Reviews "
+#~ "options. With this menu, you can access to all the settings of our "
+#~ "plugins that you have activated."
+#~ msgstr ""
+#~ "In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews "
+#~ "options. From this menu you can access all settings of YITH plugins "
+#~ "activated."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Advanced "
+#~ "Reviews under YIT Plugin -> Advanced Reviews instead of WooCommerce -> "
+#~ "Settings -> Advanced Reviews, as in the previous version. When one of our "
+#~ "plugins updates, a new voice will be added to this menu."
+#~ msgstr ""
+#~ "From now on, you can find all YITH WooCommerce Advanced Reviews options "
+#~ "in YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> "
+#~ "Advanced Reviews, as in the previous version. Any time one of our plugins "
+#~ "is updated, a new entry will be added to this menu."
+
+#~ msgid "The layout for this "
+#~ msgstr "Layout for this "
+
+#~ msgid ""
+#~ "The word used for the URL of each project (the slug of post if empty)"
+#~ msgstr ""
+#~ "Univocal identification name in the URL for each product (slug from post "
+#~ "if empty)"
+
+#~ msgid "Label Singular"
+#~ msgstr "Label in Singular"
+
+#~ msgid ""
+#~ "Set the label in singular to use for each label (the title of portfolio "
+#~ "if empty)"
+#~ msgstr "Set a label in singular (title of portfolio if empty)"
+
+#~ msgid "Label Plural"
+#~ msgstr "Label in Plural"
+
+#~ msgid ""
+#~ "Set the label in plural to use for each label (the title of portfolio if "
+#~ "empty)"
+#~ msgstr "Set a label in plural (title of portfolio if empty)"
+
+#~ msgid ""
+#~ "If you want to use a category section for the portfolio, set the name of "
+#~ "taxonomy. Name should be in slug form (must not contain capital letters "
+#~ "or spaces) and not more than 32 characters long (database structure "
+#~ "restriction)."
+#~ msgstr ""
+#~ "If you want to use categories in the portfolio, set a name for taxonomy. "
+#~ "Name should be a slug (must not contain capital letters nor spaces) and "
+#~ "must not be more than 32 characters long (database structure restriction)."
+
+#~ msgid "Set the word to use in the URL for each category page."
+#~ msgstr "Set the word for each category page URL."
+
+#~ msgid "The layout for single page of this portfolio"
+#~ msgstr "Layout for single page of this portfolio"
+
+#~ msgid "Show the frontend of the %s"
+#~ msgstr "Show frontend of the %s"
+
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr "The changes you made will be lost if you leave this page."
+
+#~ msgid ""
+#~ "If you continue with this action, you will reset all options are in this "
+#~ "page."
+#~ msgstr ""
+#~ "If you go on with this action, you will reset all options in this page."
+
+#~ msgid ""
+#~ "The element you have written is already exists. Please, add another name."
+#~ msgstr "This element already exists. Please, enter a different name."
+
+#~ msgid "An error encoured during during import. Please try again."
+#~ msgstr "An error has occurred during import. Please try again."
+
+#~ msgid "The file you have insert doesn't valid."
+#~ msgstr "The file inserted is not valid."
+
+#~ msgid "I'm sorry, the import featured is disabled."
+#~ msgstr "Sorry, import is disabled."
+
+#~ msgid "Sorting done correctly."
+#~ msgstr "Sorting successful."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                     For every installation of our new "
+#~ "plugins, a new voice will be added to access to the customization "
+#~ "settings."
+#~ msgstr ""
+#~ "From now on, you can find all plugin options in YIT Plugin menu.\n"
+#~ "                                     For each plugin installed, "
+#~ "customization settings will be available as a new entry in YIT Plugin "
+#~ "menu."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                    When one of our plugins updates, a "
+#~ "new voice will be added to this menu.\n"
+#~ "                                    For example, after the update, the "
+#~ "options from the plugins (YITH WooCommerce Wishlist, YITH WooCommerce "
+#~ "Ajax Search, etc.)\n"
+#~ "                                    will be removed from the previous "
+#~ "location and moved under the YIT Plugin tab."
+#~ msgstr ""
+#~ "From now on, you can find all the options of your plugins in YIT Plugin "
+#~ "menu.\n"
+#~ "                                    Any time one of our plugins is "
+#~ "updated, a new entry will be added to this menu.\n"
+#~ "                                    For example, after update, plugin "
+#~ "options (such for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+#~ "Search, etc.)\n"
+#~ "                                    will be moved from previous location "
+#~ "to YIT Plugin tab."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from the automatic updates.</em>"
+#~ msgstr ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from automatic updates.</em>"
+
+#~ msgid "%field% field can not be empty"
+#~ msgstr "%field% field cannot be empty"
+
+#~ msgid "%field_1% and %field_2% fields can not be empty"
+#~ msgstr "%field_1% and %field_2% fields cannot be empty"
+
+#~ msgid "Software has been deactive"
+#~ msgstr "Software has been deactivated"
+
+#~ msgid "Licence key has be banned"
+#~ msgstr "Licence key has been banned"
+
+#~ msgid "To Active"
+#~ msgstr "Activation"
+
+#~ msgid "Insert the title of field."
+#~ msgstr "Insert title for the field."
+
+#~ msgid ""
+#~ "REQUIRED: The identification name of this field, that you can insert into "
+#~ "body email configuration. <strong>Note:</strong>Use only lowercase "
+#~ "characters and underscores."
+#~ msgstr ""
+#~ "REQUIRED: Field identification name to be entered into email body. "
+#~ "<strong>Note:</strong>Use only lowercase characters and underscores."
+
+#~ msgid "Select the type of this field."
+#~ msgstr "Select type for this field."
+
+#~ msgid "Select this if it's the email where you can reply."
+#~ msgstr "Select this if it is the email you can reply to."
+
+#~ msgid ""
+#~ "Insert an additional class(es) (separateb by comma) for more "
+#~ "personalization."
+#~ msgstr ""
+#~ "Insert additional class(es) (separated by commas) for more "
+#~ "personalization."
+
+#~ msgid "Choose how much long will be the field."
+#~ msgstr "Set field length."
+
+#~ msgid "The content of the tab. (HTML is supported)"
+#~ msgstr "Content of the tab. (HTML is supported)"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Left sidebar"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Right sidebar"
+
+#~ msgid "Add a title field on reviews."
+#~ msgstr "Add a title field to reviews."
+
+#~ msgid "Set maximum number of attachments selectable (0 = no limit)."
+#~ msgstr ""
+#~ "Set maximum number of attachments that can be selected (0 = no limit)."
+
+#~ msgid "Reviews summary options"
+#~ msgstr "Review summary options"
+
+#~ msgid "Fixed bars color"
+#~ msgstr "Fixed bar color"
+
+#~ msgid "Percentage bars color"
+#~ msgstr "Percentage bar color"
+
+#~ msgid "Show people's votes"
+#~ msgstr "Show review votes"
+
+#~ msgid "Add a string stating how many people's found the review useful."
+#~ msgstr "Add a string stating how many people found the review useful."
+
+#~ msgid "Customers reviews"
+#~ msgstr "Customers' reviews"
