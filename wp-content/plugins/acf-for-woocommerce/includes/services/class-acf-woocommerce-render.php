@@ -82,7 +82,7 @@ class ACF_Woo_Display extends ACF_Woo_Singleton {
                 $raw_meta = base64_decode(get_post_meta(get_the_ID(), $value['key'], true));
                 $meta = unserialize($raw_meta);
                 if ($value["type"] === "image") {
-                    echo "<a href='".wp_get_attachment_url($meta)."' target='_blank'>Image ".$meta."</a><br>";
+                    echo "<a href='".wp_get_attachment_url($meta)."' target='_blank'>".$value["name"]."</a><br>";
                 }
                 /*if (is_array($meta)) {
                     //handle repeater, flexible content
