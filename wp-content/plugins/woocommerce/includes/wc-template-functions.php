@@ -564,6 +564,8 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 
 			<?php endif; ?>
 
+			<?php do_action( 'woocommerce_archive_description' ); ?>
+
 			<?php if ( have_posts() ) : ?>
 
 				<?php do_action( 'woocommerce_before_shop_loop' ); ?>
@@ -578,8 +580,6 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 				<?php endif; ?>
 
 				<?php woocommerce_product_loop_end(); ?>
-
-				<?php do_action( 'woocommerce_archive_description' ); ?>
 
 				<?php do_action( 'woocommerce_after_shop_loop' ); ?>
 

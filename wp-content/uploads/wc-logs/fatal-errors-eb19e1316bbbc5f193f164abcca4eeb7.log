@@ -8,3 +8,7 @@
 
 2018-03-26T16:31:07+00:00 CRITICAL Using $this when not in object context
 
+2018-04-15T19:53:46+00:00 CRITICAL Call to a member function get_id() on null
+
+2018-04-16T21:56:45+00:00 CRITICAL Call to undefined function acf_get_field_name_by_key()
+
