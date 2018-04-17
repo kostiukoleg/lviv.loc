@@ -958,3 +958,12 @@ div.woocommerce table.cart td.product-thumbnail img.attachment-woocommerce_thumb
 div.entry-content>div.woocommerce>div.upload-file-section {
 	margin-bottom: 15px;
 }
+
+section#execphp-2 div.execphpwidget span.price,
+section#execphp-2 div.execphpwidget span.sku,
+section#execphp-2 div.execphpwidget div.woocommerce-product-details__short-description,
+section#execphp-2 div.execphpwidget div.gridlist-buttonwrap,
+section#execphp-2 div.execphpwidget div.entry-wooImage,
+section#execphp-2 div.execphpwidget div.wooImage a:last-child {
+	display: none;
+}
