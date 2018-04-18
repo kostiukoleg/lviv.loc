@@ -1,0 +1,150 @@
+.wapo-plugin .sortable, .sortable > li { margin: 0; }
+.wapo-plugin .select2-container { width: 350px !important; }
+.wapo-plugin table tr td span.select2-container { width: 100% !important; }
+
+.wapo-plugin #group-form > table > tbody > tr > th { width: 100px;  }
+
+#wapo-groups.wapo-plugin .wp-list-table td { line-height: 30px; }
+#wapo-groups.wapo-plugin .wp-list-table td .dashicons-exerpt-view {  }
+#wapo-groups.wapo-plugin ul.products_list { margin: 0; }
+#wapo-groups.wapo-plugin ul.products_list li { margin: 1px; float: left; }
+#wapo-groups.wapo-plugin ul.products_list li a { background-color: rgba(0,0,0,0.05); border-radius: 3px; padding: 5px 10px; display: inline-block; }
+#wapo-groups.wapo-plugin ul.products_list li a:hover { background-color: rgba(0,0,0,0.1); }
+#wapo-groups.wapo-plugin ul.categories_list { margin: 0; }
+#wapo-groups.wapo-plugin ul.categories_list li { margin: 1px; float: left; }
+#wapo-groups.wapo-plugin ul.categories_list li span { color: #aaa; background-color: rgba(0,0,0,0.05); border-radius: 3px; padding: 5px 10px; display: inline-block; }
+
+.wapo-plugin #wapo-types.wrap { background-color: #fafafa; border: 1px solid #e5e5e5; margin: -50px 0px 0px 120px; }
+
+.wapo-plugin.options_group #sortable-list { background-color: #fcfcfc; border: 1px solid #f1f1f1; border-radius: 5px; }
+.wapo-plugin.options_group #sortable-list .group-row { height: 30px; line-height: 30px; border-bottom: 1px solid #f1f1f1; padding: 10px; position: relative; }
+.wapo-plugin.options_group #sortable-list .group-row .wapo-group-edit { color: #23282d; text-decoration: none; }
+.wapo-plugin.options_group #sortable-list .group-row .button.manage { float: right; }
+
+.wapo-plugin .type-row { min-height: 50px; border-bottom: 1px solid #e5e5e5; position: relative; }
+.wapo-plugin .type-row .wapo-type-new { top: 10px; left: 10px; position: absolute; }
+.wapo-plugin .type-row .wapo-type-edit { height: 30px; line-height: 30px; padding: 10px; font-weight: bold; text-decoration: none; display: block; }
+.wapo-plugin .type-row .wapo-type-edit:hover { background-color: #f5f5f5; }
+.wapo-plugin .type-row .wapo-type-edit span { color: #aaa; border-left: 1px solid #eee; padding-left: 10px; margin-left: 10px; font-weight: normal; display: inline-block; }
+.wapo-plugin .type-row .wapo-type-edit span strong { color: #222; text-transform: uppercase; }
+.wapo-plugin .type-row .wapo-type-edit span i { background-color: #eee; border-radius: 3px; padding: 0px 10px; margin-right: 5px; display: inline-block; }
+.wapo-plugin .type-row form { background-color: #fff; border-top: 1px solid #e5e5e5; padding: 10px; display: none; }
+.wapo-plugin .type-row form .form-left { width: 15%; float: left; }
+.wapo-plugin .type-row form .form-right { width: 85%; float: left; }
+
+.wapo-plugin .type-row form .form-row { clear: both; }
+.wapo-plugin .type-row form .form-row > div { padding: 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.wapo-plugin .type-row form .form-row .type { }
+.wapo-plugin .type-row form .form-row .image { position: relative; }
+.wapo-plugin .type-row form .form-row .image img { width: 100%; height: auto; border: 1px solid #eee; border-radius: 3px; padding: 4px; margin-top: 1px; -moz-box-sizing: border-box; box-sizing: border-box; cursor: pointer; }
+.wapo-plugin .type-row form .form-row .image img:hover { border-color: #aaa; }
+.wapo-plugin .type-row form .form-row .image .remove { width: 20px; height: 20px; line-height: 21px; background-color: #fff; border-radius: 50%; border: 1px solid #eee; font-size: 15px; text-align: center; position: absolute; top: 21px; right: 3px; cursor: pointer; display: none; }
+.wapo-plugin .type-row form .form-row .image:hover .remove { display: block; }
+.wapo-plugin .type-row form .form-row .image .remove:hover { border-color: #aaa; }
+.wapo-plugin .type-row form .form-row .label { width: 30%; float: left; }
+.wapo-plugin .type-row form .form-row .step { width: 10%; float: left; }
+.wapo-plugin .type-row form .form-row .required { width: 10%; text-align: center; float: left; }
+.wapo-plugin .type-row form .form-row .required input { margin-top: 5px; }
+.wapo-plugin .type-row form .form-row .depend { width: 60%; float: left; }
+.wapo-plugin .type-row form .form-row .depend .select2-container { width: 100%; }
+.wapo-plugin .type-row form .form-row .options table tr:first-child { background-color: #f9f9f9; }
+
+.wapo-plugin .type-row form .form-row .options table tr td input { width: 100%; }
+
+.wapo-plugin .type-row form .form-row .options table tr th.option-image { width: 10%; }
+.wapo-plugin .type-row form .form-row .options table tr th.option-label { width: 27%; }
+.wapo-plugin .type-row form .form-row .options table tr th.option-type { width: 22%; }
+.wapo-plugin .type-row form .form-row .options table tr th.option-price { width: 9.5%; }
+.wapo-plugin .type-row form .form-row .options table tr th.option-min { width: 9.5%; }
+.wapo-plugin .type-row form .form-row .options table tr th.option-max { width: 9.5%; }
+.wapo-plugin .type-row form .form-row .options table tr th.option-delete { width: 10.5%; }
+
+.wapo-plugin .type-row form .form-row .options table tr td { border-top: 1px solid #eee; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-image {}
+/*.wapo-plugin .type-row form .form-row .options table tr td .option-image .opt-image-upload { cursor: pointer; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-image .opt-image-upload:hover { border-color: #aaa; }*/
+.wapo-plugin .type-row form .form-row .options table tr td .option-image a { max-width: 100%; overflow: hidden; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-image .image .opt-remove { width: 20px; height: 20px; line-height: 21px; background-color: #fff; border-radius: 50%; border: 1px solid #eee; font-size: 15px; text-align: center; position: absolute; top: -7px; right: -10px; cursor: pointer; display: none; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-image .image:hover .opt-remove { display: block; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-image .image .opt-remove:hover { border-color: #aaa; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-label { width: 30%; margin-right: 1%; float: left; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-price { width: 10%; margin-right: 1%; float: left; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-type { width: 24%; margin-right: 1%; float: left; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-min { width: 10%; margin-right: 1%; float: left; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-max { width: 10%; margin-right: 1%; float: left; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-delete { width: 11%; text-align: right; float: left; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-description { width: 88%; padding-top: 5px; clear: both; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-default { width: 88%; padding-top: 5px; clear: both; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-default input { width: auto; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-required { width: 88%; padding-top: 5px; clear: both; }
+.wapo-plugin .type-row form .form-row .options table tr td .option-required input { width: auto; }
+
+.wapo-plugin .type-row form.color .form-row .options table tr td .option-default,
+.wapo-plugin .type-row form.date .form-row .options table tr td .option-default,
+.wapo-plugin .type-row form.number .form-row .options table tr td .option-default,
+.wapo-plugin .type-row form.range .form-row .options table tr td .option-default,
+.wapo-plugin .type-row form.text .form-row .options table tr td .option-default,
+.wapo-plugin .type-row form.textarea .form-row .options table tr td .option-default,
+.wapo-plugin .type-row form.upload .form-row .options table tr td .option-default { display: none; }
+
+.wapo-plugin .type-row form .form-row .options table tr td .save-first { background-color: #f1f1f1; line-height: 15px; color: #aaa; border-radius: 3px; padding: 5px; font-size: 12px; text-align: center; }
+
+.wapo-plugin form .option-required {
+	display: none;
+}
+
+.wapo-plugin form.checkbox .option-required,
+.wapo-plugin form.text .option-required {
+	display: block;
+}
+
+/*.wapo-plugin .type-row form .form-row .options table tr .option-min, .type-row form .form-row .options table tr .option-max { display: none; }
+.type-row form.number .form-row .options table tr .option-min, .type-row form.number .form-row .options table tr .option-max,
+.type-row form.price .form-row .options table tr .option-min, .type-row form.price .form-row .options table tr .option-max,
+.type-row form.range .form-row .options table tr .option-min, .type-row form.range .form-row .options table tr .option-max,
+.wapo-plugin .type-row form.textarea .form-row .options table tr .option-min, .type-row form.textarea .form-row .options table tr .option-max { display: table-cell; }*/
+
+@media (max-width: 1499px) {
+	.wapo-plugin .type-row form .form-row .options table tr th.option-image { width: 13%; }
+	.wapo-plugin .type-row form .form-row .options table tr th.option-label { width: 27%; }
+	.wapo-plugin .type-row form .form-row .options table tr th.option-type { width: 20%; }
+	.wapo-plugin .type-row form .form-row .options table tr th.option-price { width: 9.5%; }
+	.wapo-plugin .type-row form .form-row .options table tr th.option-min { width: 9.5%; }
+	.wapo-plugin .type-row form .form-row .options table tr th.option-max { width: 9.5%; }
+	.wapo-plugin .type-row form .form-row .options table tr th.option-delete { width: 11.5%; }
+}
+@media (max-width: 1199px) {
+	.wapo-plugin .type-row form .form-left, .wapo-plugin .type-row form .form-right { width: 100%; float: none; }
+	.wapo-plugin .type-row form .form-row .type { width: 33%; }
+	.wapo-plugin .type-row form .form-row .image { width: 33%; }
+	.wapo-plugin .type-row form .form-row .label { width: 100%; float: none; }
+	.wapo-plugin .type-row form .form-row .depend { width: 100%; float: none; }
+	.wapo-plugin .type-row form .form-row .step { width: 15%; }
+	.wapo-plugin .type-row form .form-row .required { width: 20%; }
+
+	.wapo-plugin .type-row form .form-row .options .image { width: 100%; }
+}
+@media (max-width: 782px) {
+
+	.wapo-plugin #wapo-types.wrap { margin: 0; }
+	.wapo-plugin .options table tr td { display: table-cell !important; }
+}
+
+/* POPUP */
+
+@media (width: 783px) {
+
+	html, #wpbody-content { padding: 0 !important; }
+	#wpcontent { margin: 0 !important; }
+	#adminmenumain, #wpadminbar, #wpfooter { display: none; }
+	.wapo-plugin #wapo-types.wrap { margin: 0; }
+
+}
+
+
+
+
+
+
+
+
