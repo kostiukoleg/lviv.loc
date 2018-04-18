@@ -69,32 +69,19 @@ class ACF_Woo_Display extends ACF_Woo_Singleton {
         ), 'tr');
     }
 
-    /**
-     *
-     */
     public function acf_woocommerce_add_fields_to_order() {
         $api = ACF_Woo_API::get_instance();
         $group_keys = wp_list_pluck($api->get_field_groups(), $api->acf_id_case_sensitive());
-<<<<<<< HEAD
-	   foreach ($group_keys as $group_key => $key) {
-=======
         foreach ($group_keys as $group_key => $key) {
->>>>>>> 0f7c37442a63ca30f47433f0a34c66e834560b4d
             $fields = $api->get_field_group_fields($key);
             foreach ($fields as $field => $value) {
                 $field_label = $value['label'];
                 $raw_meta = base64_decode(get_post_meta(get_the_ID(), $value['key'], true));
                 $meta = unserialize($raw_meta);
-<<<<<<< HEAD
-		
-				if (is_array($meta)) {
-					
-=======
                 if ($value["type"] === "image") {
                     echo "<a href='".wp_get_attachment_url($meta)."' target='_blank'>".$value["name"]."</a><br>";
                 }
                 /*if (is_array($meta)) {
->>>>>>> 0f7c37442a63ca30f47433f0a34c66e834560b4d
                     //handle repeater, flexible content
                     if (is_array(reset($meta))) {
                         echo '<table style="border-collapse: collapse; width: 100%">';
@@ -113,11 +100,7 @@ class ACF_Woo_Display extends ACF_Woo_Singleton {
                 } else {
                     $meta = stripcslashes($meta);
                     echo '<p><strong>' . $field_label . ': </strong>' . $meta . '</p>';
-<<<<<<< HEAD
-                }
-=======
                 }*/
->>>>>>> 0f7c37442a63ca30f47433f0a34c66e834560b4d
             }
         }
     }

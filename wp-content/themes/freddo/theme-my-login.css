@@ -967,3 +967,25 @@ section#execphp-2 div.execphpwidget div.entry-wooImage,
 section#execphp-2 div.execphpwidget div.wooImage a:last-child {
 	display: none;
 }
+
+div#poststuff div.no-image p input.button.add-image {
+	display: block;
+} 
+
+article#post-170,
+article#post-169 {
+	min-width: 1024px;
+}
+
+div#acf-radio_button ul.acf-radio-list.radio.vertical {
+	list-style-type: none;
+}
+
+div#acf-radio_button ul.acf-radio-list.radio.vertical li {
+	width: 525px;
+}
+
+aside#secondary section#execphp-2 {
+	border: 1px solid #f36022;
+    padding: 10px;
+}
