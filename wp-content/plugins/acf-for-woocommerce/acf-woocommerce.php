@@ -3,7 +3,11 @@
  * Plugin Name: ACF for Woocommerce
  * Plugin URI:  http://catsplugins.com
  * Description: A plugin to integrate ACF with WooCommerce
+<<<<<<< HEAD
  * Version:     1.0.1
+=======
+ * Version:     9999.0.1
+>>>>>>> 0f7c37442a63ca30f47433f0a34c66e834560b4d
  * Author:      Cat's Plugins
  * Author URI:  http://catsplugins.com
  * License: GNU General Public License, version 3 (GPL-3.0)

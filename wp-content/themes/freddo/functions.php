@@ -554,4 +554,23 @@ function add_sku_in_cart( $title, $values, $cart_item_key ) {
  return $sku ? $title . sprintf(" (%s)", $sku) : $title;
 }
 add_filter( 'woocommerce_cart_item_name', 'add_sku_in_cart', 20, 3);
+
+ function wpse116660_wc_add_2nd_title() {
+        ?>
+        <div class="2nd-tile">
+            <h2>
+            	<?php 
+					global $post;
+					$terms = get_the_terms( $post->ID, 'product_cat',OBJECT);
+					foreach ($terms as $term) {
+					    $product_cat_id = $term->name;
+					    break;
+					}
+					echo $product_cat_id;
+            	?>	
+            </h2>
+        </div>
+        <?php
+    }
+add_action( 'woocommerce_single_product_summary', 'wpse116660_wc_add_2nd_title', 4 );
 ?>

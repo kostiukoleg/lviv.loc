@@ -69,7 +69,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: tmp/base/inc/actions.php:19, tmp/base/inc/actions.php:145, tmp/base/inc/actions.php:233, tmp/base/inc/actions.php:305, tmp/base/inc/actions.php:331, tmp/base/inc/actions.php:339, tmp/base/inc/actions.php:521, tmp/base/inc/actions.php:527, tmp/so-widgets-bundle.php:739, tmp/so-widgets-bundle.php:787, tmp/so-widgets-bundle.php:813, tmp/so-widgets-bundle.php:873, tmp/so-widgets-bundle.php:895, tmp/so-widgets-bundle.php:1027, tmp/so-widgets-bundle.php:1049
+#: tmp/base/inc/actions.php:19, tmp/base/inc/actions.php:149, tmp/base/inc/actions.php:237, tmp/base/inc/actions.php:309, tmp/base/inc/actions.php:335, tmp/base/inc/actions.php:343, tmp/base/inc/actions.php:525, tmp/base/inc/actions.php:531, tmp/so-widgets-bundle.php:739, tmp/so-widgets-bundle.php:787, tmp/so-widgets-bundle.php:813, tmp/so-widgets-bundle.php:873, tmp/so-widgets-bundle.php:895, tmp/so-widgets-bundle.php:1027, tmp/so-widgets-bundle.php:1049
 msgid "Invalid request."
 msgstr ""
 
@@ -77,19 +77,19 @@ msgstr ""
 msgid "Invalid post."
 msgstr ""
 
-#: tmp/base/inc/actions.php:95, tmp/base/siteorigin-widget.class.php:1273
+#: tmp/base/inc/actions.php:99, tmp/base/siteorigin-widget.class.php:1273
 msgid "Widget Preview"
 msgstr ""
 
-#: tmp/base/inc/actions.php:417
+#: tmp/base/inc/actions.php:421
 msgid "Nonce error"
 msgstr ""
 
-#: tmp/base/inc/actions.php:437
+#: tmp/base/inc/actions.php:441
 msgid "Signature error"
 msgstr ""
 
-#: tmp/base/inc/actions.php:489
+#: tmp/base/inc/actions.php:493
 msgid "Attachment error"
 msgstr ""
 

@@ -133,5 +133,9 @@ input.wide {
 }
 .template-tags-help ul li {
   display: inline-block;
+<<<<<<< HEAD
+=======
+  cursor: pointer;
+>>>>>>> 0f7c37442a63ca30f47433f0a34c66e834560b4d
   margin-right: 1em;
 }

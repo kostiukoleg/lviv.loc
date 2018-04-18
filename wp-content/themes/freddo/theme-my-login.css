@@ -941,3 +941,29 @@ aside#secondary div#wpcf7-f241-o1 input {
 aside#secondary div#wpcf7-f241-o1 input[type="submit"] {
 	margin: 10px 0;
 }
+
+div#page>div#content.site-content {
+    //max-width: 1175px;
+}
+
+div#page>div#content.site-content div#primary.content-area {
+	//width: 100%;
+}
+
+div.woocommerce table.cart td.product-thumbnail img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.wp-post-image {
+    width: inherit;
+    height: inherit;
+}
+
+div.entry-content>div.woocommerce>div.upload-file-section {
+	margin-bottom: 15px;
+}
+
+section#execphp-2 div.execphpwidget span.price,
+section#execphp-2 div.execphpwidget span.sku,
+section#execphp-2 div.execphpwidget div.woocommerce-product-details__short-description,
+section#execphp-2 div.execphpwidget div.gridlist-buttonwrap,
+section#execphp-2 div.execphpwidget div.entry-wooImage,
+section#execphp-2 div.execphpwidget div.wooImage a:last-child {
+	display: none;
+}
