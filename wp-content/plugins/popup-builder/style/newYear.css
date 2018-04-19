@@ -1,0 +1,65 @@
+.sg-info-panel-new-year {
+	width: 100%;
+	max-width: 1920px;
+	height: 220px;
+	margin: 5px auto;
+	background-size: cover;
+	background-image: url('../img/newYearBg.jpg');
+	box-sizing: border-box;
+	padding-top: 9px;
+	position: relative;
+	background-position: right;
+	background-position-y: 99%;
+}
+
+.sg-new-year-text-wrapper {
+	margin: 0px auto;
+	width: 80%;
+	text-align: center;
+}
+
+.sg-new-year-text-wrapper p {
+	color: white;
+	font-size: 28px;
+	font-weight: 900;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.sgpb-happy-button {
+	border: 1px solid white;
+	color: white;
+	background-color: red;
+	font-size: 25px;
+}
+
+.sgpb-happy-button:hover {
+	color: red;
+	background-color: white;
+	cursor: pointer;
+}
+
+.sgpb-new-year-dont-show {
+	position: absolute;
+	left: 8px;
+	bottom: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+}
+
+@media(max-width: 600px) {
+	.sg-new-year-text-wrapper p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
+
+@media(max-width: 400px) {
+	.sg-new-year-text-wrapper p {
+		font-size: 19px;
+		line-height: 20px;
+	}
+}

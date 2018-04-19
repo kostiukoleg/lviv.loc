@@ -546,7 +546,9 @@ add_action( 'woocommerce_before_shop_loop', 'wpa89819_wc_single_product', 2 );
 add_action('woocommerce_after_shop_loop_item_title', 'wpa89819_wc_shop_sku'); 
 function wpa89819_wc_shop_sku(){
 	global $product;
-	echo '<span itemprop="productID" class="sku">Артикул: ' . $product->sku . '</span>';
+	if(!empty($product->sku)){
+		echo '<span itemprop="productID" class="sku">Артикул: ' . $product->sku . '</span>';
+	}
 }
 
 function add_sku_in_cart( $title, $values, $cart_item_key ) {
@@ -557,7 +559,7 @@ add_filter( 'woocommerce_cart_item_name', 'add_sku_in_cart', 20, 3);
 
  function wpse116660_wc_add_2nd_title() {
         ?>
-        <div class="2nd-tile">
+        <div class="second-title">
             <h2>
             	<?php 
 					global $post;

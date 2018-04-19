@@ -849,7 +849,7 @@ header.menuMinor div.cartwoo-button {
 }
 
 div#wpcf7-f4-o1 span.wpcf7-form-control-wrap.multifile-923 input[type="file"],
-div#wpcf7-f241-o1 span.wpcf7-form-control-wrap.multifile-56 input[type="file"] {	
+div#wpcf7-f241-o2 span.wpcf7-form-control-wrap.multifile-56 input[type="file"] {	
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
@@ -859,7 +859,7 @@ div#wpcf7-f241-o1 span.wpcf7-form-control-wrap.multifile-56 input[type="file"] {
 }
 
 div#wpcf7-f4-o1 label,
-div#wpcf7-f241-o1 label {
+div#wpcf7-f241-o2 label {
 	cursor: pointer;
 	display: block;
 	background: url("images/UploadPhotosIcon.png") no-repeat 35% center;
@@ -942,14 +942,6 @@ aside#secondary div#wpcf7-f241-o1 input[type="submit"] {
 	margin: 10px 0;
 }
 
-div#page>div#content.site-content {
-    //max-width: 1175px;
-}
-
-div#page>div#content.site-content div#primary.content-area {
-	//width: 100%;
-}
-
 div.woocommerce table.cart td.product-thumbnail img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.wp-post-image {
     width: inherit;
     height: inherit;
@@ -964,7 +956,8 @@ section#execphp-2 div.execphpwidget span.sku,
 section#execphp-2 div.execphpwidget div.woocommerce-product-details__short-description,
 section#execphp-2 div.execphpwidget div.gridlist-buttonwrap,
 section#execphp-2 div.execphpwidget div.entry-wooImage,
-section#execphp-2 div.execphpwidget div.wooImage a:last-child {
+section#execphp-2 div.execphpwidget div.wooImage a:last-child,
+section.freddo_onepage_section div.one>div>h3 {
 	display: none;
 }
 
@@ -988,4 +981,38 @@ div#acf-radio_button ul.acf-radio-list.radio.vertical li {
 aside#secondary section#execphp-2 {
 	border: 1px solid #f36022;
     padding: 10px;
+}
+
+div.product > div.summary.entry-summary > div.second-title{
+	border: 1px solid #f36022;
+    padding: 0 10px;
+}
+
+body.woocommerce div#content form.cart button.button,
+body.woocommerce div#content form.cart .quantity input[type="number"],
+body.woocommerce div.content-area .woocommerce-tabs .tabs li.active a,
+body.woocommerce div.wooImage a.button,
+div.wpcf7 input[type="submit"],
+div.price_slider_amount button[type="submit"] {
+	border-radius: 0;
+}
+
+body.woocommerce div.wooImage span.sku {
+	display: block;
+}
+
+div.blogInner h2 a.sg-show-popup {
+	color: #0000FF;
+    text-decoration: underline
+}
+
+form.wpcf7-form span.wpcf7-form-control-wrap.your-message textarea {
+	width: 90%;
+	height: 80px;
+}
+
+form.wpcf7-form span input,
+form.wpcf7-form span textarea,
+div#sgcolorbox.colorbox6.sg-popup-content.sg-popup-content-1 {
+	border-radius: 0;
 }
