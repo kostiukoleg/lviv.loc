@@ -78,7 +78,7 @@ class ACF_Woo_Display extends ACF_Woo_Singleton {
                 $field_label = $value['label'];
                 $raw_meta = base64_decode(get_post_meta(get_the_ID(), $value['key'], true));
                 $meta = unserialize($raw_meta);
-                if ($value["type"] === "image") {
+                if ($value["type"] === "image" && !empty(wp_get_attachment_url($meta))) {
                     echo "<a href='".wp_get_attachment_url($meta)."' target='_blank'>".$value["name"]."</a><br>";
                 }
                 /*if (is_array($meta)) {

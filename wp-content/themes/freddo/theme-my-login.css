@@ -1,8 +1,5 @@
 div#page div#content.site-content {
 	padding-top: calc(3em + 120px);
-	//padding-left: 6em;
-    //padding-right: 6em;
-	//max-width: 100%;
 }
 
 div.mainHeader div.freddoHeader {
@@ -29,7 +26,6 @@ header.menuMinor div.mainHeader div.hamburger-menu{
 }
 
 section#aboutus div.freddo_aboutus_color{
-//* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,212121+15,000000+41,000000+100 */
 background: #4c4c4c; /* Old browsers */
 background: -moz-linear-gradient(top, #4c4c4c 0%, #212121 15%, #000000 41%, #000000 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #4c4c4c 0%,#212121 15%,#000000 41%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
@@ -207,13 +203,6 @@ section#features div.testimonial-inner div.testimonial-content img {
 	//width: 100%;
 }
 
-/*section#features div.testimonial-inner div.testimonial-content div.testimonial-image {
-    position: absolute;
-    bottom: 55px;
-    right: 30px;
-    width: 180px;
-}*/
-
 div.featuresInner div.wpmslider-wrapper div.testimonial-content div.testimonial-client {
 	position: absolute;
     top: 585px;
@@ -229,12 +218,6 @@ section#features div.testimonial-inner h3.testimonial-heading {
     color: #000;
     font-size: 2em;
 }
-
-/*section#features div.testimonial-inner div.testimonial-client {
-    position: relative;
-    bottom: 0;
-    right: 0;
-}*/
 
 section#features div.featuresInner div.wpmslider-wrapper div.wpmslider-viewport {
 	height: 860px !important;
@@ -253,8 +236,6 @@ section#skills .strong-view.default .testimonial-inner {
 	border: none;
 	padding-left: 120px;
 }
-
-
 
 section#skills .strong-view.default.slider-container.slider-adaptive:not(.slider-mode-horizontal) .wpmslider-viewport {
 	border: none;
@@ -353,7 +334,6 @@ section#cta div.four.cta_columns_single:last-child {
 
 section#cta div.four.cta_columns_single:nth-child(even) div.freddoButton.cta {
 	position: relative;
-	//top: -15px;
     right: -400px;
     width: 400px;
     font-size: 15pt;
@@ -362,7 +342,6 @@ section#cta div.four.cta_columns_single:nth-child(even) div.freddoButton.cta {
 
 section#cta div.four.cta_columns_single:nth-child(odd) div.freddoButton.cta {
 	position: relative;
-	//top: -15px;
     left: -245px;
     width: 400px;
     font-size: 15pt;
@@ -543,14 +522,9 @@ section#blog div.blogInner div.freddoButton.blog {
     height: 59px;
     border: none;
     border-radius: 0;
-        line-height: 35px;
+    line-height: 35px;
     padding-left: 6px;
     font-size: 11pt;
-}
-
-div#content div#primary.content-area {
-	//width: 100%;
-	//padding: 0;
 }
 
 section#team div.testimonial-content p img {
@@ -1001,8 +975,22 @@ body.woocommerce div#content form.cart .quantity input[type="number"],
 body.woocommerce div.content-area .woocommerce-tabs .tabs li.active a,
 body.woocommerce div.wooImage a.button,
 div.wpcf7 input[type="submit"],
-div.price_slider_amount button[type="submit"] {
-	border-radius: 0;
+div.price_slider_amount button[type="submit"],
+form.woocommerce-ordering select[name="orderby"],
+table.variations select,
+div.quantity input[type="number"],
+div.coupon input[type="submit"],
+div.coupon input[type="text"],
+table.shop_table.shop_table_responsive button[type="submit"],
+div.cart_totals div.wc-proceed-to-checkout a.checkout-button,
+div.form-row.place-order button[type="submit"],
+div#acf_498 p input[type="button"],
+div.woocommerce-billing-fields__field-wrapper p input.input-text,
+div.woocommerce-additional-fields__field-wrapper p textarea,
+div.woocommerce-message a.restore-item,
+div.woocommerce p.return-to-shop a.button.wc-backward,
+div.woocommerce div.woocommerce-message a.button.wc-forward {
+	border-radius: 4px;
 }
 
 body.woocommerce div.wooImage span.sku {
@@ -1011,7 +999,7 @@ body.woocommerce div.wooImage span.sku {
 
 div.blogInner h2 a.sg-show-popup {
 	color: #0000FF;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 form.wpcf7-form span.wpcf7-form-control-wrap.your-message textarea {
@@ -1026,9 +1014,36 @@ div#sgcolorbox.colorbox6.sg-popup-content.sg-popup-content-1 {
 }
 
 div.wpcf7#wpcf7-f513-o1 form center p {
-	    margin-bottom: 0.8em;
+	    margin-bottom: 0.5em;
 }
 
 div.wpcf7-mail-sent-ok {
 	text-align: center;
+}
+
+form.wpcf7-form input[type="text"], 
+form.wpcf7-form input[type="email"], 
+form.wpcf7-form input[type="url"], 
+form.wpcf7-form input[type="password"], 
+form.wpcf7-form input[type="search"], 
+form.wpcf7-form input[type="number"], 
+form.wpcf7-form input[type="tel"],
+form.wpcf7-form input[type="range"],
+form.wpcf7-form input[type="date"],
+form.wpcf7-form input[type="month"],
+form.wpcf7-form input[type="week"],
+form.wpcf7-form input[type="time"],
+form.wpcf7-form input[type="datetime"],
+form.wpcf7-form input[type="datetime-local"],
+form.wpcf7-form input[type="color"],
+form.wpcf7-form textarea {
+	padding: 0 15px;
+}
+
+body.woocommerce div.product form.cart table.variations td.label {
+	width: inherit;
+}
+
+body.woocommerce nav.woocommerce-breadcrumb {
+	margin-bottom: 30px;
 }
